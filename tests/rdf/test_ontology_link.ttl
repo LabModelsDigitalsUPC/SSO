@@ -1,0 +1,14 @@
+@prefix ifc: <http://www.carlos.test/ontologies/IFC4X3/> .
+@prefix link: <http://www.carlos.test/ontologies/IFC-SSO#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sso: <http://www.carlos.test/ontologies/SSO#> .
+
+link:referenced_in_sam a owl:ObjectProperty;
+    rdfs:domain ifc:IfcProduct ;
+    rdfs:range sso:StructuralAnalysisModel .
+
+ifc:IfcProduct a owl:Class .
+
+sso:StructuralAnalysisModel a owl:Class .
+

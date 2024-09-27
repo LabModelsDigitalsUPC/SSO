@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix express: <https://w3id.org/express#> .
+@prefix fog: <https://w3id.org/fog#> .
+@prefix gom: <https://w3id.org/gom#> .
+@prefix ifc: <http://www.carlos.test/ontologies/IFC4X3/> .
+@prefix inst: <http://www.carlos.test/assets/test/> .
+@prefix omg: <https://w3id.org/omg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dcterms:contributor a owl:AnnotationProperty .
+
+dcterms:creator a owl:AnnotationProperty .
+
+dcterms:date a owl:AnnotationProperty .
+
+dcterms:description a owl:AnnotationProperty .
+
+dcterms:title a owl:AnnotationProperty .
+
+inst: dcterms:contributor "Héctor Posada Cárcamo (hector.posada@upc.edu)",
+        "Rolando Chacón Flores (rolando.chacon@upc.edu)" ;
+    dcterms:creator "Carlos Ramonell Cazador (carlos.ramonell@upc.edu)" ;
+    dcterms:date "2024/01/10" ;
+    dcterms:description "test ifc asset in rdf format. The asset is a HSR bridge called 'La Plata'" ;
+    dcterms:format "ttl" ;
+    dcterms:title "test" ;
+    vann:preferredNamespacePrefix "asset" ;
+    vann:preferredNamespaceUri "http://www.carlos.test/assets/test/" .
+
+inst:IfcMember_66 a ifc:IfcMember ;
+    ifc:containedInStructure_IfcElement inst:IfcRelContainedInSpatialStructure_2092 ;
+    ifc:globalId_IfcRoot inst:IfcGloballyUniqueId_0 ;
+    ifc:name_IfcRoot inst:IfcLabel_0 ;
+    ifc:predefinedType_IfcMember ifc:MEMBER ;
+    omg:hasGeometry inst:geom_66 .
+
+inst:IfcGloballyUniqueId_0 a ifc:IfcGloballyUniqueId ;
+    express:hasString "1skanHufz4w8hakvhAzkcv" .
+
+inst:IfcLabel_0 a ifc:IfcLabel ;
+    express:hasString "test_member" .
+
+inst:cs a gom:CartesianCoordinateSystem .
+
+inst:geom_66 a gom:MeshGeometry ;
+    fog:asGltf_v2.0-glb "http://file-uri"^^xsd:anyURI ;
+    gom:hasCoordinateSystem inst:cs ;
+    gom:hasFileSize 115560 .
+

@@ -1,0 +1,59 @@
+@prefix sso: <http://www.carlos.test/ontologies/SSO#> .
+@prefix ifcsso: <http://www.carlos.test/ontologies/IFC-SSO#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.carlos-server.test/assets/Llobregat_20240221/SAM_0> a sso:structuralAnalysisModel ;
+    sso:as_O-SAM-json "http://json-object-uri"^^xsd:anyURI ;
+    sso:creation_date "2024-01-25T00:55:46.734389"^^xsd:dateTime ;
+    sso:has_assembly <http://www.carlos-server.test/assets/Llobregat_20240221/Assembly_0> ;
+    sso:has_material <http://www.carlos-server.test/assets/Llobregat_20240221/Acero> ;
+    sso:has_object <http://www.carlos-server.test/assets/Llobregat_20240221/9133c25e-c59e-4239-8734-59583aba4381> ;
+    sso:has_section <http://www.carlos-server.test/assets/Llobregat_20240221/4cd2bafa-bd6e-4a37-97c7-99ede6b2024f>,
+        <http://www.carlos-server.test/assets/Llobregat_20240221/8d388ae0-0f94-4ad2-8124-b6b3b7f3b803>,
+        <http://www.carlos-server.test/assets/Llobregat_20240221/f7d52f37-a07b-4306-8b77-5babe83397f4> ;
+    sso:id "359b6988-1acf-42bb-ad6f-ffd5d3883b74"^^xsd:string ;
+    sso:name "default-SA-name"^^xsd:string ;
+    sso:as_OSAM-json "OSAM-model-uri"^^xsd:string .
+
+<http://www.carlos-server.test/assets/Llobregat_20240221/1d677310-bc76-4d2c-9d51-43d067426c9a> a sso:Instance ;
+    sso:instance_name "Placa-1"^^xsd:string ;
+    sso:referenced_object <http://www.carlos-server.test/assets/Llobregat_20240221/9133c25e-c59e-4239-8734-59583aba4381> .
+
+<http://www.carlos-server.test/assets/Llobregat_20240221/8d388ae0-0f94-4ad2-8124-b6b3b7f3b803> a sso:Section ;
+    sso:section_material <http://www.carlos-server.test/assets/Llobregat_20240221/Acero> ;
+    sso:section_name "Acero_40.0_5"^^xsd:string .
+
+<http://www.carlos-server.test/assets/Llobregat_20240221/Assembly_0> a sso:Assembly ;
+    sso:assembly_name "Assembly"^^xsd:string ;
+    sso:has_instance <http://www.carlos.test/ontologies/Assets/1d677310-bc76-4d2c-9d51-43d067426c9a> .
+
+<http://www.carlos-server.test/assets/Llobregat_20240221/SHELL_6_4_1_REDUCED> a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_section <http://www.carlos-server.test/assets/Llobregat_20240221/4cd2bafa-bd6e-4a37-97c7-99ede6b2024f> ;
+    sso:face_count 1 ;
+    sso:node_count 4 .
+
+<http://www.carlos-server.test/assets/Llobregat_20240221/f7d52f37-a07b-4306-8b77-5babe83397f4> a sso:Section ;
+    sso:section_material <http://www.carlos-server.test/assets/Llobregat_20240221/Acero> ;
+    sso:section_name "Acero_6.0_5"^^xsd:string .
+
+<http://www.carlos-server.test/assets/Llobregat_20240221/mesh_0> a sso:Mesh ;
+    sso:has_element <http://www.carlos.test/ontologies/Assets/SHELL_6_4_1_REDUCED> ;
+    sso:node_count 453 .
+
+<http://www.carlos-server.test/assets/Llobregat_20240221/4cd2bafa-bd6e-4a37-97c7-99ede6b2024f> a sso:Section ;
+    sso:section_material <http://www.carlos-server.test/assets/Llobregat_20240221/Acero> ;
+    sso:section_name "Acero_40.0_5"^^xsd:string .
+
+<http://www.carlos-server.test/assets/Llobregat_20240221/9133c25e-c59e-4239-8734-59583aba4381> a sso:Object ;
+    sso:has_mesh <http://www.carlos-server.test/assets/Llobregat_20240221/mesh_0> ;
+    sso:object_name "Placa"^^xsd:string .
+
+<http://www.carlos-server.test/assets/Llobregat_20240221/Acero> a sso:Material ;
+    sso:elastic true ;
+    sso:material_name "Acero"^^xsd:string ;
+    sso:plastic false .
+
+<http://www.carlos-server.test/assets/LLobregat_20240221/Plate_647698> ifcsso:referenced_in_sam <http://www.carlos-server.test/assets/Llobregat_20240221/SAM_0> .
+

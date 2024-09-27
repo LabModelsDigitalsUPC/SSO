@@ -1,0 +1,189 @@
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://purl.org/vocab/vann/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sso: <http://www.carlos.test/ontologies/SSO#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sso: a owl:Ontology ;
+    cc:license "http://creativecommons.org/licenses/by/3.0/" ;
+    ns1:contributor "Héctor Posada Cárcamo (hector.posada@upc.edu)" ;
+    ns1:creator "Carlos Ramonell Cazador (carlos.ramonell@upc.edu)" ;
+    ns1:date "2024/01/04" ;
+    ns1:description "ontology containing the description of structural simulation models (openFEM)" ;
+    ns1:format "ttl" ;
+    ns1:identifier "SSO" ;
+    ns1:language "en" ;
+    ns1:title "SSO" ;
+    ns2:preferredNamespacePrefix "sso" ;
+    ns2:preferredNamespaceUri "http://www.carlos.test/ontologies/SSO#" .
+
+sso:BeamElement a owl:Class ;
+    rdfs:subClassOf sso:Element .
+
+sso:MembraneElement a owl:Class ;
+    rdfs:subClassOf sso:Element .
+
+sso:ShellElement a owl:Class ;
+    rdfs:subClassOf sso:Element .
+
+sso:SolidElement a owl:Class ;
+    rdfs:subClassOf sso:Element .
+
+sso:TrussElement a owl:Class ;
+    rdfs:subClassOf sso:Element .
+
+sso:applied_to a owl:ObjectProperty ;
+    rdfs:domain sso:BoundaryCondition,
+        sso:Load ;
+    rdfs:range sso:Instance .
+
+sso:as_abaqus-inp a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range xsd:anyURI,
+        xsd:string .
+
+sso:as_OSAM-json a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range xsd:anyURI,
+        xsd:string .
+
+sso:assembly_name a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain sso:Assembly ;
+    rdfs:range xsd:string .
+
+sso:creation_date a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range xsd:dateTime,
+        xsd:dateTimeStamp .
+
+sso:dofs a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain sso:Element ;
+    rdfs:range xsd:integer .
+
+sso:elastic a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain sso:Material ;
+    rdfs:range xsd:boolean .
+
+sso:element_section a owl:ObjectProperty ;
+    rdfs:domain sso:Element ;
+    rdfs:range sso:Section .
+
+sso:face_count a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain sso:Element ;
+    rdfs:range xsd:integer .
+
+sso:has_assembly a owl:ObjectProperty ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range sso:Assembly .
+
+sso:has_boundary_condition a owl:ObjectProperty ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range sso:BoundaryCondition .
+
+sso:has_element a owl:ObjectProperty ;
+    rdfs:domain sso:Mesh ;
+    rdfs:range sso:Element .
+
+sso:has_instance a owl:ObjectProperty ;
+    rdfs:domain sso:Assembly ;
+    rdfs:range sso:Instance .
+
+sso:has_load a owl:ObjectProperty ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range sso:Load .
+
+sso:has_material a owl:ObjectProperty ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range sso:Material .
+
+sso:has_mesh a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain sso:Object ;
+    rdfs:range sso:Mesh .
+
+sso:has_object a owl:ObjectProperty ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range sso:Object .
+
+sso:has_section a owl:ObjectProperty ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range sso:Section .
+
+sso:id a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range xsd:string .
+
+sso:instance_name a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain sso:Instance ;
+    rdfs:range xsd:string .
+
+sso:material_name a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain sso:Material ;
+    rdfs:range xsd:string .
+
+sso:node_count a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain sso:Element ;
+    rdfs:range xsd:integer .
+
+sso:nodes a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain sso:Mesh ;
+    rdfs:range xsd:integer .
+
+sso:object_name a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain sso:Object ;
+    rdfs:range xsd:string .
+
+sso:plastic a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain sso:Material ;
+    rdfs:range xsd:boolean .
+
+sso:referenced_object a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain sso:Instance ;
+    rdfs:range sso:Object .
+
+sso:section_material a owl:ObjectProperty ;
+    rdfs:domain sso:Section ;
+    rdfs:range sso:Material .
+
+sso:section_name a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain sso:Section ;
+    rdfs:range xsd:string .
+
+sso:BoundaryCondition a owl:Class .
+
+sso:Load a owl:Class .
+
+sso:Assembly a owl:Class .
+
+sso:Mesh a owl:Class .
+
+sso:Instance a owl:Class .
+
+sso:Object a owl:Class .
+
+sso:Section a owl:Class .
+
+sso:Material a owl:Class .
+
+sso:Element a owl:Class .
+
+sso:StructuralAnalysisModel a owl:Class .
+
