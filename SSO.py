@@ -148,6 +148,12 @@ g.add((SSO['section_name'], RDF.type, OWL.FunctionalProperty))
 g.add((SSO['section_name'], RDFS.domain, SSO.Section))
 g.add((SSO['section_name'], RDFS.range, XSD.string))
 
+#Section.type
+g.add((SSO['section_type'], RDF.type, OWL.DatatypeProperty))
+g.add((SSO['section_type'], RDF.type, OWL.FunctionalProperty))
+g.add((SSO['section_type'], RDFS.domain, SSO.Section))
+g.add((SSO['section_type'], RDFS.range, XSD.string))
+
 #Material.name
 g.add((SSO['material_name'], RDF.type, OWL.DatatypeProperty))
 g.add((SSO['material_name'], RDF.type, OWL.FunctionalProperty))
