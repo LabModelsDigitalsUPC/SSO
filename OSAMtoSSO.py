@@ -13,7 +13,7 @@ with open(osam_file, 'r',encoding='utf-8') as fp:
 
 #Instance reference
 base_ref = "http://www.upclabmodelsdigitals.org/Models/OSAM/"
-inst_base_ref = base_ref+"Simulations"
+inst_base_ref = base_ref
 inst_ref = URIRef(inst_base_ref)
 
 #SSO reference
@@ -201,6 +201,7 @@ for loadCase in loadCases:
     g.add((loadCase_uri, RDF.type, SSO.LoadCase))
     g.add((loadCase_uri, SSO.loadCase_name, Literal(loadCase_name, datatype=XSD.string)))
     g.add((loadCase_uri, SSO.loadCase_type, Literal(loadCase_type, datatype=XSD.string)))
+    g.add((sa_uri, SSO.has_loadCase, loadCase_uri))
 
 #add Loads
 loads = osam['loads']
