@@ -25,7 +25,7 @@ g.add((ref, DCTERMS.creator, Literal('Carlos Ramonell Cazador (carlos.ramonell@u
 g.add((ref, DCTERMS.contributor, Literal('Héctor Posada Cárcamo (hector.posada@upc.edu)')))
 g.add((ref, DCTERMS.date, Literal('2024/01/04')))
 g.add((ref, DCTERMS.title, Literal('SSO')))
-g.add((ref, DCTERMS.description, Literal("ontology containing the description of structural simulation models (openFEM)")))
+g.add((ref, DCTERMS.description, Literal("ontology containing the description of structural simulation models (OSAM)")))
 g.add((ref, DCTERMS.format, Literal('ttl')))
 g.add((ref, DCTERMS.identifier, Literal('SSO')))
 g.add((ref, DCTERMS.language, Literal('en')))
@@ -69,6 +69,8 @@ g.add((SSO['MembraneElement'], RDFS.subClassOf, SSO.Element))
 g.add((SSO['TrussElement'], RDF.type, OWL.Class))
 g.add((SSO['TrussElement'], RDFS.subClassOf, SSO.Element))
 
+g.add((SSO['LoadCase'], RDF.type, OWL.Class))
+
 g.add((SSO['Load'], RDF.type, OWL.Class))
 
 g.add((SSO['BoundaryCondition'], RDF.type, OWL.Class))
@@ -83,18 +85,24 @@ g.add((SSO['id'], RDF.type, OWL.FunctionalProperty))
 g.add((SSO['id'], RDFS.domain, SSO.StructuralAnalysisModel))
 g.add((SSO['id'], RDFS.range, XSD.string))
 
-#StructuralAnalysisModel.format
-g.add((SSO['id'], RDF.type, OWL.DatatypeProperty))
-g.add((SSO['id'], RDF.type, OWL.FunctionalProperty))
-g.add((SSO['id'], RDFS.domain, SSO.StructuralAnalysisModel))
-g.add((SSO['id'], RDFS.range, XSD.string))
+#StructuralAnalysisModel.name
+g.add((SSO['name'], RDF.type, OWL.DatatypeProperty))
+g.add((SSO['name'], RDF.type, OWL.FunctionalProperty))
+g.add((SSO['name'], RDFS.domain, SSO.StructuralAnalysisModel))
+g.add((SSO['name'], RDFS.range, XSD.string))
 
-#StructuralAnalysisModel.as_openFEM-json
-g.add((SSO['as_openFEM-json'], RDF.type, OWL.DatatypeProperty))
-g.add((SSO['as_openFEM-json'], RDF.type, OWL.FunctionalProperty))
-g.add((SSO['as_openFEM-json'], RDFS.domain, SSO.StructuralAnalysisModel))
-g.add((SSO['as_openFEM-json'], RDFS.range, XSD.string))
-g.add((SSO['as_openFEM-json'], RDFS.range, XSD.anyURI))
+#StructuralAnalysisModel.format
+g.add((SSO['format'], RDF.type, OWL.DatatypeProperty))
+g.add((SSO['format'], RDF.type, OWL.FunctionalProperty))
+g.add((SSO['format'], RDFS.domain, SSO.StructuralAnalysisModel))
+g.add((SSO['format'], RDFS.range, XSD.string))
+
+#StructuralAnalysisModel.as_OSAM-json
+g.add((SSO['as_OSAM-json'], RDF.type, OWL.DatatypeProperty))
+g.add((SSO['as_OSAM-json'], RDF.type, OWL.FunctionalProperty))
+g.add((SSO['as_OSAM-json'], RDFS.domain, SSO.StructuralAnalysisModel))
+g.add((SSO['as_OSAM-json'], RDFS.range, XSD.string))
+g.add((SSO['as_OSAM-json'], RDFS.range, XSD.anyURI))
 
 #StructuralAnalysisModel.as_abaqus-inp
 g.add((SSO['as_abaqus-inp'], RDF.type, OWL.DatatypeProperty))
@@ -140,7 +148,6 @@ g.add((SSO['section_name'], RDF.type, OWL.FunctionalProperty))
 g.add((SSO['section_name'], RDFS.domain, SSO.Section))
 g.add((SSO['section_name'], RDFS.range, XSD.string))
 
-
 #Material.name
 g.add((SSO['material_name'], RDF.type, OWL.DatatypeProperty))
 g.add((SSO['material_name'], RDF.type, OWL.FunctionalProperty))
@@ -177,6 +184,24 @@ g.add((SSO['dofs'], RDF.type, OWL.FunctionalProperty))
 g.add((SSO['dofs'], RDFS.domain, SSO.Element))
 g.add((SSO['dofs'], RDFS.range, XSD.integer))
 
+#LoadCase.name
+g.add((SSO['loadCase_name'], RDF.type, OWL.DatatypeProperty))
+g.add((SSO['loadCase_name'], RDF.type, OWL.FunctionalProperty))
+g.add((SSO['loadCase_name'], RDFS.domain, SSO.LoadCase))
+g.add((SSO['loadCase_name'], RDFS.range, XSD.string))
+
+#LoadCase.type
+g.add((SSO['loadCase_type'], RDF.type, OWL.DatatypeProperty))
+g.add((SSO['loadCase_type'], RDF.type, OWL.FunctionalProperty))
+g.add((SSO['loadCase_type'], RDFS.domain, SSO.LoadCase))
+g.add((SSO['loadCase_type'], RDFS.range, XSD.string))
+
+#Load.type
+g.add((SSO['load_type'], RDF.type, OWL.DatatypeProperty))
+g.add((SSO['load_type'], RDF.type, OWL.FunctionalProperty))
+g.add((SSO['load_type'], RDFS.domain, SSO.Load))
+g.add((SSO['load_type'], RDFS.range, XSD.string))
+
 
 ##########################################################
 #                   ObjectType Porperties                    #
@@ -201,6 +226,11 @@ g.add((SSO['has_material'], RDFS.range, SSO.Material))
 g.add((SSO['has_section'], RDF.type, OWL.ObjectProperty))
 g.add((SSO['has_section'], RDFS.domain, SSO.StructuralAnalysisModel))
 g.add((SSO['has_section'], RDFS.range, SSO.Section))
+
+#StructuralAnalysisModel.has_loadCase
+g.add((SSO['has_loadCase'], RDF.type, OWL.ObjectProperty))
+g.add((SSO['has_loadCase'], RDFS.domain, SSO.StructuralAnalysisModel))
+g.add((SSO['has_loadCase'], RDFS.range, SSO.LoadCase))
 
 #StructuralAnalysisModel.has_load
 g.add((SSO['has_load'], RDF.type, OWL.ObjectProperty))
@@ -234,15 +264,20 @@ g.add((SSO['has_element'], RDF.type, OWL.ObjectProperty))
 g.add((SSO['has_element'], RDFS.domain, SSO.Mesh))
 g.add((SSO['has_element'], RDFS.range, SSO.Element))
 
-#Section.section_material
-g.add((SSO['section_material'], RDF.type, OWL.ObjectProperty))
-g.add((SSO['section_material'], RDFS.domain, SSO.Section))
-g.add((SSO['section_material'], RDFS.range, SSO.Material))
+#Element.element_material
+g.add((SSO['element_material'], RDF.type, OWL.ObjectProperty))
+g.add((SSO['element_material'], RDFS.domain, SSO.Element))
+g.add((SSO['element_material'], RDFS.range, SSO.Material))
 
 #Element.element_section
 g.add((SSO['element_section'], RDF.type, OWL.ObjectProperty))
 g.add((SSO['element_section'], RDFS.domain, SSO.Element))
 g.add((SSO['element_section'], RDFS.range, SSO.Section))
+
+#LoadCase.has_load
+g.add((SSO['has_load'], RDF.type, OWL.ObjectProperty))
+g.add((SSO['has_load'], RDFS.domain, SSO.LoadCase))
+g.add((SSO['has_load'], RDFS.range, SSO.Load))
 
 #Load.applied_to
 g.add((SSO['applied_to'], RDF.type, OWL.ObjectProperty))
