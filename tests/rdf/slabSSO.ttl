@@ -4680,4 +4680,3 @@ osam_simulation:C40_50 a sso:Material ;
 osam_simulation:Shell_0.2 a sso:Section ;
     sso:section_name "Shell_0.2"^^xsd:string ;
     sso:section_type "SHELL SECTION"^^xsd:string .
-
