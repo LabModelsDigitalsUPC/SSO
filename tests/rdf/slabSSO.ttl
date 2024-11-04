@@ -1,0 +1,4683 @@
+@prefix osam_simulation: <http://www.upclabmodelsdigitals.org/Models/OSAM/Simulations> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sso: <http://www.upclabmodelsdigitals.org/Models/OSAM/SSO#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sso: a owl:Ontology .
+
+osam_simulation:FootbridgeSA a sso:StructuralAnalysisModel ;
+    sso:as_OSAM-json "OSAM-model-uri"^^xsd:string ;
+    sso:has_assembly osam_simulation:FootbridgeSA_Assembly ;
+    sso:has_boundary_condition osam_simulation:bc_1,
+        osam_simulation:bc_2,
+        osam_simulation:bc_3,
+        osam_simulation:bc_4 ;
+    sso:has_load osam_simulation:load_1 ;
+    sso:has_material osam_simulation:C40_50 ;
+    sso:has_object osam_simulation:FootbridgeSA_Object ;
+    sso:has_section osam_simulation:Shell_0.2 ;
+    sso:id "b1c0bf96-6244-86a7-12e8-80580963328e"^^xsd:string ;
+    sso:name "FootbridgeSA"^^xsd:string .
+
+osam_simulation:SelfWeight a sso:LoadCase ;
+    sso:has_load osam_simulation:load_1 ;
+    sso:loadCase_name "SelfWeight"^^xsd:string ;
+    sso:loadCase_type "DEAD"^^xsd:string .
+
+osam_simulation:Element_1 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_10 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_100 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_101 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_102 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_103 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_104 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_105 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_106 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_107 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_108 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_109 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_11 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_110 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_111 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_112 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_113 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_114 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_115 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_116 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_117 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_118 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_119 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_12 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_120 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_121 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_122 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_123 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_124 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_125 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_126 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_127 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_128 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_129 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_13 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_130 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_131 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_132 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_133 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_134 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_135 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_136 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_137 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_138 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_139 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_14 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_140 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_141 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_142 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_143 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_144 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_145 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_146 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_147 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_148 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_149 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_15 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_150 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_151 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_152 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_153 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_154 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_155 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_156 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_157 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_158 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_159 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_16 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_160 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_161 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_162 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_163 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_164 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_165 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_166 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_167 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_168 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_169 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_17 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_170 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_171 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_172 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_173 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_174 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_175 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_176 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_177 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_178 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_179 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_18 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_180 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_181 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_182 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_183 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_184 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_185 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_186 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_187 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_188 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_189 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_19 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_190 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_191 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_192 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_193 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_194 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_195 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_196 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_197 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_198 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_199 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_2 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_20 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_200 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_201 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_202 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_203 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_204 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_205 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_206 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_207 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_208 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_209 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_21 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_210 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_211 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_212 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_213 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_214 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_215 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_216 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_217 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_218 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_219 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_22 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_220 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_221 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_222 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_223 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_224 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_225 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_226 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_227 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_228 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_229 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_23 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_230 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_231 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_232 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_233 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_234 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_235 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_236 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_237 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_238 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_239 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_24 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_240 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_241 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_242 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_243 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_244 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_245 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_246 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_247 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_248 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_249 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_25 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_250 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_251 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_252 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_253 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_254 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_255 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_256 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_257 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_258 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_259 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_26 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_260 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_261 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_262 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_263 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_264 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_265 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_266 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_267 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_268 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_269 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_27 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_270 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_271 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_272 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_273 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_274 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_275 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_276 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_277 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_278 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_279 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_28 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_280 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_281 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_282 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_283 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_284 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_285 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_286 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_287 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_288 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_289 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_29 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_290 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_291 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_292 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_293 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_294 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_295 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_296 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_297 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_298 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_299 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_3 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_30 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_300 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_301 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_302 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_303 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_304 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_305 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_306 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_307 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_308 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_309 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_31 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_310 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_311 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_312 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_313 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_314 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_315 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_316 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_317 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_318 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_319 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_32 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_320 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_321 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_322 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_323 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_324 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_325 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_326 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_327 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_328 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_329 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_33 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_330 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_331 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_332 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_333 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_334 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_335 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_336 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_337 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_338 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_339 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_34 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_340 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_341 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_342 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_343 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_344 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_345 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_346 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_347 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_348 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_349 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_35 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_350 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_351 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_352 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_353 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_354 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_355 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_356 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_357 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_358 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_359 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_36 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_360 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_361 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_362 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_363 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_364 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_365 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_366 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_367 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_368 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_369 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_37 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_370 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_371 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_372 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_373 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_374 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_375 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_376 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_377 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_378 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_379 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_38 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_380 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_381 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_382 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_383 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_384 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_385 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_386 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_387 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_388 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_389 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_39 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_390 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_391 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_392 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_393 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_394 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_395 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_396 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_397 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_398 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_399 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_4 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_40 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_400 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_401 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_402 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_403 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_404 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_405 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_406 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_407 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_408 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_409 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_41 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_410 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_411 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_412 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_413 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_414 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_415 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_416 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_417 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_418 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_419 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_42 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_420 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_421 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_422 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_423 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_424 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_425 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_426 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_427 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_428 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_429 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_43 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_430 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_431 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_432 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_433 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_434 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_435 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_436 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_437 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_438 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_439 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_44 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_440 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_441 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_442 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_443 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_444 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_445 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_446 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_447 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_448 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_449 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_45 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_450 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_451 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_452 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_453 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_454 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_455 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_456 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_457 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_458 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_459 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_46 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_460 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_461 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_462 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_463 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_464 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_465 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_466 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_467 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_468 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_469 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_47 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_470 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_471 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_472 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_473 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_474 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_475 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_476 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_477 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_478 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_479 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_48 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_480 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_481 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_482 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_483 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_484 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_485 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_486 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_487 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_488 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_489 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_49 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_490 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_491 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_492 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_493 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_494 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_495 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_496 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_497 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_498 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_499 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_5 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_50 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_500 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_501 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_502 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_503 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_504 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_505 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_506 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_507 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_508 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_509 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_51 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_510 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_511 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_512 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_513 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_52 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_53 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_54 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_55 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_56 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_57 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_58 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_59 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_6 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_60 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_61 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_62 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_63 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_64 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_65 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_66 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_67 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_68 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_69 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_7 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_70 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_71 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_72 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_73 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_74 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_75 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_76 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_77 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_78 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_79 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_8 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_80 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_81 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_82 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_83 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_84 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_85 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_86 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_87 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_88 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_89 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_9 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_90 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_91 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_92 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_93 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_94 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_95 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_96 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_97 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_98 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:Element_99 a sso:Element,
+        sso:ShellElement ;
+    sso:dofs 6 ;
+    sso:element_material osam_simulation:C40_50 ;
+    sso:element_section osam_simulation:Shell_0.2 ;
+    sso:face_count 1 ;
+    sso:node_count 3 .
+
+osam_simulation:FootbridgeSA_Assembly a sso:Assembly ;
+    sso:assembly_name "FootbridgeSA_Assembly"^^xsd:string ;
+    sso:has_instance osam_simulation:FootbridgeSA_Instance .
+
+osam_simulation:FootbridgeSA_Object_Mesh a sso:Mesh ;
+    sso:has_element osam_simulation:Element_1,
+        osam_simulation:Element_10,
+        osam_simulation:Element_100,
+        osam_simulation:Element_101,
+        osam_simulation:Element_102,
+        osam_simulation:Element_103,
+        osam_simulation:Element_104,
+        osam_simulation:Element_105,
+        osam_simulation:Element_106,
+        osam_simulation:Element_107,
+        osam_simulation:Element_108,
+        osam_simulation:Element_109,
+        osam_simulation:Element_11,
+        osam_simulation:Element_110,
+        osam_simulation:Element_111,
+        osam_simulation:Element_112,
+        osam_simulation:Element_113,
+        osam_simulation:Element_114,
+        osam_simulation:Element_115,
+        osam_simulation:Element_116,
+        osam_simulation:Element_117,
+        osam_simulation:Element_118,
+        osam_simulation:Element_119,
+        osam_simulation:Element_12,
+        osam_simulation:Element_120,
+        osam_simulation:Element_121,
+        osam_simulation:Element_122,
+        osam_simulation:Element_123,
+        osam_simulation:Element_124,
+        osam_simulation:Element_125,
+        osam_simulation:Element_126,
+        osam_simulation:Element_127,
+        osam_simulation:Element_128,
+        osam_simulation:Element_129,
+        osam_simulation:Element_13,
+        osam_simulation:Element_130,
+        osam_simulation:Element_131,
+        osam_simulation:Element_132,
+        osam_simulation:Element_133,
+        osam_simulation:Element_134,
+        osam_simulation:Element_135,
+        osam_simulation:Element_136,
+        osam_simulation:Element_137,
+        osam_simulation:Element_138,
+        osam_simulation:Element_139,
+        osam_simulation:Element_14,
+        osam_simulation:Element_140,
+        osam_simulation:Element_141,
+        osam_simulation:Element_142,
+        osam_simulation:Element_143,
+        osam_simulation:Element_144,
+        osam_simulation:Element_145,
+        osam_simulation:Element_146,
+        osam_simulation:Element_147,
+        osam_simulation:Element_148,
+        osam_simulation:Element_149,
+        osam_simulation:Element_15,
+        osam_simulation:Element_150,
+        osam_simulation:Element_151,
+        osam_simulation:Element_152,
+        osam_simulation:Element_153,
+        osam_simulation:Element_154,
+        osam_simulation:Element_155,
+        osam_simulation:Element_156,
+        osam_simulation:Element_157,
+        osam_simulation:Element_158,
+        osam_simulation:Element_159,
+        osam_simulation:Element_16,
+        osam_simulation:Element_160,
+        osam_simulation:Element_161,
+        osam_simulation:Element_162,
+        osam_simulation:Element_163,
+        osam_simulation:Element_164,
+        osam_simulation:Element_165,
+        osam_simulation:Element_166,
+        osam_simulation:Element_167,
+        osam_simulation:Element_168,
+        osam_simulation:Element_169,
+        osam_simulation:Element_17,
+        osam_simulation:Element_170,
+        osam_simulation:Element_171,
+        osam_simulation:Element_172,
+        osam_simulation:Element_173,
+        osam_simulation:Element_174,
+        osam_simulation:Element_175,
+        osam_simulation:Element_176,
+        osam_simulation:Element_177,
+        osam_simulation:Element_178,
+        osam_simulation:Element_179,
+        osam_simulation:Element_18,
+        osam_simulation:Element_180,
+        osam_simulation:Element_181,
+        osam_simulation:Element_182,
+        osam_simulation:Element_183,
+        osam_simulation:Element_184,
+        osam_simulation:Element_185,
+        osam_simulation:Element_186,
+        osam_simulation:Element_187,
+        osam_simulation:Element_188,
+        osam_simulation:Element_189,
+        osam_simulation:Element_19,
+        osam_simulation:Element_190,
+        osam_simulation:Element_191,
+        osam_simulation:Element_192,
+        osam_simulation:Element_193,
+        osam_simulation:Element_194,
+        osam_simulation:Element_195,
+        osam_simulation:Element_196,
+        osam_simulation:Element_197,
+        osam_simulation:Element_198,
+        osam_simulation:Element_199,
+        osam_simulation:Element_2,
+        osam_simulation:Element_20,
+        osam_simulation:Element_200,
+        osam_simulation:Element_201,
+        osam_simulation:Element_202,
+        osam_simulation:Element_203,
+        osam_simulation:Element_204,
+        osam_simulation:Element_205,
+        osam_simulation:Element_206,
+        osam_simulation:Element_207,
+        osam_simulation:Element_208,
+        osam_simulation:Element_209,
+        osam_simulation:Element_21,
+        osam_simulation:Element_210,
+        osam_simulation:Element_211,
+        osam_simulation:Element_212,
+        osam_simulation:Element_213,
+        osam_simulation:Element_214,
+        osam_simulation:Element_215,
+        osam_simulation:Element_216,
+        osam_simulation:Element_217,
+        osam_simulation:Element_218,
+        osam_simulation:Element_219,
+        osam_simulation:Element_22,
+        osam_simulation:Element_220,
+        osam_simulation:Element_221,
+        osam_simulation:Element_222,
+        osam_simulation:Element_223,
+        osam_simulation:Element_224,
+        osam_simulation:Element_225,
+        osam_simulation:Element_226,
+        osam_simulation:Element_227,
+        osam_simulation:Element_228,
+        osam_simulation:Element_229,
+        osam_simulation:Element_23,
+        osam_simulation:Element_230,
+        osam_simulation:Element_231,
+        osam_simulation:Element_232,
+        osam_simulation:Element_233,
+        osam_simulation:Element_234,
+        osam_simulation:Element_235,
+        osam_simulation:Element_236,
+        osam_simulation:Element_237,
+        osam_simulation:Element_238,
+        osam_simulation:Element_239,
+        osam_simulation:Element_24,
+        osam_simulation:Element_240,
+        osam_simulation:Element_241,
+        osam_simulation:Element_242,
+        osam_simulation:Element_243,
+        osam_simulation:Element_244,
+        osam_simulation:Element_245,
+        osam_simulation:Element_246,
+        osam_simulation:Element_247,
+        osam_simulation:Element_248,
+        osam_simulation:Element_249,
+        osam_simulation:Element_25,
+        osam_simulation:Element_250,
+        osam_simulation:Element_251,
+        osam_simulation:Element_252,
+        osam_simulation:Element_253,
+        osam_simulation:Element_254,
+        osam_simulation:Element_255,
+        osam_simulation:Element_256,
+        osam_simulation:Element_257,
+        osam_simulation:Element_258,
+        osam_simulation:Element_259,
+        osam_simulation:Element_26,
+        osam_simulation:Element_260,
+        osam_simulation:Element_261,
+        osam_simulation:Element_262,
+        osam_simulation:Element_263,
+        osam_simulation:Element_264,
+        osam_simulation:Element_265,
+        osam_simulation:Element_266,
+        osam_simulation:Element_267,
+        osam_simulation:Element_268,
+        osam_simulation:Element_269,
+        osam_simulation:Element_27,
+        osam_simulation:Element_270,
+        osam_simulation:Element_271,
+        osam_simulation:Element_272,
+        osam_simulation:Element_273,
+        osam_simulation:Element_274,
+        osam_simulation:Element_275,
+        osam_simulation:Element_276,
+        osam_simulation:Element_277,
+        osam_simulation:Element_278,
+        osam_simulation:Element_279,
+        osam_simulation:Element_28,
+        osam_simulation:Element_280,
+        osam_simulation:Element_281,
+        osam_simulation:Element_282,
+        osam_simulation:Element_283,
+        osam_simulation:Element_284,
+        osam_simulation:Element_285,
+        osam_simulation:Element_286,
+        osam_simulation:Element_287,
+        osam_simulation:Element_288,
+        osam_simulation:Element_289,
+        osam_simulation:Element_29,
+        osam_simulation:Element_290,
+        osam_simulation:Element_291,
+        osam_simulation:Element_292,
+        osam_simulation:Element_293,
+        osam_simulation:Element_294,
+        osam_simulation:Element_295,
+        osam_simulation:Element_296,
+        osam_simulation:Element_297,
+        osam_simulation:Element_298,
+        osam_simulation:Element_299,
+        osam_simulation:Element_3,
+        osam_simulation:Element_30,
+        osam_simulation:Element_300,
+        osam_simulation:Element_301,
+        osam_simulation:Element_302,
+        osam_simulation:Element_303,
+        osam_simulation:Element_304,
+        osam_simulation:Element_305,
+        osam_simulation:Element_306,
+        osam_simulation:Element_307,
+        osam_simulation:Element_308,
+        osam_simulation:Element_309,
+        osam_simulation:Element_31,
+        osam_simulation:Element_310,
+        osam_simulation:Element_311,
+        osam_simulation:Element_312,
+        osam_simulation:Element_313,
+        osam_simulation:Element_314,
+        osam_simulation:Element_315,
+        osam_simulation:Element_316,
+        osam_simulation:Element_317,
+        osam_simulation:Element_318,
+        osam_simulation:Element_319,
+        osam_simulation:Element_32,
+        osam_simulation:Element_320,
+        osam_simulation:Element_321,
+        osam_simulation:Element_322,
+        osam_simulation:Element_323,
+        osam_simulation:Element_324,
+        osam_simulation:Element_325,
+        osam_simulation:Element_326,
+        osam_simulation:Element_327,
+        osam_simulation:Element_328,
+        osam_simulation:Element_329,
+        osam_simulation:Element_33,
+        osam_simulation:Element_330,
+        osam_simulation:Element_331,
+        osam_simulation:Element_332,
+        osam_simulation:Element_333,
+        osam_simulation:Element_334,
+        osam_simulation:Element_335,
+        osam_simulation:Element_336,
+        osam_simulation:Element_337,
+        osam_simulation:Element_338,
+        osam_simulation:Element_339,
+        osam_simulation:Element_34,
+        osam_simulation:Element_340,
+        osam_simulation:Element_341,
+        osam_simulation:Element_342,
+        osam_simulation:Element_343,
+        osam_simulation:Element_344,
+        osam_simulation:Element_345,
+        osam_simulation:Element_346,
+        osam_simulation:Element_347,
+        osam_simulation:Element_348,
+        osam_simulation:Element_349,
+        osam_simulation:Element_35,
+        osam_simulation:Element_350,
+        osam_simulation:Element_351,
+        osam_simulation:Element_352,
+        osam_simulation:Element_353,
+        osam_simulation:Element_354,
+        osam_simulation:Element_355,
+        osam_simulation:Element_356,
+        osam_simulation:Element_357,
+        osam_simulation:Element_358,
+        osam_simulation:Element_359,
+        osam_simulation:Element_36,
+        osam_simulation:Element_360,
+        osam_simulation:Element_361,
+        osam_simulation:Element_362,
+        osam_simulation:Element_363,
+        osam_simulation:Element_364,
+        osam_simulation:Element_365,
+        osam_simulation:Element_366,
+        osam_simulation:Element_367,
+        osam_simulation:Element_368,
+        osam_simulation:Element_369,
+        osam_simulation:Element_37,
+        osam_simulation:Element_370,
+        osam_simulation:Element_371,
+        osam_simulation:Element_372,
+        osam_simulation:Element_373,
+        osam_simulation:Element_374,
+        osam_simulation:Element_375,
+        osam_simulation:Element_376,
+        osam_simulation:Element_377,
+        osam_simulation:Element_378,
+        osam_simulation:Element_379,
+        osam_simulation:Element_38,
+        osam_simulation:Element_380,
+        osam_simulation:Element_381,
+        osam_simulation:Element_382,
+        osam_simulation:Element_383,
+        osam_simulation:Element_384,
+        osam_simulation:Element_385,
+        osam_simulation:Element_386,
+        osam_simulation:Element_387,
+        osam_simulation:Element_388,
+        osam_simulation:Element_389,
+        osam_simulation:Element_39,
+        osam_simulation:Element_390,
+        osam_simulation:Element_391,
+        osam_simulation:Element_392,
+        osam_simulation:Element_393,
+        osam_simulation:Element_394,
+        osam_simulation:Element_395,
+        osam_simulation:Element_396,
+        osam_simulation:Element_397,
+        osam_simulation:Element_398,
+        osam_simulation:Element_399,
+        osam_simulation:Element_4,
+        osam_simulation:Element_40,
+        osam_simulation:Element_400,
+        osam_simulation:Element_401,
+        osam_simulation:Element_402,
+        osam_simulation:Element_403,
+        osam_simulation:Element_404,
+        osam_simulation:Element_405,
+        osam_simulation:Element_406,
+        osam_simulation:Element_407,
+        osam_simulation:Element_408,
+        osam_simulation:Element_409,
+        osam_simulation:Element_41,
+        osam_simulation:Element_410,
+        osam_simulation:Element_411,
+        osam_simulation:Element_412,
+        osam_simulation:Element_413,
+        osam_simulation:Element_414,
+        osam_simulation:Element_415,
+        osam_simulation:Element_416,
+        osam_simulation:Element_417,
+        osam_simulation:Element_418,
+        osam_simulation:Element_419,
+        osam_simulation:Element_42,
+        osam_simulation:Element_420,
+        osam_simulation:Element_421,
+        osam_simulation:Element_422,
+        osam_simulation:Element_423,
+        osam_simulation:Element_424,
+        osam_simulation:Element_425,
+        osam_simulation:Element_426,
+        osam_simulation:Element_427,
+        osam_simulation:Element_428,
+        osam_simulation:Element_429,
+        osam_simulation:Element_43,
+        osam_simulation:Element_430,
+        osam_simulation:Element_431,
+        osam_simulation:Element_432,
+        osam_simulation:Element_433,
+        osam_simulation:Element_434,
+        osam_simulation:Element_435,
+        osam_simulation:Element_436,
+        osam_simulation:Element_437,
+        osam_simulation:Element_438,
+        osam_simulation:Element_439,
+        osam_simulation:Element_44,
+        osam_simulation:Element_440,
+        osam_simulation:Element_441,
+        osam_simulation:Element_442,
+        osam_simulation:Element_443,
+        osam_simulation:Element_444,
+        osam_simulation:Element_445,
+        osam_simulation:Element_446,
+        osam_simulation:Element_447,
+        osam_simulation:Element_448,
+        osam_simulation:Element_449,
+        osam_simulation:Element_45,
+        osam_simulation:Element_450,
+        osam_simulation:Element_451,
+        osam_simulation:Element_452,
+        osam_simulation:Element_453,
+        osam_simulation:Element_454,
+        osam_simulation:Element_455,
+        osam_simulation:Element_456,
+        osam_simulation:Element_457,
+        osam_simulation:Element_458,
+        osam_simulation:Element_459,
+        osam_simulation:Element_46,
+        osam_simulation:Element_460,
+        osam_simulation:Element_461,
+        osam_simulation:Element_462,
+        osam_simulation:Element_463,
+        osam_simulation:Element_464,
+        osam_simulation:Element_465,
+        osam_simulation:Element_466,
+        osam_simulation:Element_467,
+        osam_simulation:Element_468,
+        osam_simulation:Element_469,
+        osam_simulation:Element_47,
+        osam_simulation:Element_470,
+        osam_simulation:Element_471,
+        osam_simulation:Element_472,
+        osam_simulation:Element_473,
+        osam_simulation:Element_474,
+        osam_simulation:Element_475,
+        osam_simulation:Element_476,
+        osam_simulation:Element_477,
+        osam_simulation:Element_478,
+        osam_simulation:Element_479,
+        osam_simulation:Element_48,
+        osam_simulation:Element_480,
+        osam_simulation:Element_481,
+        osam_simulation:Element_482,
+        osam_simulation:Element_483,
+        osam_simulation:Element_484,
+        osam_simulation:Element_485,
+        osam_simulation:Element_486,
+        osam_simulation:Element_487,
+        osam_simulation:Element_488,
+        osam_simulation:Element_489,
+        osam_simulation:Element_49,
+        osam_simulation:Element_490,
+        osam_simulation:Element_491,
+        osam_simulation:Element_492,
+        osam_simulation:Element_493,
+        osam_simulation:Element_494,
+        osam_simulation:Element_495,
+        osam_simulation:Element_496,
+        osam_simulation:Element_497,
+        osam_simulation:Element_498,
+        osam_simulation:Element_499,
+        osam_simulation:Element_5,
+        osam_simulation:Element_50,
+        osam_simulation:Element_500,
+        osam_simulation:Element_501,
+        osam_simulation:Element_502,
+        osam_simulation:Element_503,
+        osam_simulation:Element_504,
+        osam_simulation:Element_505,
+        osam_simulation:Element_506,
+        osam_simulation:Element_507,
+        osam_simulation:Element_508,
+        osam_simulation:Element_509,
+        osam_simulation:Element_51,
+        osam_simulation:Element_510,
+        osam_simulation:Element_511,
+        osam_simulation:Element_512,
+        osam_simulation:Element_513,
+        osam_simulation:Element_52,
+        osam_simulation:Element_53,
+        osam_simulation:Element_54,
+        osam_simulation:Element_55,
+        osam_simulation:Element_56,
+        osam_simulation:Element_57,
+        osam_simulation:Element_58,
+        osam_simulation:Element_59,
+        osam_simulation:Element_6,
+        osam_simulation:Element_60,
+        osam_simulation:Element_61,
+        osam_simulation:Element_62,
+        osam_simulation:Element_63,
+        osam_simulation:Element_64,
+        osam_simulation:Element_65,
+        osam_simulation:Element_66,
+        osam_simulation:Element_67,
+        osam_simulation:Element_68,
+        osam_simulation:Element_69,
+        osam_simulation:Element_7,
+        osam_simulation:Element_70,
+        osam_simulation:Element_71,
+        osam_simulation:Element_72,
+        osam_simulation:Element_73,
+        osam_simulation:Element_74,
+        osam_simulation:Element_75,
+        osam_simulation:Element_76,
+        osam_simulation:Element_77,
+        osam_simulation:Element_78,
+        osam_simulation:Element_79,
+        osam_simulation:Element_8,
+        osam_simulation:Element_80,
+        osam_simulation:Element_81,
+        osam_simulation:Element_82,
+        osam_simulation:Element_83,
+        osam_simulation:Element_84,
+        osam_simulation:Element_85,
+        osam_simulation:Element_86,
+        osam_simulation:Element_87,
+        osam_simulation:Element_88,
+        osam_simulation:Element_89,
+        osam_simulation:Element_9,
+        osam_simulation:Element_90,
+        osam_simulation:Element_91,
+        osam_simulation:Element_92,
+        osam_simulation:Element_93,
+        osam_simulation:Element_94,
+        osam_simulation:Element_95,
+        osam_simulation:Element_96,
+        osam_simulation:Element_97,
+        osam_simulation:Element_98,
+        osam_simulation:Element_99 ;
+    sso:nodes 295 .
+
+osam_simulation:bc_1 a sso:BoundaryCondition ;
+    sso:applied_to osam_simulation:FootbridgeSA_Instance .
+
+osam_simulation:bc_2 a sso:BoundaryCondition ;
+    sso:applied_to osam_simulation:FootbridgeSA_Instance .
+
+osam_simulation:bc_3 a sso:BoundaryCondition ;
+    sso:applied_to osam_simulation:FootbridgeSA_Instance .
+
+osam_simulation:bc_4 a sso:BoundaryCondition ;
+    sso:applied_to osam_simulation:FootbridgeSA_Instance .
+
+osam_simulation:FootbridgeSA_Object a sso:Object ;
+    sso:has_mesh osam_simulation:FootbridgeSA_Object_Mesh ;
+    sso:object_name "FootbridgeSA_Object"^^xsd:string .
+
+osam_simulation:load_1 a sso:Load ;
+    sso:applied_to osam_simulation:FootbridgeSA_Instance ;
+    sso:load_type "POINT_LOAD"^^xsd:string .
+
+osam_simulation:FootbridgeSA_Instance a sso:Instance ;
+    sso:instance_name "FootbridgeSA_Instance"^^xsd:string ;
+    sso:referenced_object osam_simulation:FootbridgeSA_Object .
+
+osam_simulation:C40_50 a sso:Material ;
+    sso:elastic true ;
+    sso:material_name "C40_50"^^xsd:string ;
+    sso:plastic false .
+
+osam_simulation:Shell_0.2 a sso:Section ;
+    sso:section_name "Shell_0.2"^^xsd:string ;
+    sso:section_type "SHELL SECTION"^^xsd:string .
+
