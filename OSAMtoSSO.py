@@ -84,9 +84,11 @@ for mat in osam['materials']:
 sections = osam['sections']
 for sec in sections:
     sec_name = sec['name']
+    sec_type = sec['section_type']
     sec_uri = INST[sec_name]
     g.add((sec_uri, RDF.type, SSO.Section))
     g.add((sec_uri, SSO.section_name, Literal(sec_name, datatype=XSD.string)))
+    g.add((sec_uri, SSO.section_type, Literal(sec_type, datatype=XSD.string)))
     g.add((sa_uri, SSO.has_section, sec_uri))
 
 #add Objects
@@ -144,7 +146,6 @@ for obj in objects:
             mat_uri = s
         g.add((elem_uri, SSO.element_material, mat_uri))
 
-
 #add the Assembly
 ass_name = osam['assembly']['name']
 ass_uri = INST[ass_name]
@@ -191,14 +192,32 @@ for bc in boundCondi:
             bc_inst_uri = s
         g.add((bc_uri, SSO.applied_to, bc_inst_uri))
 
+#add Load Case
+loadCases = osam['loadCases']
+for loadCase in loadCases:
+    loadCase_name = loadCase['name']
+    loadCase_type = loadCase['type']
+    loadCase_uri = INST[loadCase_name]
+    g.add((loadCase_uri, RDF.type, SSO.LoadCase))
+    g.add((loadCase_uri, SSO.loadCase_name, Literal(loadCase_name, datatype=XSD.string)))
+    g.add((loadCase_uri, SSO.loadCase_type, Literal(loadCase_type, datatype=XSD.string)))
+
 #add Loads
 loads = osam['loads']
 loadsCounter = 1
 for load in loads:
     load_uri = INST["load_"+str(loadsCounter)]
+    load_type = load['type']
+    load_loadCase = load['caseName']
     loadsCounter += 1
     g.add((load_uri, RDF.type, SSO.Load))
+    g.add((load_uri, SSO.load_type, Literal(load_type, datatype=XSD.string)))
     g.add((sa_uri, SSO.has_load, load_uri))
+    #Query the load case and add has_load
+    load_case_uri = None
+    for s, p, o in g.triples((None, SSO.loadCase_name, Literal(load_loadCase, datatype=XSD.string))):
+            load_case_uri = s
+    g.add((load_case_uri, SSO.has_load, load_uri))
     #Query the loads instances names and add applied_to
     load_instas = load['instances']
     load_inst_name = None
