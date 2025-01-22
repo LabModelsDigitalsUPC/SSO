@@ -31,7 +31,7 @@ g.add((IFC['IfcElement'], RDF.type, OWL.Class))
 
 g.add((LINK['referenced_in_sam'], RDF.type, OWL.ObjectProperty))
 g.add((LINK['referenced_in_sam'], RDF.type, OWL.FunctionalProperty))
-g.add((LINK['referenced_in_sam'], RDFS.domain, IFC['IfcElement']))
+g.add((LINK['referenced_in_sam'], RDFS.domain, OWL.Thing))
 g.add((LINK['referenced_in_sam'], RDFS.range, SSO['StructuralAnalysisModel']))
 
 # Save rdf ontology

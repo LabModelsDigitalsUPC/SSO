@@ -213,6 +213,12 @@ g.add((SSO['load_type'], RDFS.range, XSD.string))
 #                   ObjectType Porperties                    #
 ##########################################################
 
+#StructuralAnalysisModel.referenced_in_sam  
+g.add((SSO['referenced_in_sam'], RDF.type, OWL.ObjectProperty))
+g.add((SSO['referenced_in_sam'], RDF.type, OWL.FunctionalProperty))
+g.add((SSO['referenced_in_sam'], RDFS.domain, OWL.Thing))
+g.add((SSO['referenced_in_sam'], RDFS.range, SSO['StructuralAnalysisModel']))
+
 #StructuralAnalysisModel.has_object
 g.add((SSO['has_object'], RDF.type, OWL.ObjectProperty))
 g.add((SSO['has_object'], RDFS.domain, SSO.StructuralAnalysisModel))
