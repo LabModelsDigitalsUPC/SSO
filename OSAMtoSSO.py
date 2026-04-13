@@ -3,7 +3,7 @@ import pathlib
 from rdflib import Graph, Namespace, Literal, URIRef
 
 # Define the path to your JSON file
-file_path = 'FootbridgeSA.json'  # Adjust the path if necessary
+file_path = 'Bridge.json'  # Adjust the path if necessary
 
 #Load the conversion map from IFC to RDF
 script_dir = pathlib.Path(__file__).parent
