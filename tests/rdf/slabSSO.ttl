@@ -16,7 +16,7 @@ osam_simulation:FootbridgeSA a sso:StructuralAnalysisModel ;
     sso:has_material osam_simulation:C40_50 ;
     sso:has_object osam_simulation:FootbridgeSA_Object ;
     sso:has_section osam_simulation:Shell_0.2 ;
-    sso:id "b1c0bf96-6244-86a7-12e8-80580963328e"^^xsd:string ;
+    sso:id "b1c0bf96-6244-86a7-12e8-80580963328f"^^xsd:string ;
     sso:name "FootbridgeSA"^^xsd:string .
 
 osam_simulation:SelfWeight a sso:LoadCase ;
