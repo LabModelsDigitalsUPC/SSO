@@ -1,0 +1,972 @@
+@prefix beo: <https://w3id.org/beo#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix brot: <https://w3id.org/brot/0.21> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sso: <https://w3id.org/sso#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sso: a owl:Ontology ;
+    rdfs:label "SSO — Structural Simulation Ontology"@en ;
+    cc:license "http://creativecommons.org/licenses/by/3.0/" ;
+    dcterms:creator "Carlos Ramonell Cazador (carlos.ramonell@upc.edu)",
+        "Héctor Posada Cárcamo (hector.posada@upc.edu)",
+        "Rolando Chacón Flores (rolando.chacon@upc.edu)" ;
+    dcterms:date "2026/04/04" ;
+    dcterms:description "Ontology containing the description of structural simulation models (OSAM)",
+        "SSO describes structural analysis models, their materials and constitutive behaviours, and the calibration events that update those behaviours against measured data."@en ;
+    dcterms:format "ttl" ;
+    dcterms:identifier "SSO" ;
+    dcterms:language "en" ;
+    dcterms:publisher "Universitat Politècnica de Catalunya" ;
+    dcterms:title "SSO" ;
+    vann:preferredNamespacePrefix "sso" ;
+    vann:preferredNamespaceUri "https://w3id.org/sso#" ;
+    rdfs:comment "An ontology for representing structural analysis (simulation) models and linking their finite elements to the built elements they idealize, within the O-SAM ecosystem."@en ;
+    owl:versionInfo "0.1.0" .
+
+sso:A a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "cross-sectional area"@en ;
+    rdfs:comment "The cross-sectional area of a General Profile, given directly rather than derived from shape."@en ;
+    rdfs:domain sso:GeneralProfile ;
+    rdfs:range xsd:float .
+
+sso:ArbitraryProfile a owl:Class ;
+    rdfs:label "Arbitrary Profile"@en ;
+    rdfs:comment "An arbitrary polygonal cross-section, optionally with holes; its point geometry isn't structurally modeled in this ontology."@en ;
+    rdfs:subClassOf sso:CrossSectionProfile .
+
+sso:BeamElement a owl:Class ;
+    rdfs:label "Beam Element"@en ;
+    rdfs:comment "A finite element idealizing a slender linear structural member, such as a beam or column, via its cross-section."@en ;
+    rdfs:subClassOf sso:Element .
+
+sso:E a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "Young's modulus"@en ;
+    rdfs:comment "The material's Young's modulus (modulus of elasticity), relating stress to strain in the elastic range."@en ;
+    rdfs:domain sso:ElasticBehaviour ;
+    rdfs:range xsd:float .
+
+sso:I11 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "moment of inertia I11"@en ;
+    rdfs:comment "The moment of inertia about the section's first principal axis, for a General Profile."@en ;
+    rdfs:domain sso:GeneralProfile ;
+    rdfs:range xsd:float .
+
+sso:I12 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "product of inertia I12"@en ;
+    rdfs:comment "The product of inertia of a General Profile's cross-section."@en ;
+    rdfs:domain sso:GeneralProfile ;
+    rdfs:range xsd:float .
+
+sso:I22 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "moment of inertia I22"@en ;
+    rdfs:comment "The moment of inertia about the section's second principal axis, for a General Profile."@en ;
+    rdfs:domain sso:GeneralProfile ;
+    rdfs:range xsd:float .
+
+sso:J a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "torsional constant"@en ;
+    rdfs:comment "The torsional constant of a General Profile's cross-section."@en ;
+    rdfs:domain sso:GeneralProfile ;
+    rdfs:range xsd:float .
+
+sso:LProfile a owl:Class ;
+    rdfs:label "L-Profile"@en ;
+    rdfs:comment "An L-shaped (angle) cross-section, defined by its two leg widths and thicknesses."@en ;
+    rdfs:subClassOf sso:CrossSectionProfile .
+
+sso:RectProfile a owl:Class ;
+    rdfs:label "Rectangular Profile"@en ;
+    rdfs:comment "A solid rectangular cross-section, defined by its width and height."@en ;
+    rdfs:subClassOf sso:CrossSectionProfile .
+
+sso:ShellElement a owl:Class ;
+    rdfs:label "Shell Element"@en ;
+    rdfs:comment "A finite element idealizing a thin plate/shell structural member, such as a slab or wall."@en ;
+    rdfs:subClassOf sso:Element .
+
+sso:SolidElement a owl:Class ;
+    rdfs:label "Solid Element"@en ;
+    rdfs:comment "A finite element with a full 3D solid formulation (e.g. a continuum brick/tetrahedron element)."@en ;
+    rdfs:subClassOf sso:Element .
+
+sso:SolidSection a owl:Class ;
+    rdfs:label "Solid Section"@en ;
+    rdfs:comment "A section for solid elements, whose geometry comes entirely from the mesh rather than parametric properties."@en ;
+    rdfs:subClassOf sso:Section .
+
+sso:X a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "X coordinate"@en ;
+    rdfs:comment "The X component of a Node's position or a 3D Vector."@en ;
+    rdfs:range xsd:float .
+
+sso:Y a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "Y coordinate"@en ;
+    rdfs:comment "The Y component of a Node's position or a 3D Vector."@en ;
+    rdfs:range xsd:float .
+
+sso:Z a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "Z coordinate"@en ;
+    rdfs:comment "The Z component of a Node's position or a 3D Vector."@en ;
+    rdfs:range xsd:float .
+
+sso:a a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "dimension a"@en ;
+    rdfs:comment "A cross-section's primary planar dimension (e.g. width for a rectangular or box profile, a leg length for an angle, the bottom width for a trapezoid) — its exact geometric role depends on the profile shape."@en ;
+    rdfs:domain sso:CrossSectionProfile ;
+    rdfs:range xsd:float .
+
+sso:applied_to a owl:ObjectProperty ;
+    rdfs:label "applied to"@en ;
+    rdfs:comment "Links a Load or Boundary Condition to the Instance(s) it is scoped to. Domain is intentionally open."@en ;
+    rdfs:range sso:Instance .
+
+sso:as_OSAM-json a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "as OSAM JSON"@en ;
+    rdfs:comment "A link to this model serialized as an O-SAM JSON file."@en ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range xsd:anyURI,
+        xsd:string .
+
+sso:as_abaqus-inp a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "as Abaqus INP"@en ;
+    rdfs:comment "A link to this model serialized as an Abaqus .inp input file."@en ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range xsd:anyURI,
+        xsd:string .
+
+sso:as_ifc-sa a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "as IFC Structural Analysis"@en ;
+    rdfs:comment "A link to this model serialized as an IFC structural-analysis-domain file."@en ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range xsd:anyURI,
+        xsd:string .
+
+sso:b a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "dimension b"@en ;
+    rdfs:comment "A cross-section's secondary planar dimension (e.g. height for a rectangular or box profile, the other leg length for an angle, the top width for a trapezoid) — its exact geometric role depends on the profile shape."@en ;
+    rdfs:domain sso:CrossSectionProfile ;
+    rdfs:range xsd:float .
+
+sso:b1 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "flange width b1"@en ;
+    rdfs:comment "The width of the first flange of an I-shaped profile."@en ;
+    rdfs:domain sso:IProfile ;
+    rdfs:range xsd:float .
+
+sso:b2 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "flange width b2"@en ;
+    rdfs:comment "The width of the second flange of an I-shaped profile."@en ;
+    rdfs:domain sso:IProfile ;
+    rdfs:range xsd:float .
+
+sso:bc_type a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "boundary condition type"@en ;
+    rdfs:comment "The type of a Boundary Condition (e.g. 'DISPLACEMENT')."@en ;
+    rdfs:domain sso:BoundaryCondition ;
+    rdfs:range xsd:string .
+
+sso:beam_section a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "beam section name"@en ;
+    rdfs:comment "The name of the named beam profile (e.g. a catalog section like 'IPE200') assigned to a Beam Section."@en ;
+    rdfs:domain sso:BeamSection ;
+    rdfs:range xsd:string .
+
+sso:behaviour_type a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "elastic behaviour type"@en ;
+    rdfs:comment "The constitutive symmetry class of the elastic behaviour — ISOTROPIC, ANISOTROPIC, or ORTHOTROPIC."@en ;
+    rdfs:domain sso:ElasticBehaviour ;
+    rdfs:range xsd:string .
+
+sso:c a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "height c"@en ;
+    rdfs:comment "The height of a trapezoidal profile."@en ;
+    rdfs:domain sso:TrapezoidProfile ;
+    rdfs:range xsd:float .
+
+sso:calibrated_by a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "calibrated by"@en ;
+    rdfs:comment "Links a calibrated entity (e.g. a Material's Elastic Behaviour, a Boundary Condition) to the Calibration event that produced this snapshot of it. Domain is intentionally open."@en ;
+    rdfs:range sso:Calibration ;
+    rdfs:subPropertyOf prov:wasGeneratedBy .
+
+sso:circ_r a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "circumscribed radius"@en ;
+    rdfs:comment "The circumscribed radius of a hexagonal hollow profile."@en ;
+    rdfs:domain sso:HexProfile ;
+    rdfs:range xsd:float .
+
+sso:creation_date a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "creation date"@en ;
+    rdfs:comment "The date and time the Structural Analysis Model was created."@en ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range xsd:dateTime,
+        xsd:dateTimeStamp .
+
+sso:d a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "top-edge offset d"@en ;
+    rdfs:comment "The horizontal offset of the top edge of a trapezoidal profile."@en ;
+    rdfs:domain sso:TrapezoidProfile ;
+    rdfs:range xsd:float .
+
+sso:dir a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "distribution direction"@en ;
+    rdfs:comment "The direction along which a Distributed Load varies."@en ;
+    rdfs:domain sso:DistributedLoad ;
+    rdfs:range xsd:string .
+
+sso:dof a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "degree of freedom"@en ;
+    rdfs:comment "The local degree of freedom index a Point Load is applied to."@en ;
+    rdfs:domain sso:PointLoad ;
+    rdfs:range xsd:integer .
+
+sso:dofs a owl:DatatypeProperty ;
+    rdfs:label "degrees of freedom"@en ;
+    rdfs:comment "The local degrees of freedom active at an element's nodes."@en ;
+    rdfs:domain sso:Element ;
+    rdfs:range xsd:integer .
+
+sso:el_count a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "element count"@en ;
+    rdfs:comment "The number of elements in a Mesh."@en ;
+    rdfs:domain sso:Mesh ;
+    rdfs:range xsd:integer .
+
+sso:element_material a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "element material"@en ;
+    rdfs:comment "Links an Element to the Material assigned to it."@en ;
+    rdfs:domain sso:Element ;
+    rdfs:range sso:Material .
+
+sso:element_section a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "element section"@en ;
+    rdfs:comment "Links an Element to the Section assigned to it."@en ;
+    rdfs:domain sso:Element ;
+    rdfs:range sso:Section .
+
+sso:element_type a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "element type code"@en ;
+    rdfs:comment "The raw finite element type code (e.g. 'C3D8', 'S4', 'B31') identifying the element's formulation."@en ;
+    rdfs:domain sso:Element ;
+    rdfs:range xsd:string .
+
+sso:elset a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "element set"@en ;
+    rdfs:comment "Links a Distributed Load or Surface Load to the Element Set it acts on."@en ;
+    rdfs:domain sso:Load ;
+    rdfs:range sso:Elset .
+
+sso:face_count a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "face count"@en ;
+    rdfs:comment "The number of faces of an element, relevant to solid and shell elements."@en ;
+    rdfs:domain sso:Element ;
+    rdfs:range xsd:integer .
+
+sso:force a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "force unit"@en ;
+    rdfs:comment "The unit of force used by the model (e.g. 'KILONEWTON')."@en ;
+    rdfs:domain sso:Units ;
+    rdfs:range xsd:string .
+
+sso:format a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "format"@en ;
+    rdfs:comment "The serialization format of the model file (e.g. 'ttl')."@en ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range xsd:string .
+
+sso:h a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "depth"@en ;
+    rdfs:comment "The overall depth of an I-shaped profile."@en ;
+    rdfs:domain sso:IProfile ;
+    rdfs:range xsd:float .
+
+sso:has_assembly a owl:ObjectProperty ;
+    rdfs:label "has assembly"@en ;
+    rdfs:comment "Links a Structural Analysis Model to its Assembly."@en ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range sso:Assembly .
+
+sso:has_boundary_condition a owl:ObjectProperty ;
+    rdfs:label "has boundary condition"@en ;
+    rdfs:comment "Links a Structural Analysis Model to one of its Boundary Conditions."@en ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range sso:BoundaryCondition .
+
+sso:has_calibration a owl:ObjectProperty ;
+    rdfs:label "has calibration"@en ;
+    rdfs:comment "Links an entity to the Calibration event(s) it has undergone; an entity may accumulate several calibrations over time. Domain is intentionally open, and it is the inverse of prov:used."@en ;
+    rdfs:range sso:Calibration ;
+    owl:inverseOf prov:used .
+
+sso:has_coordinate_system a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has coordinate system"@en ;
+    rdfs:comment "Links an Object to its local Coordinate System."@en ;
+    rdfs:domain sso:Object ;
+    rdfs:range sso:CoordinateSystem .
+
+sso:has_cross_section a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has cross-section"@en ;
+    rdfs:comment "Links a Beam Section to its Cross-Section Profile; always expected to be present."@en ;
+    rdfs:domain sso:BeamSection ;
+    rdfs:range sso:CrossSectionProfile .
+
+sso:has_elastic_behaviour a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has elastic behaviour"@en ;
+    rdfs:comment "Links a Material to its Elastic Behaviour."@en ;
+    rdfs:domain sso:Material ;
+    rdfs:range sso:ElasticBehaviour .
+
+sso:has_element a owl:ObjectProperty ;
+    rdfs:label "has element"@en ;
+    rdfs:comment "Links a Mesh or Element Set to an Element it contains. Domain is intentionally open."@en ;
+    rdfs:range sso:Element .
+
+sso:has_elset a owl:ObjectProperty ;
+    rdfs:label "has element set"@en ;
+    rdfs:comment "Links an Instance to one of its Element Sets."@en ;
+    rdfs:domain sso:Instance ;
+    rdfs:range sso:Elset .
+
+sso:has_instance a owl:ObjectProperty ;
+    rdfs:label "has instance"@en ;
+    rdfs:comment "Links an Assembly to one of its Instances."@en ;
+    rdfs:domain sso:Assembly ;
+    rdfs:range sso:Instance .
+
+sso:has_load a owl:ObjectProperty ;
+    rdfs:label "has load"@en ;
+    rdfs:comment "Links a Structural Analysis Model to one of its Loads."@en ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range sso:Load .
+
+sso:has_loadCase a owl:ObjectProperty ;
+    rdfs:label "has load case"@en ;
+    rdfs:comment "Links a Structural Analysis Model to one of its Load Cases."@en ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range sso:LoadCase .
+
+sso:has_material a owl:ObjectProperty ;
+    rdfs:label "has material"@en ;
+    rdfs:comment "Links a Structural Analysis Model to one of its Materials."@en ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range sso:Material .
+
+sso:has_mesh a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has mesh"@en ;
+    rdfs:comment "Links an Object to its Mesh."@en ;
+    rdfs:domain sso:Object ;
+    rdfs:range sso:Mesh .
+
+sso:has_node a owl:ObjectProperty ;
+    rdfs:label "has node"@en ;
+    rdfs:comment "Links a Mesh, Node Set, or Element to a Node it contains or connects to. Domain is intentionally open; node ordering is not preserved."@en ;
+    rdfs:range sso:Node .
+
+sso:has_nset a owl:ObjectProperty ;
+    rdfs:label "has node set"@en ;
+    rdfs:comment "Links an Instance to one of its Node Sets."@en ;
+    rdfs:domain sso:Instance ;
+    rdfs:range sso:Nset .
+
+sso:has_object a owl:ObjectProperty ;
+    rdfs:label "has object"@en ;
+    rdfs:comment "Links a Structural Analysis Model to one of its constituent Objects."@en ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range sso:Object .
+
+sso:has_plastic_behaviour a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has plastic behaviour"@en ;
+    rdfs:comment "Links a Material to its Plastic Behaviour, when the material has one."@en ;
+    rdfs:domain sso:Material ;
+    rdfs:range sso:PlasticBehaviour .
+
+sso:has_section a owl:ObjectProperty ;
+    rdfs:label "has section"@en ;
+    rdfs:comment "Links a Structural Analysis Model to one of its Sections."@en ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range sso:Section .
+
+sso:has_units a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has units"@en ;
+    rdfs:comment "Links a Structural Analysis Model to the Units it is expressed in."@en ;
+    rdfs:domain sso:StructuralAnalysisModel ;
+    rdfs:range sso:Units .
+
+sso:idealized_by a owl:ObjectProperty ;
+    rdfs:label "idealized by"@en ;
+    rdfs:comment "Links an external built element (e.g. beo:Slab, bot:Element) to the SSO finite elements that idealize it in a structural analysis model (e.g. a set of Shell Elements). Domain is intentionally open."@en ;
+    rdfs:range sso:Element ;
+    rdfs:seeAlso beo:BuiltElement,
+        bot:Element .
+
+sso:in_loadCase a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "in load case"@en ;
+    rdfs:comment "Links a Load to the Load Case it belongs to."@en ;
+    rdfs:domain sso:Load ;
+    rdfs:range sso:LoadCase .
+
+sso:integration a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "integration scheme"@en ;
+    rdfs:comment "The numerical integration scheme used for an element (e.g. 'REDUCED', 'FULL')."@en ;
+    rdfs:domain sso:Element ;
+    rdfs:range xsd:string .
+
+sso:l a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "flange offset"@en ;
+    rdfs:comment "The optional Abaqus flange-offset parameter of an I-shaped profile."@en ;
+    rdfs:domain sso:IProfile ;
+    rdfs:range xsd:float .
+
+sso:length a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "length unit"@en ;
+    rdfs:comment "The unit of length used by the model (e.g. 'METRE')."@en ;
+    rdfs:domain sso:Units ;
+    rdfs:range xsd:string .
+
+sso:loadCase_type a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "load case type"@en ;
+    rdfs:comment "The type of a Load Case (e.g. static, dynamic)."@en ;
+    rdfs:domain sso:LoadCase ;
+    rdfs:range xsd:string .
+
+sso:mass a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "mass unit"@en ;
+    rdfs:comment "The unit of mass used by the model (e.g. 'KILOGRAM')."@en ;
+    rdfs:domain sso:Units ;
+    rdfs:range xsd:string .
+
+sso:mass_density a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "mass density"@en ;
+    rdfs:comment "The material's mass per unit volume, used e.g. to compute self-weight loads."@en ;
+    rdfs:domain sso:Material ;
+    rdfs:range xsd:float .
+
+sso:material_category a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "material category"@en ;
+    rdfs:comment "A broad classification of the material (e.g. concrete, steel, timber)."@en ;
+    rdfs:domain sso:Material ;
+    rdfs:range xsd:string .
+
+sso:material_type a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "material type"@en ;
+    rdfs:comment "The material's constitutive type (e.g. 'ISOTROPIC')."@en ;
+    rdfs:domain sso:Material ;
+    rdfs:range xsd:string .
+
+sso:node_count a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "node count"@en ;
+    rdfs:comment "The number of nodes in a Mesh, or referenced by an Element."@en ;
+    rdfs:range xsd:integer .
+
+sso:nset a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "node set"@en ;
+    rdfs:comment "Links a Point Load or Boundary Condition to the Node Set it acts on. Domain is intentionally open."@en ;
+    rdfs:range sso:Nset .
+
+sso:orientation a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "orientation"@en ;
+    rdfs:comment "Links a Beam Section to the vector defining the local orientation of its cross-section along the beam axis."@en ;
+    rdfs:domain sso:BeamSection ;
+    rdfs:range sso:Vector3D .
+
+sso:plastic_strain a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "plastic strain"@en ;
+    rdfs:comment "The plastic (permanent) strain corresponding to the yield stress in the material's plastic behaviour."@en ;
+    rdfs:domain sso:PlasticBehaviour ;
+    rdfs:range xsd:float .
+
+sso:poisson_ratio a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "Poisson's ratio"@en ;
+    rdfs:comment "The material's Poisson's ratio, the ratio of transverse to axial strain in the elastic range."@en ;
+    rdfs:domain sso:ElasticBehaviour ;
+    rdfs:range xsd:float .
+
+sso:prescribed_rx a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "prescribed rotation (rx)"@en ;
+    rdfs:comment "The prescribed rotation value about X, when the boundary condition imposes a rotation rather than a simple restraint."@en ;
+    rdfs:domain sso:BoundaryCondition ;
+    rdfs:range xsd:float .
+
+sso:prescribed_ry a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "prescribed rotation (ry)"@en ;
+    rdfs:comment "The prescribed rotation value about Y, when the boundary condition imposes a rotation rather than a simple restraint."@en ;
+    rdfs:domain sso:BoundaryCondition ;
+    rdfs:range xsd:float .
+
+sso:prescribed_rz a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "prescribed rotation (rz)"@en ;
+    rdfs:comment "The prescribed rotation value about Z, when the boundary condition imposes a rotation rather than a simple restraint."@en ;
+    rdfs:domain sso:BoundaryCondition ;
+    rdfs:range xsd:float .
+
+sso:prescribed_ux a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "prescribed displacement (ux)"@en ;
+    rdfs:comment "The prescribed translation value along X, when the boundary condition imposes a displacement rather than a simple restraint."@en ;
+    rdfs:domain sso:BoundaryCondition ;
+    rdfs:range xsd:float .
+
+sso:prescribed_uy a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "prescribed displacement (uy)"@en ;
+    rdfs:comment "The prescribed translation value along Y, when the boundary condition imposes a displacement rather than a simple restraint."@en ;
+    rdfs:domain sso:BoundaryCondition ;
+    rdfs:range xsd:float .
+
+sso:prescribed_uz a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "prescribed displacement (uz)"@en ;
+    rdfs:comment "The prescribed translation value along Z, when the boundary condition imposes a displacement rather than a simple restraint."@en ;
+    rdfs:domain sso:BoundaryCondition ;
+    rdfs:range xsd:float .
+
+sso:r a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "outer radius"@en ;
+    rdfs:comment "The outer radius of a pipe (circular hollow) profile."@en ;
+    rdfs:domain sso:PipeProfile ;
+    rdfs:range xsd:float .
+
+sso:radius a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "radius"@en ;
+    rdfs:comment "The radius of a solid circular profile."@en ;
+    rdfs:domain sso:CircProfile ;
+    rdfs:range xsd:float .
+
+sso:referenced_in_sam a owl:ObjectProperty ;
+    rdfs:label "referenced in SAM"@en ;
+    rdfs:comment "Links any resource (e.g. a building, bridge, space, or building element from an external ontology) to the Structural Analysis Model that simulates it. Domain is intentionally open."@en ;
+    rdfs:domain owl:Thing ;
+    rdfs:range sso:StructuralAnalysisModel ;
+    rdfs:seeAlso beo:BuiltElement,
+        bot:Element,
+        bot:Zone,
+        brot:Bridge .
+
+sso:referenced_object a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "references object"@en ;
+    rdfs:comment "Links an Instance to the Object it places within the Assembly."@en ;
+    rdfs:domain sso:Instance ;
+    rdfs:range sso:Object .
+
+sso:restrained_rx a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "restrained (rx)"@en ;
+    rdfs:comment "Whether the boundary condition constrains rotation about X."@en ;
+    rdfs:domain sso:BoundaryCondition ;
+    rdfs:range xsd:boolean .
+
+sso:restrained_ry a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "restrained (ry)"@en ;
+    rdfs:comment "Whether the boundary condition constrains rotation about Y."@en ;
+    rdfs:domain sso:BoundaryCondition ;
+    rdfs:range xsd:boolean .
+
+sso:restrained_rz a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "restrained (rz)"@en ;
+    rdfs:comment "Whether the boundary condition constrains rotation about Z."@en ;
+    rdfs:domain sso:BoundaryCondition ;
+    rdfs:range xsd:boolean .
+
+sso:restrained_ux a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "restrained (ux)"@en ;
+    rdfs:comment "Whether the boundary condition constrains translation along X."@en ;
+    rdfs:domain sso:BoundaryCondition ;
+    rdfs:range xsd:boolean .
+
+sso:restrained_uy a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "restrained (uy)"@en ;
+    rdfs:comment "Whether the boundary condition constrains translation along Y."@en ;
+    rdfs:domain sso:BoundaryCondition ;
+    rdfs:range xsd:boolean .
+
+sso:restrained_uz a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "restrained (uz)"@en ;
+    rdfs:comment "Whether the boundary condition constrains translation along Z."@en ;
+    rdfs:domain sso:BoundaryCondition ;
+    rdfs:range xsd:boolean .
+
+sso:rotation a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "rotation"@en ;
+    rdfs:comment "The rotation applied to an Instance when placing its Object in the Assembly."@en ;
+    rdfs:domain sso:Instance ;
+    rdfs:range rdfs:Literal .
+
+sso:section_material a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "section material"@en ;
+    rdfs:comment "Links a Section to the default Material it uses."@en ;
+    rdfs:domain sso:Section ;
+    rdfs:range sso:Material .
+
+sso:selfWeight a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "self-weight"@en ;
+    rdfs:comment "Links a Load Case to the vector defining the direction and magnitude of the self-weight it applies."@en ;
+    rdfs:domain sso:LoadCase ;
+    rdfs:range sso:Vector3D .
+
+sso:t a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "wall thickness"@en ;
+    rdfs:comment "The wall thickness of a pipe or hexagonal hollow profile."@en ;
+    rdfs:domain sso:CrossSectionProfile ;
+    rdfs:range xsd:float .
+
+sso:t1 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "wall/flange thickness t1"@en ;
+    rdfs:comment "A wall or flange thickness of a cross-section profile (box, I, or L) — its exact location depends on the profile shape."@en ;
+    rdfs:domain sso:CrossSectionProfile ;
+    rdfs:range xsd:float .
+
+sso:t2 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "wall/flange thickness t2"@en ;
+    rdfs:comment "A second wall or flange thickness of a cross-section profile (box, I, or L) — its exact location depends on the profile shape."@en ;
+    rdfs:domain sso:CrossSectionProfile ;
+    rdfs:range xsd:float .
+
+sso:t3 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "wall/web thickness t3"@en ;
+    rdfs:comment "A third wall thickness (box profile) or web thickness (I profile), depending on the profile shape."@en ;
+    rdfs:domain sso:CrossSectionProfile ;
+    rdfs:range xsd:float .
+
+sso:t4 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "wall thickness t4"@en ;
+    rdfs:comment "The fourth wall thickness of a box profile."@en ;
+    rdfs:domain sso:BoxProfile ;
+    rdfs:range xsd:float .
+
+sso:temperature a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "temperature unit"@en ;
+    rdfs:comment "The unit of temperature used by the model (e.g. 'CELSIUS')."@en ;
+    rdfs:domain sso:Units ;
+    rdfs:range xsd:string .
+
+sso:thickness a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "thickness"@en ;
+    rdfs:comment "The shell section's thickness."@en ;
+    rdfs:domain sso:ShellSection ;
+    rdfs:range xsd:float .
+
+sso:time a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "time unit"@en ;
+    rdfs:comment "The unit of time used by the model (e.g. 'SECOND')."@en ;
+    rdfs:domain sso:Units ;
+    rdfs:range xsd:string .
+
+sso:translation a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "translation"@en ;
+    rdfs:comment "The translation applied to an Instance when placing its Object in the Assembly."@en ;
+    rdfs:domain sso:Instance ;
+    rdfs:range rdfs:Literal .
+
+sso:v a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "load magnitude"@en ;
+    rdfs:comment "The magnitude of a Point Load or Surface Load."@en ;
+    rdfs:domain sso:Load ;
+    rdfs:range xsd:float .
+
+sso:v1 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "start value v1"@en ;
+    rdfs:comment "The Distributed Load's value at its start point."@en ;
+    rdfs:domain sso:DistributedLoad ;
+    rdfs:range xsd:float .
+
+sso:v2 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "end value v2"@en ;
+    rdfs:comment "The Distributed Load's value at its end point."@en ;
+    rdfs:domain sso:DistributedLoad ;
+    rdfs:range xsd:float .
+
+sso:x1 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "start position x1"@en ;
+    rdfs:comment "The position along the element where a Distributed Load's start value applies."@en ;
+    rdfs:domain sso:DistributedLoad ;
+    rdfs:range xsd:float .
+
+sso:x2 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "end position x2"@en ;
+    rdfs:comment "The position along the element where a Distributed Load's end value applies."@en ;
+    rdfs:domain sso:DistributedLoad ;
+    rdfs:range xsd:float .
+
+sso:xAxis a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "X axis"@en ;
+    rdfs:comment "The Coordinate System's X axis vector."@en ;
+    rdfs:domain sso:CoordinateSystem ;
+    rdfs:range sso:Vector3D .
+
+sso:xdir a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "X direction component"@en ;
+    rdfs:comment "The X component of a Surface Load's direction vector."@en ;
+    rdfs:domain sso:SurfaceLoad ;
+    rdfs:range xsd:float .
+
+sso:yAxis a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "Y axis"@en ;
+    rdfs:comment "The Coordinate System's Y axis vector."@en ;
+    rdfs:domain sso:CoordinateSystem ;
+    rdfs:range sso:Vector3D .
+
+sso:ydir a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "Y direction component"@en ;
+    rdfs:comment "The Y component of a Surface Load's direction vector."@en ;
+    rdfs:domain sso:SurfaceLoad ;
+    rdfs:range xsd:float .
+
+sso:yield_stress a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "yield stress"@en ;
+    rdfs:comment "The stress at which the material begins to deform plastically."@en ;
+    rdfs:domain sso:PlasticBehaviour ;
+    rdfs:range xsd:float .
+
+sso:zAxis a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "Z axis"@en ;
+    rdfs:comment "The Coordinate System's Z axis vector."@en ;
+    rdfs:domain sso:CoordinateSystem ;
+    rdfs:range sso:Vector3D .
+
+sso:zdir a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "Z direction component"@en ;
+    rdfs:comment "The Z component of a Surface Load's direction vector."@en ;
+    rdfs:domain sso:SurfaceLoad ;
+    rdfs:range xsd:float .
+
+sso:BoxProfile a owl:Class ;
+    rdfs:label "Box Profile"@en ;
+    rdfs:comment "A rectangular hollow cross-section, defined by its outer width/height and wall thicknesses."@en ;
+    rdfs:subClassOf sso:CrossSectionProfile .
+
+sso:CircProfile a owl:Class ;
+    rdfs:label "Circular Profile"@en ;
+    rdfs:comment "A solid circular cross-section, defined by its radius."@en ;
+    rdfs:subClassOf sso:CrossSectionProfile .
+
+sso:HexProfile a owl:Class ;
+    rdfs:label "Hexagonal Profile"@en ;
+    rdfs:comment "A hexagonal hollow cross-section, defined by its circumscribed radius and wall thickness."@en ;
+    rdfs:subClassOf sso:CrossSectionProfile .
+
+sso:Node a owl:Class ;
+    rdfs:label "Node"@en ;
+    rdfs:comment "A meshed point in space, identified by its coordinates, that finite elements connect to."@en .
+
+sso:PipeProfile a owl:Class ;
+    rdfs:label "Pipe Profile"@en ;
+    rdfs:comment "A circular hollow cross-section, defined by its outer radius and wall thickness."@en ;
+    rdfs:subClassOf sso:CrossSectionProfile .
+
+sso:PointLoad a owl:Class ;
+    rdfs:label "Point Load"@en ;
+    rdfs:comment "A concentrated load applied to a single degree of freedom of a node set."@en ;
+    rdfs:subClassOf sso:Load .
+
+sso:ShellSection a owl:Class ;
+    rdfs:label "Shell Section"@en ;
+    rdfs:comment "A section assigning a single thickness to shell elements, used for plate/shell structural members like slabs and walls."@en ;
+    rdfs:subClassOf sso:Section .
+
+sso:Assembly a owl:Class ;
+    rdfs:label "Assembly"@en ;
+    rdfs:comment "The collection of Instances that, together, position the model's Objects in the global coordinate system — the assembled structural model on which Sets, Loads, and Boundary Conditions are defined."@en .
+
+sso:Calibration a owl:Class ;
+    rdfs:label "Calibration"@en ;
+    rdfs:comment "A provenance-bearing event (a prov:Activity) that produces a calibrated snapshot of a model parameter from a baseline, using measured test data."@en ;
+    rdfs:subClassOf prov:Activity .
+
+sso:Elset a owl:Class ;
+    rdfs:label "Element Set"@en ;
+    rdfs:comment "A named group of elements, defined on an assembled Instance, used to scope distributed and surface loads to a specific part of the model."@en .
+
+sso:Mesh a owl:Class ;
+    rdfs:label "Mesh"@en ;
+    rdfs:comment "The finite element discretization of an Object: its nodes and elements."@en .
+
+sso:Nset a owl:Class ;
+    rdfs:label "Node Set"@en ;
+    rdfs:comment "A named group of nodes, defined on an assembled Instance, used to scope loads and boundary conditions to a specific part of the model."@en .
+
+sso:TrapezoidProfile a owl:Class ;
+    rdfs:label "Trapezoid Profile"@en ;
+    rdfs:comment "A trapezoidal cross-section, defined by its bottom and top widths, height, and top-edge offset."@en ;
+    rdfs:subClassOf sso:CrossSectionProfile .
+
+sso:BeamSection a owl:Class ;
+    rdfs:label "Beam Section"@en ;
+    rdfs:comment "A section assigning a named beam profile and orientation to beam elements, carrying exactly one typed Cross-Section Profile for its geometry."@en ;
+    rdfs:subClassOf sso:Section .
+
+sso:PlasticBehaviour a owl:Class ;
+    rdfs:label "Plastic Behaviour"@en ;
+    rdfs:comment "The plastic (post-yield) constitutive response of a material, defined by its yield stress and plastic strain."@en .
+
+sso:SurfaceLoad a owl:Class ;
+    rdfs:label "Surface Load"@en ;
+    rdfs:comment "A pressure load applied over an element face, defined by its magnitude and direction."@en ;
+    rdfs:subClassOf sso:Load .
+
+sso:CoordinateSystem a owl:Class ;
+    rdfs:label "Coordinate System"@en ;
+    rdfs:comment "A local coordinate system defined by its X, Y, and Z axis vectors."@en .
+
+sso:ElasticBehaviour a owl:Class ;
+    rdfs:label "Elastic Behaviour"@en ;
+    rdfs:comment "The linear-elastic constitutive response of a material, defined by its behaviour type (isotropic, anisotropic, or orthotropic) and elastic parameters (Young's modulus, Poisson's ratio)."@en .
+
+sso:IProfile a owl:Class ;
+    rdfs:label "I-Profile"@en ;
+    rdfs:comment "An I-shaped (wide-flange) cross-section, defined by its overall depth, flange widths and thicknesses, and web thickness."@en ;
+    rdfs:subClassOf sso:CrossSectionProfile .
+
+sso:LoadCase a owl:Class ;
+    rdfs:label "Load Case"@en ;
+    rdfs:comment "A named grouping of loads applied together in one analysis case, optionally including a self-weight contribution."@en .
+
+sso:Object a owl:Class ;
+    rdfs:label "Structural Object"@en ;
+    rdfs:comment "A structural component (e.g. a beam, shell, or solid assembly) defined in its own local coordinate system: its Mesh of Nodes and Elements, referencing Sections and Materials. An Object is defined once and positioned in the model via one or more Instances."@en .
+
+sso:DistributedLoad a owl:Class ;
+    rdfs:label "Distributed Load"@en ;
+    rdfs:comment "A load distributed linearly along an element edge/line, defined by its direction and end values."@en ;
+    rdfs:subClassOf sso:Load .
+
+sso:GeneralProfile a owl:Class ;
+    rdfs:label "General Profile"@en ;
+    rdfs:comment "A cross-section defined directly by its section properties (area, moments of inertia, torsional constant) rather than by shape."@en ;
+    rdfs:subClassOf sso:CrossSectionProfile .
+
+sso:Vector3D a owl:Class ;
+    rdfs:label "3D Vector"@en ;
+    rdfs:comment "A three-component (X, Y, Z) vector, used for coordinate axes, beam orientation, and self-weight direction."@en .
+
+sso:Section a owl:Class ;
+    rdfs:label "Section"@en ;
+    rdfs:comment "A structural section that assigns geometric and material properties to the elements referencing it; an abstract type with three concrete kinds — Beam, Shell, and Solid Section."@en .
+
+sso:Units a owl:Class ;
+    rdfs:label "Units"@en ;
+    rdfs:comment "The unit system (force, length, temperature, time, mass) in which a Structural Analysis Model's values are expressed."@en .
+
+sso:Instance a owl:Class ;
+    rdfs:label "Instance"@en ;
+    rdfs:comment "A placement of a structural Object within the Assembly: references the Object and applies the spatial transformation between the Object's local coordinate system and the model's global coordinate system. Multiple Instances may reference the same Object to replicate an identical mesh without duplicating its data, and carry their own Node/Element Sets for scoping loads and boundary conditions."@en .
+
+sso:Load a owl:Class ;
+    rdfs:label "Load"@en ;
+    rdfs:comment "An action applied to the structure within a Load Case — a point, distributed, or surface load."@en .
+
+sso:Material a owl:Class ;
+    rdfs:label "Material"@en ;
+    rdfs:comment "A structural material, assigned to elements via a Section, whose constitutive behaviour is decomposed into a required Elastic Behaviour and an optional Plastic Behaviour, alongside its density."@en .
+
+sso:Element a owl:Class ;
+    rdfs:label "Finite Element"@en ;
+    rdfs:comment "A discretized finite element in a structural mesh, the basic unit solved by the analysis (e.g. a solid, shell, or beam element)."@en .
+
+sso:BoundaryCondition a owl:Class ;
+    rdfs:label "Boundary Condition"@en ;
+    rdfs:comment "A restraint or prescribed displacement applied to a node set, specified per degree of freedom (ux, uy, uz, rx, ry, rz)."@en .
+
+sso:StructuralAnalysisModel a owl:Class ;
+    rdfs:label "Structural Analysis Model"@en ;
+    rdfs:comment "A complete structural analysis (simulation) model: it composes a unit system, one or more structural Objects, an Assembly of their Instances, and collections of Materials, Sections, Load Cases, Loads, and Boundary Conditions."@en .
+
+sso:CrossSectionProfile a owl:Class ;
+    rdfs:label "Cross-Section Profile"@en ;
+    rdfs:comment "The parametric geometric shape of a beam's cross-section — an abstract type with concrete parametric profiles such as Rectangular, Box, and I-Profile — assigned to a Beam Section."@en .
+

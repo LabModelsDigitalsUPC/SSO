@@ -1,0 +1,1189 @@
+<https://w3id.org/sso#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/sso#> <http://creativecommons.org/ns#license> "http://creativecommons.org/licenses/by/3.0/" .
+<https://w3id.org/sso#> <http://purl.org/dc/terms/creator> "Carlos Ramonell Cazador (carlos.ramonell@upc.edu)" .
+<https://w3id.org/sso#> <http://purl.org/dc/terms/creator> "Héctor Posada Cárcamo (hector.posada@upc.edu)" .
+<https://w3id.org/sso#> <http://purl.org/dc/terms/creator> "Rolando Chacón Flores (rolando.chacon@upc.edu)" .
+<https://w3id.org/sso#> <http://purl.org/dc/terms/date> "2026/04/04" .
+<https://w3id.org/sso#> <http://purl.org/dc/terms/description> "SSO describes structural analysis models, their materials and constitutive behaviours, and the calibration events that update those behaviours against measured data."@en .
+<https://w3id.org/sso#> <http://purl.org/dc/terms/description> "Ontology containing the description of structural simulation models (OSAM)" .
+<https://w3id.org/sso#> <http://purl.org/dc/terms/format> "ttl" .
+<https://w3id.org/sso#> <http://purl.org/dc/terms/identifier> "SSO" .
+<https://w3id.org/sso#> <http://purl.org/dc/terms/language> "en" .
+<https://w3id.org/sso#> <http://purl.org/dc/terms/publisher> "Universitat Politècnica de Catalunya" .
+<https://w3id.org/sso#> <http://purl.org/dc/terms/title> "SSO" .
+<https://w3id.org/sso#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "sso" .
+<https://w3id.org/sso#> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/sso#" .
+<https://w3id.org/sso#> <http://www.w3.org/2000/01/rdf-schema#comment> "An ontology for representing structural analysis (simulation) models and linking their finite elements to the built elements they idealize, within the O-SAM ecosystem."@en .
+<https://w3id.org/sso#> <http://www.w3.org/2000/01/rdf-schema#label> "SSO — Structural Simulation Ontology"@en .
+<https://w3id.org/sso#> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/date
+<http://purl.org/dc/terms/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/format
+<http://purl.org/dc/terms/format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/language
+<http://purl.org/dc/terms/language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/prov#used
+<http://www.w3.org/ns/prov#used> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.w3.org/ns/prov#wasGeneratedBy
+<http://www.w3.org/ns/prov#wasGeneratedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://w3id.org/sso#applied_to
+<https://w3id.org/sso#applied_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#applied_to> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Instance> .
+<https://w3id.org/sso#applied_to> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Load or Boundary Condition to the Instance(s) it is scoped to. Domain is intentionally open."@en .
+<https://w3id.org/sso#applied_to> <http://www.w3.org/2000/01/rdf-schema#label> "applied to"@en .
+# 
+# https://w3id.org/sso#calibrated_by
+<https://w3id.org/sso#calibrated_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#calibrated_by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasGeneratedBy> .
+<https://w3id.org/sso#calibrated_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#calibrated_by> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Calibration> .
+<https://w3id.org/sso#calibrated_by> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a calibrated entity (e.g. a Material's Elastic Behaviour, a Boundary Condition) to the Calibration event that produced this snapshot of it. Domain is intentionally open."@en .
+<https://w3id.org/sso#calibrated_by> <http://www.w3.org/2000/01/rdf-schema#label> "calibrated by"@en .
+# 
+# https://w3id.org/sso#element_material
+<https://w3id.org/sso#element_material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#element_material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#element_material> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Element> .
+<https://w3id.org/sso#element_material> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Material> .
+<https://w3id.org/sso#element_material> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an Element to the Material assigned to it."@en .
+<https://w3id.org/sso#element_material> <http://www.w3.org/2000/01/rdf-schema#label> "element material"@en .
+# 
+# https://w3id.org/sso#element_section
+<https://w3id.org/sso#element_section> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#element_section> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#element_section> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Element> .
+<https://w3id.org/sso#element_section> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Section> .
+<https://w3id.org/sso#element_section> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an Element to the Section assigned to it."@en .
+<https://w3id.org/sso#element_section> <http://www.w3.org/2000/01/rdf-schema#label> "element section"@en .
+# 
+# https://w3id.org/sso#elset
+<https://w3id.org/sso#elset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#elset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#elset> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Load> .
+<https://w3id.org/sso#elset> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Elset> .
+<https://w3id.org/sso#elset> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Distributed Load or Surface Load to the Element Set it acts on."@en .
+<https://w3id.org/sso#elset> <http://www.w3.org/2000/01/rdf-schema#label> "element set"@en .
+# 
+# https://w3id.org/sso#has_assembly
+<https://w3id.org/sso#has_assembly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_assembly> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#StructuralAnalysisModel> .
+<https://w3id.org/sso#has_assembly> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Assembly> .
+<https://w3id.org/sso#has_assembly> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Structural Analysis Model to its Assembly."@en .
+<https://w3id.org/sso#has_assembly> <http://www.w3.org/2000/01/rdf-schema#label> "has assembly"@en .
+# 
+# https://w3id.org/sso#has_boundary_condition
+<https://w3id.org/sso#has_boundary_condition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_boundary_condition> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#StructuralAnalysisModel> .
+<https://w3id.org/sso#has_boundary_condition> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#BoundaryCondition> .
+<https://w3id.org/sso#has_boundary_condition> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Structural Analysis Model to one of its Boundary Conditions."@en .
+<https://w3id.org/sso#has_boundary_condition> <http://www.w3.org/2000/01/rdf-schema#label> "has boundary condition"@en .
+# 
+# https://w3id.org/sso#has_calibration
+<https://w3id.org/sso#has_calibration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_calibration> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/prov#used> .
+<https://w3id.org/sso#has_calibration> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Calibration> .
+<https://w3id.org/sso#has_calibration> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an entity to the Calibration event(s) it has undergone; an entity may accumulate several calibrations over time. Domain is intentionally open, and it is the inverse of prov:used."@en .
+<https://w3id.org/sso#has_calibration> <http://www.w3.org/2000/01/rdf-schema#label> "has calibration"@en .
+# 
+# https://w3id.org/sso#has_coordinate_system
+<https://w3id.org/sso#has_coordinate_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_coordinate_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#has_coordinate_system> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Object> .
+<https://w3id.org/sso#has_coordinate_system> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#CoordinateSystem> .
+<https://w3id.org/sso#has_coordinate_system> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an Object to its local Coordinate System."@en .
+<https://w3id.org/sso#has_coordinate_system> <http://www.w3.org/2000/01/rdf-schema#label> "has coordinate system"@en .
+# 
+# https://w3id.org/sso#has_cross_section
+<https://w3id.org/sso#has_cross_section> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_cross_section> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#has_cross_section> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#BeamSection> .
+<https://w3id.org/sso#has_cross_section> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#CrossSectionProfile> .
+<https://w3id.org/sso#has_cross_section> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Beam Section to its Cross-Section Profile; always expected to be present."@en .
+<https://w3id.org/sso#has_cross_section> <http://www.w3.org/2000/01/rdf-schema#label> "has cross-section"@en .
+# 
+# https://w3id.org/sso#has_elastic_behaviour
+<https://w3id.org/sso#has_elastic_behaviour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_elastic_behaviour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#has_elastic_behaviour> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Material> .
+<https://w3id.org/sso#has_elastic_behaviour> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#ElasticBehaviour> .
+<https://w3id.org/sso#has_elastic_behaviour> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Material to its Elastic Behaviour."@en .
+<https://w3id.org/sso#has_elastic_behaviour> <http://www.w3.org/2000/01/rdf-schema#label> "has elastic behaviour"@en .
+# 
+# https://w3id.org/sso#has_element
+<https://w3id.org/sso#has_element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_element> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Element> .
+<https://w3id.org/sso#has_element> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Mesh or Element Set to an Element it contains. Domain is intentionally open."@en .
+<https://w3id.org/sso#has_element> <http://www.w3.org/2000/01/rdf-schema#label> "has element"@en .
+# 
+# https://w3id.org/sso#has_elset
+<https://w3id.org/sso#has_elset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_elset> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Instance> .
+<https://w3id.org/sso#has_elset> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Elset> .
+<https://w3id.org/sso#has_elset> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an Instance to one of its Element Sets."@en .
+<https://w3id.org/sso#has_elset> <http://www.w3.org/2000/01/rdf-schema#label> "has element set"@en .
+# 
+# https://w3id.org/sso#has_instance
+<https://w3id.org/sso#has_instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_instance> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Assembly> .
+<https://w3id.org/sso#has_instance> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Instance> .
+<https://w3id.org/sso#has_instance> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an Assembly to one of its Instances."@en .
+<https://w3id.org/sso#has_instance> <http://www.w3.org/2000/01/rdf-schema#label> "has instance"@en .
+# 
+# https://w3id.org/sso#has_load
+<https://w3id.org/sso#has_load> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_load> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#StructuralAnalysisModel> .
+<https://w3id.org/sso#has_load> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Load> .
+<https://w3id.org/sso#has_load> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Structural Analysis Model to one of its Loads."@en .
+<https://w3id.org/sso#has_load> <http://www.w3.org/2000/01/rdf-schema#label> "has load"@en .
+# 
+# https://w3id.org/sso#has_loadCase
+<https://w3id.org/sso#has_loadCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_loadCase> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#StructuralAnalysisModel> .
+<https://w3id.org/sso#has_loadCase> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#LoadCase> .
+<https://w3id.org/sso#has_loadCase> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Structural Analysis Model to one of its Load Cases."@en .
+<https://w3id.org/sso#has_loadCase> <http://www.w3.org/2000/01/rdf-schema#label> "has load case"@en .
+# 
+# https://w3id.org/sso#has_material
+<https://w3id.org/sso#has_material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_material> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#StructuralAnalysisModel> .
+<https://w3id.org/sso#has_material> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Material> .
+<https://w3id.org/sso#has_material> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Structural Analysis Model to one of its Materials."@en .
+<https://w3id.org/sso#has_material> <http://www.w3.org/2000/01/rdf-schema#label> "has material"@en .
+# 
+# https://w3id.org/sso#has_mesh
+<https://w3id.org/sso#has_mesh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_mesh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#has_mesh> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Object> .
+<https://w3id.org/sso#has_mesh> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Mesh> .
+<https://w3id.org/sso#has_mesh> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an Object to its Mesh."@en .
+<https://w3id.org/sso#has_mesh> <http://www.w3.org/2000/01/rdf-schema#label> "has mesh"@en .
+# 
+# https://w3id.org/sso#has_node
+<https://w3id.org/sso#has_node> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_node> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Node> .
+<https://w3id.org/sso#has_node> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Mesh, Node Set, or Element to a Node it contains or connects to. Domain is intentionally open; node ordering is not preserved."@en .
+<https://w3id.org/sso#has_node> <http://www.w3.org/2000/01/rdf-schema#label> "has node"@en .
+# 
+# https://w3id.org/sso#has_nset
+<https://w3id.org/sso#has_nset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_nset> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Instance> .
+<https://w3id.org/sso#has_nset> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Nset> .
+<https://w3id.org/sso#has_nset> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an Instance to one of its Node Sets."@en .
+<https://w3id.org/sso#has_nset> <http://www.w3.org/2000/01/rdf-schema#label> "has node set"@en .
+# 
+# https://w3id.org/sso#has_object
+<https://w3id.org/sso#has_object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_object> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#StructuralAnalysisModel> .
+<https://w3id.org/sso#has_object> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Object> .
+<https://w3id.org/sso#has_object> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Structural Analysis Model to one of its constituent Objects."@en .
+<https://w3id.org/sso#has_object> <http://www.w3.org/2000/01/rdf-schema#label> "has object"@en .
+# 
+# https://w3id.org/sso#has_plastic_behaviour
+<https://w3id.org/sso#has_plastic_behaviour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_plastic_behaviour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#has_plastic_behaviour> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Material> .
+<https://w3id.org/sso#has_plastic_behaviour> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#PlasticBehaviour> .
+<https://w3id.org/sso#has_plastic_behaviour> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Material to its Plastic Behaviour, when the material has one."@en .
+<https://w3id.org/sso#has_plastic_behaviour> <http://www.w3.org/2000/01/rdf-schema#label> "has plastic behaviour"@en .
+# 
+# https://w3id.org/sso#has_section
+<https://w3id.org/sso#has_section> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_section> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#StructuralAnalysisModel> .
+<https://w3id.org/sso#has_section> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Section> .
+<https://w3id.org/sso#has_section> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Structural Analysis Model to one of its Sections."@en .
+<https://w3id.org/sso#has_section> <http://www.w3.org/2000/01/rdf-schema#label> "has section"@en .
+# 
+# https://w3id.org/sso#has_units
+<https://w3id.org/sso#has_units> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#has_units> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#has_units> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#StructuralAnalysisModel> .
+<https://w3id.org/sso#has_units> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Units> .
+<https://w3id.org/sso#has_units> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Structural Analysis Model to the Units it is expressed in."@en .
+<https://w3id.org/sso#has_units> <http://www.w3.org/2000/01/rdf-schema#label> "has units"@en .
+# 
+# https://w3id.org/sso#idealized_by
+<https://w3id.org/sso#idealized_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#idealized_by> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Element> .
+<https://w3id.org/sso#idealized_by> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an external built element (e.g. beo:Slab, bot:Element) to the SSO finite elements that idealize it in a structural analysis model (e.g. a set of Shell Elements). Domain is intentionally open."@en .
+<https://w3id.org/sso#idealized_by> <http://www.w3.org/2000/01/rdf-schema#label> "idealized by"@en .
+<https://w3id.org/sso#idealized_by> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/beo#BuiltElement> .
+<https://w3id.org/sso#idealized_by> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/bot#Element> .
+# 
+# https://w3id.org/sso#in_loadCase
+<https://w3id.org/sso#in_loadCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#in_loadCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#in_loadCase> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Load> .
+<https://w3id.org/sso#in_loadCase> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#LoadCase> .
+<https://w3id.org/sso#in_loadCase> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Load to the Load Case it belongs to."@en .
+<https://w3id.org/sso#in_loadCase> <http://www.w3.org/2000/01/rdf-schema#label> "in load case"@en .
+# 
+# https://w3id.org/sso#nset
+<https://w3id.org/sso#nset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#nset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#nset> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Nset> .
+<https://w3id.org/sso#nset> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Point Load or Boundary Condition to the Node Set it acts on. Domain is intentionally open."@en .
+<https://w3id.org/sso#nset> <http://www.w3.org/2000/01/rdf-schema#label> "node set"@en .
+# 
+# https://w3id.org/sso#orientation
+<https://w3id.org/sso#orientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#orientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#orientation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#BeamSection> .
+<https://w3id.org/sso#orientation> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Vector3D> .
+<https://w3id.org/sso#orientation> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Beam Section to the vector defining the local orientation of its cross-section along the beam axis."@en .
+<https://w3id.org/sso#orientation> <http://www.w3.org/2000/01/rdf-schema#label> "orientation"@en .
+# 
+# https://w3id.org/sso#referenced_in_sam
+<https://w3id.org/sso#referenced_in_sam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#referenced_in_sam> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/sso#referenced_in_sam> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#StructuralAnalysisModel> .
+<https://w3id.org/sso#referenced_in_sam> <http://www.w3.org/2000/01/rdf-schema#comment> "Links any resource (e.g. a building, bridge, space, or building element from an external ontology) to the Structural Analysis Model that simulates it. Domain is intentionally open."@en .
+<https://w3id.org/sso#referenced_in_sam> <http://www.w3.org/2000/01/rdf-schema#label> "referenced in SAM"@en .
+<https://w3id.org/sso#referenced_in_sam> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/beo#BuiltElement> .
+<https://w3id.org/sso#referenced_in_sam> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/bot#Element> .
+<https://w3id.org/sso#referenced_in_sam> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/bot#Zone> .
+<https://w3id.org/sso#referenced_in_sam> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/brot/0.21Bridge> .
+# 
+# https://w3id.org/sso#referenced_object
+<https://w3id.org/sso#referenced_object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#referenced_object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#referenced_object> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Instance> .
+<https://w3id.org/sso#referenced_object> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Object> .
+<https://w3id.org/sso#referenced_object> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an Instance to the Object it places within the Assembly."@en .
+<https://w3id.org/sso#referenced_object> <http://www.w3.org/2000/01/rdf-schema#label> "references object"@en .
+# 
+# https://w3id.org/sso#section_material
+<https://w3id.org/sso#section_material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#section_material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#section_material> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Section> .
+<https://w3id.org/sso#section_material> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Material> .
+<https://w3id.org/sso#section_material> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Section to the default Material it uses."@en .
+<https://w3id.org/sso#section_material> <http://www.w3.org/2000/01/rdf-schema#label> "section material"@en .
+# 
+# https://w3id.org/sso#selfWeight
+<https://w3id.org/sso#selfWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#selfWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#selfWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#LoadCase> .
+<https://w3id.org/sso#selfWeight> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Vector3D> .
+<https://w3id.org/sso#selfWeight> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Load Case to the vector defining the direction and magnitude of the self-weight it applies."@en .
+<https://w3id.org/sso#selfWeight> <http://www.w3.org/2000/01/rdf-schema#label> "self-weight"@en .
+# 
+# https://w3id.org/sso#xAxis
+<https://w3id.org/sso#xAxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#xAxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#xAxis> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#CoordinateSystem> .
+<https://w3id.org/sso#xAxis> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Vector3D> .
+<https://w3id.org/sso#xAxis> <http://www.w3.org/2000/01/rdf-schema#comment> "The Coordinate System's X axis vector."@en .
+<https://w3id.org/sso#xAxis> <http://www.w3.org/2000/01/rdf-schema#label> "X axis"@en .
+# 
+# https://w3id.org/sso#yAxis
+<https://w3id.org/sso#yAxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#yAxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#yAxis> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#CoordinateSystem> .
+<https://w3id.org/sso#yAxis> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Vector3D> .
+<https://w3id.org/sso#yAxis> <http://www.w3.org/2000/01/rdf-schema#comment> "The Coordinate System's Y axis vector."@en .
+<https://w3id.org/sso#yAxis> <http://www.w3.org/2000/01/rdf-schema#label> "Y axis"@en .
+# 
+# https://w3id.org/sso#zAxis
+<https://w3id.org/sso#zAxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/sso#zAxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#zAxis> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#CoordinateSystem> .
+<https://w3id.org/sso#zAxis> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/sso#Vector3D> .
+<https://w3id.org/sso#zAxis> <http://www.w3.org/2000/01/rdf-schema#comment> "The Coordinate System's Z axis vector."@en .
+<https://w3id.org/sso#zAxis> <http://www.w3.org/2000/01/rdf-schema#label> "Z axis"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/sso#A
+<https://w3id.org/sso#A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#A> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#GeneralProfile> .
+<https://w3id.org/sso#A> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#A> <http://www.w3.org/2000/01/rdf-schema#comment> "The cross-sectional area of a General Profile, given directly rather than derived from shape."@en .
+<https://w3id.org/sso#A> <http://www.w3.org/2000/01/rdf-schema#label> "cross-sectional area"@en .
+# 
+# https://w3id.org/sso#E
+<https://w3id.org/sso#E> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#E> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#E> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#ElasticBehaviour> .
+<https://w3id.org/sso#E> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#E> <http://www.w3.org/2000/01/rdf-schema#comment> "The material's Young's modulus (modulus of elasticity), relating stress to strain in the elastic range."@en .
+<https://w3id.org/sso#E> <http://www.w3.org/2000/01/rdf-schema#label> "Young's modulus"@en .
+# 
+# https://w3id.org/sso#I11
+<https://w3id.org/sso#I11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#I11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#I11> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#GeneralProfile> .
+<https://w3id.org/sso#I11> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#I11> <http://www.w3.org/2000/01/rdf-schema#comment> "The moment of inertia about the section's first principal axis, for a General Profile."@en .
+<https://w3id.org/sso#I11> <http://www.w3.org/2000/01/rdf-schema#label> "moment of inertia I11"@en .
+# 
+# https://w3id.org/sso#I12
+<https://w3id.org/sso#I12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#I12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#I12> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#GeneralProfile> .
+<https://w3id.org/sso#I12> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#I12> <http://www.w3.org/2000/01/rdf-schema#comment> "The product of inertia of a General Profile's cross-section."@en .
+<https://w3id.org/sso#I12> <http://www.w3.org/2000/01/rdf-schema#label> "product of inertia I12"@en .
+# 
+# https://w3id.org/sso#I22
+<https://w3id.org/sso#I22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#I22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#I22> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#GeneralProfile> .
+<https://w3id.org/sso#I22> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#I22> <http://www.w3.org/2000/01/rdf-schema#comment> "The moment of inertia about the section's second principal axis, for a General Profile."@en .
+<https://w3id.org/sso#I22> <http://www.w3.org/2000/01/rdf-schema#label> "moment of inertia I22"@en .
+# 
+# https://w3id.org/sso#J
+<https://w3id.org/sso#J> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#J> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#J> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#GeneralProfile> .
+<https://w3id.org/sso#J> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#J> <http://www.w3.org/2000/01/rdf-schema#comment> "The torsional constant of a General Profile's cross-section."@en .
+<https://w3id.org/sso#J> <http://www.w3.org/2000/01/rdf-schema#label> "torsional constant"@en .
+# 
+# https://w3id.org/sso#X
+<https://w3id.org/sso#X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#X> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#X> <http://www.w3.org/2000/01/rdf-schema#comment> "The X component of a Node's position or a 3D Vector."@en .
+<https://w3id.org/sso#X> <http://www.w3.org/2000/01/rdf-schema#label> "X coordinate"@en .
+# 
+# https://w3id.org/sso#Y
+<https://w3id.org/sso#Y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#Y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#Y> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#Y> <http://www.w3.org/2000/01/rdf-schema#comment> "The Y component of a Node's position or a 3D Vector."@en .
+<https://w3id.org/sso#Y> <http://www.w3.org/2000/01/rdf-schema#label> "Y coordinate"@en .
+# 
+# https://w3id.org/sso#Z
+<https://w3id.org/sso#Z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#Z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#Z> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#Z> <http://www.w3.org/2000/01/rdf-schema#comment> "The Z component of a Node's position or a 3D Vector."@en .
+<https://w3id.org/sso#Z> <http://www.w3.org/2000/01/rdf-schema#label> "Z coordinate"@en .
+# 
+# https://w3id.org/sso#a
+<https://w3id.org/sso#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#a> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#CrossSectionProfile> .
+<https://w3id.org/sso#a> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#a> <http://www.w3.org/2000/01/rdf-schema#comment> "A cross-section's primary planar dimension (e.g. width for a rectangular or box profile, a leg length for an angle, the bottom width for a trapezoid) — its exact geometric role depends on the profile shape."@en .
+<https://w3id.org/sso#a> <http://www.w3.org/2000/01/rdf-schema#label> "dimension a"@en .
+# 
+# https://w3id.org/sso#as_OSAM-json
+<https://w3id.org/sso#as_OSAM-json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#as_OSAM-json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#as_OSAM-json> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#StructuralAnalysisModel> .
+<https://w3id.org/sso#as_OSAM-json> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/sso#as_OSAM-json> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#as_OSAM-json> <http://www.w3.org/2000/01/rdf-schema#comment> "A link to this model serialized as an O-SAM JSON file."@en .
+<https://w3id.org/sso#as_OSAM-json> <http://www.w3.org/2000/01/rdf-schema#label> "as OSAM JSON"@en .
+# 
+# https://w3id.org/sso#as_abaqus-inp
+<https://w3id.org/sso#as_abaqus-inp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#as_abaqus-inp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#as_abaqus-inp> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#StructuralAnalysisModel> .
+<https://w3id.org/sso#as_abaqus-inp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/sso#as_abaqus-inp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#as_abaqus-inp> <http://www.w3.org/2000/01/rdf-schema#comment> "A link to this model serialized as an Abaqus .inp input file."@en .
+<https://w3id.org/sso#as_abaqus-inp> <http://www.w3.org/2000/01/rdf-schema#label> "as Abaqus INP"@en .
+# 
+# https://w3id.org/sso#as_ifc-sa
+<https://w3id.org/sso#as_ifc-sa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#as_ifc-sa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#as_ifc-sa> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#StructuralAnalysisModel> .
+<https://w3id.org/sso#as_ifc-sa> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/sso#as_ifc-sa> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#as_ifc-sa> <http://www.w3.org/2000/01/rdf-schema#comment> "A link to this model serialized as an IFC structural-analysis-domain file."@en .
+<https://w3id.org/sso#as_ifc-sa> <http://www.w3.org/2000/01/rdf-schema#label> "as IFC Structural Analysis"@en .
+# 
+# https://w3id.org/sso#b
+<https://w3id.org/sso#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#b> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#CrossSectionProfile> .
+<https://w3id.org/sso#b> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#b> <http://www.w3.org/2000/01/rdf-schema#comment> "A cross-section's secondary planar dimension (e.g. height for a rectangular or box profile, the other leg length for an angle, the top width for a trapezoid) — its exact geometric role depends on the profile shape."@en .
+<https://w3id.org/sso#b> <http://www.w3.org/2000/01/rdf-schema#label> "dimension b"@en .
+# 
+# https://w3id.org/sso#b1
+<https://w3id.org/sso#b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#b1> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#IProfile> .
+<https://w3id.org/sso#b1> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#b1> <http://www.w3.org/2000/01/rdf-schema#comment> "The width of the first flange of an I-shaped profile."@en .
+<https://w3id.org/sso#b1> <http://www.w3.org/2000/01/rdf-schema#label> "flange width b1"@en .
+# 
+# https://w3id.org/sso#b2
+<https://w3id.org/sso#b2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#b2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#b2> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#IProfile> .
+<https://w3id.org/sso#b2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#b2> <http://www.w3.org/2000/01/rdf-schema#comment> "The width of the second flange of an I-shaped profile."@en .
+<https://w3id.org/sso#b2> <http://www.w3.org/2000/01/rdf-schema#label> "flange width b2"@en .
+# 
+# https://w3id.org/sso#bc_type
+<https://w3id.org/sso#bc_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#bc_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#bc_type> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#BoundaryCondition> .
+<https://w3id.org/sso#bc_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#bc_type> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of a Boundary Condition (e.g. 'DISPLACEMENT')."@en .
+<https://w3id.org/sso#bc_type> <http://www.w3.org/2000/01/rdf-schema#label> "boundary condition type"@en .
+# 
+# https://w3id.org/sso#beam_section
+<https://w3id.org/sso#beam_section> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#beam_section> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#beam_section> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#BeamSection> .
+<https://w3id.org/sso#beam_section> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#beam_section> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the named beam profile (e.g. a catalog section like 'IPE200') assigned to a Beam Section."@en .
+<https://w3id.org/sso#beam_section> <http://www.w3.org/2000/01/rdf-schema#label> "beam section name"@en .
+# 
+# https://w3id.org/sso#behaviour_type
+<https://w3id.org/sso#behaviour_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#behaviour_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#behaviour_type> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#ElasticBehaviour> .
+<https://w3id.org/sso#behaviour_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#behaviour_type> <http://www.w3.org/2000/01/rdf-schema#comment> "The constitutive symmetry class of the elastic behaviour — ISOTROPIC, ANISOTROPIC, or ORTHOTROPIC."@en .
+<https://w3id.org/sso#behaviour_type> <http://www.w3.org/2000/01/rdf-schema#label> "elastic behaviour type"@en .
+# 
+# https://w3id.org/sso#c
+<https://w3id.org/sso#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#c> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#TrapezoidProfile> .
+<https://w3id.org/sso#c> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#c> <http://www.w3.org/2000/01/rdf-schema#comment> "The height of a trapezoidal profile."@en .
+<https://w3id.org/sso#c> <http://www.w3.org/2000/01/rdf-schema#label> "height c"@en .
+# 
+# https://w3id.org/sso#circ_r
+<https://w3id.org/sso#circ_r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#circ_r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#circ_r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#HexProfile> .
+<https://w3id.org/sso#circ_r> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#circ_r> <http://www.w3.org/2000/01/rdf-schema#comment> "The circumscribed radius of a hexagonal hollow profile."@en .
+<https://w3id.org/sso#circ_r> <http://www.w3.org/2000/01/rdf-schema#label> "circumscribed radius"@en .
+# 
+# https://w3id.org/sso#creation_date
+<https://w3id.org/sso#creation_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#creation_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#creation_date> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#StructuralAnalysisModel> .
+<https://w3id.org/sso#creation_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/sso#creation_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+<https://w3id.org/sso#creation_date> <http://www.w3.org/2000/01/rdf-schema#comment> "The date and time the Structural Analysis Model was created."@en .
+<https://w3id.org/sso#creation_date> <http://www.w3.org/2000/01/rdf-schema#label> "creation date"@en .
+# 
+# https://w3id.org/sso#d
+<https://w3id.org/sso#d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#d> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#TrapezoidProfile> .
+<https://w3id.org/sso#d> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#d> <http://www.w3.org/2000/01/rdf-schema#comment> "The horizontal offset of the top edge of a trapezoidal profile."@en .
+<https://w3id.org/sso#d> <http://www.w3.org/2000/01/rdf-schema#label> "top-edge offset d"@en .
+# 
+# https://w3id.org/sso#dir
+<https://w3id.org/sso#dir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#dir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#dir> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#DistributedLoad> .
+<https://w3id.org/sso#dir> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#dir> <http://www.w3.org/2000/01/rdf-schema#comment> "The direction along which a Distributed Load varies."@en .
+<https://w3id.org/sso#dir> <http://www.w3.org/2000/01/rdf-schema#label> "distribution direction"@en .
+# 
+# https://w3id.org/sso#dof
+<https://w3id.org/sso#dof> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#dof> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#dof> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#PointLoad> .
+<https://w3id.org/sso#dof> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/sso#dof> <http://www.w3.org/2000/01/rdf-schema#comment> "The local degree of freedom index a Point Load is applied to."@en .
+<https://w3id.org/sso#dof> <http://www.w3.org/2000/01/rdf-schema#label> "degree of freedom"@en .
+# 
+# https://w3id.org/sso#dofs
+<https://w3id.org/sso#dofs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#dofs> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Element> .
+<https://w3id.org/sso#dofs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/sso#dofs> <http://www.w3.org/2000/01/rdf-schema#comment> "The local degrees of freedom active at an element's nodes."@en .
+<https://w3id.org/sso#dofs> <http://www.w3.org/2000/01/rdf-schema#label> "degrees of freedom"@en .
+# 
+# https://w3id.org/sso#el_count
+<https://w3id.org/sso#el_count> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#el_count> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#el_count> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Mesh> .
+<https://w3id.org/sso#el_count> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/sso#el_count> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of elements in a Mesh."@en .
+<https://w3id.org/sso#el_count> <http://www.w3.org/2000/01/rdf-schema#label> "element count"@en .
+# 
+# https://w3id.org/sso#element_type
+<https://w3id.org/sso#element_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#element_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#element_type> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Element> .
+<https://w3id.org/sso#element_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#element_type> <http://www.w3.org/2000/01/rdf-schema#comment> "The raw finite element type code (e.g. 'C3D8', 'S4', 'B31') identifying the element's formulation."@en .
+<https://w3id.org/sso#element_type> <http://www.w3.org/2000/01/rdf-schema#label> "element type code"@en .
+# 
+# https://w3id.org/sso#face_count
+<https://w3id.org/sso#face_count> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#face_count> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#face_count> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Element> .
+<https://w3id.org/sso#face_count> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/sso#face_count> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of faces of an element, relevant to solid and shell elements."@en .
+<https://w3id.org/sso#face_count> <http://www.w3.org/2000/01/rdf-schema#label> "face count"@en .
+# 
+# https://w3id.org/sso#force
+<https://w3id.org/sso#force> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#force> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#force> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Units> .
+<https://w3id.org/sso#force> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#force> <http://www.w3.org/2000/01/rdf-schema#comment> "The unit of force used by the model (e.g. 'KILONEWTON')."@en .
+<https://w3id.org/sso#force> <http://www.w3.org/2000/01/rdf-schema#label> "force unit"@en .
+# 
+# https://w3id.org/sso#format
+<https://w3id.org/sso#format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#format> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#StructuralAnalysisModel> .
+<https://w3id.org/sso#format> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#format> <http://www.w3.org/2000/01/rdf-schema#comment> "The serialization format of the model file (e.g. 'ttl')."@en .
+<https://w3id.org/sso#format> <http://www.w3.org/2000/01/rdf-schema#label> "format"@en .
+# 
+# https://w3id.org/sso#h
+<https://w3id.org/sso#h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#h> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#IProfile> .
+<https://w3id.org/sso#h> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#h> <http://www.w3.org/2000/01/rdf-schema#comment> "The overall depth of an I-shaped profile."@en .
+<https://w3id.org/sso#h> <http://www.w3.org/2000/01/rdf-schema#label> "depth"@en .
+# 
+# https://w3id.org/sso#integration
+<https://w3id.org/sso#integration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#integration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#integration> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Element> .
+<https://w3id.org/sso#integration> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#integration> <http://www.w3.org/2000/01/rdf-schema#comment> "The numerical integration scheme used for an element (e.g. 'REDUCED', 'FULL')."@en .
+<https://w3id.org/sso#integration> <http://www.w3.org/2000/01/rdf-schema#label> "integration scheme"@en .
+# 
+# https://w3id.org/sso#l
+<https://w3id.org/sso#l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#l> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#IProfile> .
+<https://w3id.org/sso#l> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#l> <http://www.w3.org/2000/01/rdf-schema#comment> "The optional Abaqus flange-offset parameter of an I-shaped profile."@en .
+<https://w3id.org/sso#l> <http://www.w3.org/2000/01/rdf-schema#label> "flange offset"@en .
+# 
+# https://w3id.org/sso#length
+<https://w3id.org/sso#length> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#length> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#length> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Units> .
+<https://w3id.org/sso#length> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#length> <http://www.w3.org/2000/01/rdf-schema#comment> "The unit of length used by the model (e.g. 'METRE')."@en .
+<https://w3id.org/sso#length> <http://www.w3.org/2000/01/rdf-schema#label> "length unit"@en .
+# 
+# https://w3id.org/sso#loadCase_type
+<https://w3id.org/sso#loadCase_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#loadCase_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#loadCase_type> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#LoadCase> .
+<https://w3id.org/sso#loadCase_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#loadCase_type> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of a Load Case (e.g. static, dynamic)."@en .
+<https://w3id.org/sso#loadCase_type> <http://www.w3.org/2000/01/rdf-schema#label> "load case type"@en .
+# 
+# https://w3id.org/sso#mass
+<https://w3id.org/sso#mass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#mass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#mass> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Units> .
+<https://w3id.org/sso#mass> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#mass> <http://www.w3.org/2000/01/rdf-schema#comment> "The unit of mass used by the model (e.g. 'KILOGRAM')."@en .
+<https://w3id.org/sso#mass> <http://www.w3.org/2000/01/rdf-schema#label> "mass unit"@en .
+# 
+# https://w3id.org/sso#mass_density
+<https://w3id.org/sso#mass_density> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#mass_density> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#mass_density> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Material> .
+<https://w3id.org/sso#mass_density> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#mass_density> <http://www.w3.org/2000/01/rdf-schema#comment> "The material's mass per unit volume, used e.g. to compute self-weight loads."@en .
+<https://w3id.org/sso#mass_density> <http://www.w3.org/2000/01/rdf-schema#label> "mass density"@en .
+# 
+# https://w3id.org/sso#material_category
+<https://w3id.org/sso#material_category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#material_category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#material_category> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Material> .
+<https://w3id.org/sso#material_category> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#material_category> <http://www.w3.org/2000/01/rdf-schema#comment> "A broad classification of the material (e.g. concrete, steel, timber)."@en .
+<https://w3id.org/sso#material_category> <http://www.w3.org/2000/01/rdf-schema#label> "material category"@en .
+# 
+# https://w3id.org/sso#material_type
+<https://w3id.org/sso#material_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#material_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#material_type> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Material> .
+<https://w3id.org/sso#material_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#material_type> <http://www.w3.org/2000/01/rdf-schema#comment> "The material's constitutive type (e.g. 'ISOTROPIC')."@en .
+<https://w3id.org/sso#material_type> <http://www.w3.org/2000/01/rdf-schema#label> "material type"@en .
+# 
+# https://w3id.org/sso#node_count
+<https://w3id.org/sso#node_count> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#node_count> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#node_count> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/sso#node_count> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of nodes in a Mesh, or referenced by an Element."@en .
+<https://w3id.org/sso#node_count> <http://www.w3.org/2000/01/rdf-schema#label> "node count"@en .
+# 
+# https://w3id.org/sso#plastic_strain
+<https://w3id.org/sso#plastic_strain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#plastic_strain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#plastic_strain> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#PlasticBehaviour> .
+<https://w3id.org/sso#plastic_strain> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#plastic_strain> <http://www.w3.org/2000/01/rdf-schema#comment> "The plastic (permanent) strain corresponding to the yield stress in the material's plastic behaviour."@en .
+<https://w3id.org/sso#plastic_strain> <http://www.w3.org/2000/01/rdf-schema#label> "plastic strain"@en .
+# 
+# https://w3id.org/sso#poisson_ratio
+<https://w3id.org/sso#poisson_ratio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#poisson_ratio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#poisson_ratio> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#ElasticBehaviour> .
+<https://w3id.org/sso#poisson_ratio> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#poisson_ratio> <http://www.w3.org/2000/01/rdf-schema#comment> "The material's Poisson's ratio, the ratio of transverse to axial strain in the elastic range."@en .
+<https://w3id.org/sso#poisson_ratio> <http://www.w3.org/2000/01/rdf-schema#label> "Poisson's ratio"@en .
+# 
+# https://w3id.org/sso#prescribed_rx
+<https://w3id.org/sso#prescribed_rx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#prescribed_rx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#prescribed_rx> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#BoundaryCondition> .
+<https://w3id.org/sso#prescribed_rx> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#prescribed_rx> <http://www.w3.org/2000/01/rdf-schema#comment> "The prescribed rotation value about X, when the boundary condition imposes a rotation rather than a simple restraint."@en .
+<https://w3id.org/sso#prescribed_rx> <http://www.w3.org/2000/01/rdf-schema#label> "prescribed rotation (rx)"@en .
+# 
+# https://w3id.org/sso#prescribed_ry
+<https://w3id.org/sso#prescribed_ry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#prescribed_ry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#prescribed_ry> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#BoundaryCondition> .
+<https://w3id.org/sso#prescribed_ry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#prescribed_ry> <http://www.w3.org/2000/01/rdf-schema#comment> "The prescribed rotation value about Y, when the boundary condition imposes a rotation rather than a simple restraint."@en .
+<https://w3id.org/sso#prescribed_ry> <http://www.w3.org/2000/01/rdf-schema#label> "prescribed rotation (ry)"@en .
+# 
+# https://w3id.org/sso#prescribed_rz
+<https://w3id.org/sso#prescribed_rz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#prescribed_rz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#prescribed_rz> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#BoundaryCondition> .
+<https://w3id.org/sso#prescribed_rz> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#prescribed_rz> <http://www.w3.org/2000/01/rdf-schema#comment> "The prescribed rotation value about Z, when the boundary condition imposes a rotation rather than a simple restraint."@en .
+<https://w3id.org/sso#prescribed_rz> <http://www.w3.org/2000/01/rdf-schema#label> "prescribed rotation (rz)"@en .
+# 
+# https://w3id.org/sso#prescribed_ux
+<https://w3id.org/sso#prescribed_ux> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#prescribed_ux> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#prescribed_ux> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#BoundaryCondition> .
+<https://w3id.org/sso#prescribed_ux> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#prescribed_ux> <http://www.w3.org/2000/01/rdf-schema#comment> "The prescribed translation value along X, when the boundary condition imposes a displacement rather than a simple restraint."@en .
+<https://w3id.org/sso#prescribed_ux> <http://www.w3.org/2000/01/rdf-schema#label> "prescribed displacement (ux)"@en .
+# 
+# https://w3id.org/sso#prescribed_uy
+<https://w3id.org/sso#prescribed_uy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#prescribed_uy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#prescribed_uy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#BoundaryCondition> .
+<https://w3id.org/sso#prescribed_uy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#prescribed_uy> <http://www.w3.org/2000/01/rdf-schema#comment> "The prescribed translation value along Y, when the boundary condition imposes a displacement rather than a simple restraint."@en .
+<https://w3id.org/sso#prescribed_uy> <http://www.w3.org/2000/01/rdf-schema#label> "prescribed displacement (uy)"@en .
+# 
+# https://w3id.org/sso#prescribed_uz
+<https://w3id.org/sso#prescribed_uz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#prescribed_uz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#prescribed_uz> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#BoundaryCondition> .
+<https://w3id.org/sso#prescribed_uz> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#prescribed_uz> <http://www.w3.org/2000/01/rdf-schema#comment> "The prescribed translation value along Z, when the boundary condition imposes a displacement rather than a simple restraint."@en .
+<https://w3id.org/sso#prescribed_uz> <http://www.w3.org/2000/01/rdf-schema#label> "prescribed displacement (uz)"@en .
+# 
+# https://w3id.org/sso#r
+<https://w3id.org/sso#r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#PipeProfile> .
+<https://w3id.org/sso#r> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#r> <http://www.w3.org/2000/01/rdf-schema#comment> "The outer radius of a pipe (circular hollow) profile."@en .
+<https://w3id.org/sso#r> <http://www.w3.org/2000/01/rdf-schema#label> "outer radius"@en .
+# 
+# https://w3id.org/sso#radius
+<https://w3id.org/sso#radius> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#radius> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#radius> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#CircProfile> .
+<https://w3id.org/sso#radius> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#radius> <http://www.w3.org/2000/01/rdf-schema#comment> "The radius of a solid circular profile."@en .
+<https://w3id.org/sso#radius> <http://www.w3.org/2000/01/rdf-schema#label> "radius"@en .
+# 
+# https://w3id.org/sso#restrained_rx
+<https://w3id.org/sso#restrained_rx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#restrained_rx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#restrained_rx> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#BoundaryCondition> .
+<https://w3id.org/sso#restrained_rx> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/sso#restrained_rx> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the boundary condition constrains rotation about X."@en .
+<https://w3id.org/sso#restrained_rx> <http://www.w3.org/2000/01/rdf-schema#label> "restrained (rx)"@en .
+# 
+# https://w3id.org/sso#restrained_ry
+<https://w3id.org/sso#restrained_ry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#restrained_ry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#restrained_ry> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#BoundaryCondition> .
+<https://w3id.org/sso#restrained_ry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/sso#restrained_ry> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the boundary condition constrains rotation about Y."@en .
+<https://w3id.org/sso#restrained_ry> <http://www.w3.org/2000/01/rdf-schema#label> "restrained (ry)"@en .
+# 
+# https://w3id.org/sso#restrained_rz
+<https://w3id.org/sso#restrained_rz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#restrained_rz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#restrained_rz> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#BoundaryCondition> .
+<https://w3id.org/sso#restrained_rz> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/sso#restrained_rz> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the boundary condition constrains rotation about Z."@en .
+<https://w3id.org/sso#restrained_rz> <http://www.w3.org/2000/01/rdf-schema#label> "restrained (rz)"@en .
+# 
+# https://w3id.org/sso#restrained_ux
+<https://w3id.org/sso#restrained_ux> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#restrained_ux> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#restrained_ux> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#BoundaryCondition> .
+<https://w3id.org/sso#restrained_ux> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/sso#restrained_ux> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the boundary condition constrains translation along X."@en .
+<https://w3id.org/sso#restrained_ux> <http://www.w3.org/2000/01/rdf-schema#label> "restrained (ux)"@en .
+# 
+# https://w3id.org/sso#restrained_uy
+<https://w3id.org/sso#restrained_uy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#restrained_uy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#restrained_uy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#BoundaryCondition> .
+<https://w3id.org/sso#restrained_uy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/sso#restrained_uy> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the boundary condition constrains translation along Y."@en .
+<https://w3id.org/sso#restrained_uy> <http://www.w3.org/2000/01/rdf-schema#label> "restrained (uy)"@en .
+# 
+# https://w3id.org/sso#restrained_uz
+<https://w3id.org/sso#restrained_uz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#restrained_uz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#restrained_uz> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#BoundaryCondition> .
+<https://w3id.org/sso#restrained_uz> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/sso#restrained_uz> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the boundary condition constrains translation along Z."@en .
+<https://w3id.org/sso#restrained_uz> <http://www.w3.org/2000/01/rdf-schema#label> "restrained (uz)"@en .
+# 
+# https://w3id.org/sso#rotation
+<https://w3id.org/sso#rotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#rotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#rotation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Instance> .
+<https://w3id.org/sso#rotation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/sso#rotation> <http://www.w3.org/2000/01/rdf-schema#comment> "The rotation applied to an Instance when placing its Object in the Assembly."@en .
+<https://w3id.org/sso#rotation> <http://www.w3.org/2000/01/rdf-schema#label> "rotation"@en .
+# 
+# https://w3id.org/sso#t
+<https://w3id.org/sso#t> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#t> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#t> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#CrossSectionProfile> .
+<https://w3id.org/sso#t> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#t> <http://www.w3.org/2000/01/rdf-schema#comment> "The wall thickness of a pipe or hexagonal hollow profile."@en .
+<https://w3id.org/sso#t> <http://www.w3.org/2000/01/rdf-schema#label> "wall thickness"@en .
+# 
+# https://w3id.org/sso#t1
+<https://w3id.org/sso#t1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#t1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#t1> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#CrossSectionProfile> .
+<https://w3id.org/sso#t1> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#t1> <http://www.w3.org/2000/01/rdf-schema#comment> "A wall or flange thickness of a cross-section profile (box, I, or L) — its exact location depends on the profile shape."@en .
+<https://w3id.org/sso#t1> <http://www.w3.org/2000/01/rdf-schema#label> "wall/flange thickness t1"@en .
+# 
+# https://w3id.org/sso#t2
+<https://w3id.org/sso#t2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#t2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#t2> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#CrossSectionProfile> .
+<https://w3id.org/sso#t2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#t2> <http://www.w3.org/2000/01/rdf-schema#comment> "A second wall or flange thickness of a cross-section profile (box, I, or L) — its exact location depends on the profile shape."@en .
+<https://w3id.org/sso#t2> <http://www.w3.org/2000/01/rdf-schema#label> "wall/flange thickness t2"@en .
+# 
+# https://w3id.org/sso#t3
+<https://w3id.org/sso#t3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#t3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#t3> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#CrossSectionProfile> .
+<https://w3id.org/sso#t3> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#t3> <http://www.w3.org/2000/01/rdf-schema#comment> "A third wall thickness (box profile) or web thickness (I profile), depending on the profile shape."@en .
+<https://w3id.org/sso#t3> <http://www.w3.org/2000/01/rdf-schema#label> "wall/web thickness t3"@en .
+# 
+# https://w3id.org/sso#t4
+<https://w3id.org/sso#t4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#t4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#t4> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#BoxProfile> .
+<https://w3id.org/sso#t4> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#t4> <http://www.w3.org/2000/01/rdf-schema#comment> "The fourth wall thickness of a box profile."@en .
+<https://w3id.org/sso#t4> <http://www.w3.org/2000/01/rdf-schema#label> "wall thickness t4"@en .
+# 
+# https://w3id.org/sso#temperature
+<https://w3id.org/sso#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#temperature> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Units> .
+<https://w3id.org/sso#temperature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#temperature> <http://www.w3.org/2000/01/rdf-schema#comment> "The unit of temperature used by the model (e.g. 'CELSIUS')."@en .
+<https://w3id.org/sso#temperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperature unit"@en .
+# 
+# https://w3id.org/sso#thickness
+<https://w3id.org/sso#thickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#thickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#thickness> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#ShellSection> .
+<https://w3id.org/sso#thickness> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#thickness> <http://www.w3.org/2000/01/rdf-schema#comment> "The shell section's thickness."@en .
+<https://w3id.org/sso#thickness> <http://www.w3.org/2000/01/rdf-schema#label> "thickness"@en .
+# 
+# https://w3id.org/sso#time
+<https://w3id.org/sso#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#time> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Units> .
+<https://w3id.org/sso#time> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/sso#time> <http://www.w3.org/2000/01/rdf-schema#comment> "The unit of time used by the model (e.g. 'SECOND')."@en .
+<https://w3id.org/sso#time> <http://www.w3.org/2000/01/rdf-schema#label> "time unit"@en .
+# 
+# https://w3id.org/sso#translation
+<https://w3id.org/sso#translation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#translation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#translation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Instance> .
+<https://w3id.org/sso#translation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/sso#translation> <http://www.w3.org/2000/01/rdf-schema#comment> "The translation applied to an Instance when placing its Object in the Assembly."@en .
+<https://w3id.org/sso#translation> <http://www.w3.org/2000/01/rdf-schema#label> "translation"@en .
+# 
+# https://w3id.org/sso#v
+<https://w3id.org/sso#v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#v> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#Load> .
+<https://w3id.org/sso#v> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#v> <http://www.w3.org/2000/01/rdf-schema#comment> "The magnitude of a Point Load or Surface Load."@en .
+<https://w3id.org/sso#v> <http://www.w3.org/2000/01/rdf-schema#label> "load magnitude"@en .
+# 
+# https://w3id.org/sso#v1
+<https://w3id.org/sso#v1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#v1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#v1> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#DistributedLoad> .
+<https://w3id.org/sso#v1> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#v1> <http://www.w3.org/2000/01/rdf-schema#comment> "The Distributed Load's value at its start point."@en .
+<https://w3id.org/sso#v1> <http://www.w3.org/2000/01/rdf-schema#label> "start value v1"@en .
+# 
+# https://w3id.org/sso#v2
+<https://w3id.org/sso#v2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#v2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#v2> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#DistributedLoad> .
+<https://w3id.org/sso#v2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#v2> <http://www.w3.org/2000/01/rdf-schema#comment> "The Distributed Load's value at its end point."@en .
+<https://w3id.org/sso#v2> <http://www.w3.org/2000/01/rdf-schema#label> "end value v2"@en .
+# 
+# https://w3id.org/sso#x1
+<https://w3id.org/sso#x1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#x1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#x1> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#DistributedLoad> .
+<https://w3id.org/sso#x1> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#x1> <http://www.w3.org/2000/01/rdf-schema#comment> "The position along the element where a Distributed Load's start value applies."@en .
+<https://w3id.org/sso#x1> <http://www.w3.org/2000/01/rdf-schema#label> "start position x1"@en .
+# 
+# https://w3id.org/sso#x2
+<https://w3id.org/sso#x2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#x2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#x2> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#DistributedLoad> .
+<https://w3id.org/sso#x2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#x2> <http://www.w3.org/2000/01/rdf-schema#comment> "The position along the element where a Distributed Load's end value applies."@en .
+<https://w3id.org/sso#x2> <http://www.w3.org/2000/01/rdf-schema#label> "end position x2"@en .
+# 
+# https://w3id.org/sso#xdir
+<https://w3id.org/sso#xdir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#xdir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#xdir> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#SurfaceLoad> .
+<https://w3id.org/sso#xdir> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#xdir> <http://www.w3.org/2000/01/rdf-schema#comment> "The X component of a Surface Load's direction vector."@en .
+<https://w3id.org/sso#xdir> <http://www.w3.org/2000/01/rdf-schema#label> "X direction component"@en .
+# 
+# https://w3id.org/sso#ydir
+<https://w3id.org/sso#ydir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#ydir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#ydir> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#SurfaceLoad> .
+<https://w3id.org/sso#ydir> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#ydir> <http://www.w3.org/2000/01/rdf-schema#comment> "The Y component of a Surface Load's direction vector."@en .
+<https://w3id.org/sso#ydir> <http://www.w3.org/2000/01/rdf-schema#label> "Y direction component"@en .
+# 
+# https://w3id.org/sso#yield_stress
+<https://w3id.org/sso#yield_stress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#yield_stress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#yield_stress> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#PlasticBehaviour> .
+<https://w3id.org/sso#yield_stress> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#yield_stress> <http://www.w3.org/2000/01/rdf-schema#comment> "The stress at which the material begins to deform plastically."@en .
+<https://w3id.org/sso#yield_stress> <http://www.w3.org/2000/01/rdf-schema#label> "yield stress"@en .
+# 
+# https://w3id.org/sso#zdir
+<https://w3id.org/sso#zdir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/sso#zdir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/sso#zdir> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/sso#SurfaceLoad> .
+<https://w3id.org/sso#zdir> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/sso#zdir> <http://www.w3.org/2000/01/rdf-schema#comment> "The Z component of a Surface Load's direction vector."@en .
+<https://w3id.org/sso#zdir> <http://www.w3.org/2000/01/rdf-schema#label> "Z direction component"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/prov#Activity
+<http://www.w3.org/ns/prov#Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/sso#ArbitraryProfile
+<https://w3id.org/sso#ArbitraryProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#ArbitraryProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#CrossSectionProfile> .
+<https://w3id.org/sso#ArbitraryProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "An arbitrary polygonal cross-section, optionally with holes; its point geometry isn't structurally modeled in this ontology."@en .
+<https://w3id.org/sso#ArbitraryProfile> <http://www.w3.org/2000/01/rdf-schema#label> "Arbitrary Profile"@en .
+# 
+# https://w3id.org/sso#Assembly
+<https://w3id.org/sso#Assembly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#Assembly> <http://www.w3.org/2000/01/rdf-schema#comment> "The collection of Instances that, together, position the model's Objects in the global coordinate system — the assembled structural model on which Sets, Loads, and Boundary Conditions are defined."@en .
+<https://w3id.org/sso#Assembly> <http://www.w3.org/2000/01/rdf-schema#label> "Assembly"@en .
+# 
+# https://w3id.org/sso#BeamElement
+<https://w3id.org/sso#BeamElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#BeamElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#Element> .
+<https://w3id.org/sso#BeamElement> <http://www.w3.org/2000/01/rdf-schema#comment> "A finite element idealizing a slender linear structural member, such as a beam or column, via its cross-section."@en .
+<https://w3id.org/sso#BeamElement> <http://www.w3.org/2000/01/rdf-schema#label> "Beam Element"@en .
+# 
+# https://w3id.org/sso#BeamSection
+<https://w3id.org/sso#BeamSection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#BeamSection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#Section> .
+<https://w3id.org/sso#BeamSection> <http://www.w3.org/2000/01/rdf-schema#comment> "A section assigning a named beam profile and orientation to beam elements, carrying exactly one typed Cross-Section Profile for its geometry."@en .
+<https://w3id.org/sso#BeamSection> <http://www.w3.org/2000/01/rdf-schema#label> "Beam Section"@en .
+# 
+# https://w3id.org/sso#BoundaryCondition
+<https://w3id.org/sso#BoundaryCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#BoundaryCondition> <http://www.w3.org/2000/01/rdf-schema#comment> "A restraint or prescribed displacement applied to a node set, specified per degree of freedom (ux, uy, uz, rx, ry, rz)."@en .
+<https://w3id.org/sso#BoundaryCondition> <http://www.w3.org/2000/01/rdf-schema#label> "Boundary Condition"@en .
+# 
+# https://w3id.org/sso#BoxProfile
+<https://w3id.org/sso#BoxProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#BoxProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#CrossSectionProfile> .
+<https://w3id.org/sso#BoxProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "A rectangular hollow cross-section, defined by its outer width/height and wall thicknesses."@en .
+<https://w3id.org/sso#BoxProfile> <http://www.w3.org/2000/01/rdf-schema#label> "Box Profile"@en .
+# 
+# https://w3id.org/sso#Calibration
+<https://w3id.org/sso#Calibration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#Calibration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Activity> .
+<https://w3id.org/sso#Calibration> <http://www.w3.org/2000/01/rdf-schema#comment> "A provenance-bearing event (a prov:Activity) that produces a calibrated snapshot of a model parameter from a baseline, using measured test data."@en .
+<https://w3id.org/sso#Calibration> <http://www.w3.org/2000/01/rdf-schema#label> "Calibration"@en .
+# 
+# https://w3id.org/sso#CircProfile
+<https://w3id.org/sso#CircProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#CircProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#CrossSectionProfile> .
+<https://w3id.org/sso#CircProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "A solid circular cross-section, defined by its radius."@en .
+<https://w3id.org/sso#CircProfile> <http://www.w3.org/2000/01/rdf-schema#label> "Circular Profile"@en .
+# 
+# https://w3id.org/sso#CoordinateSystem
+<https://w3id.org/sso#CoordinateSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "A local coordinate system defined by its X, Y, and Z axis vectors."@en .
+<https://w3id.org/sso#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Coordinate System"@en .
+# 
+# https://w3id.org/sso#CrossSectionProfile
+<https://w3id.org/sso#CrossSectionProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#CrossSectionProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "The parametric geometric shape of a beam's cross-section — an abstract type with concrete parametric profiles such as Rectangular, Box, and I-Profile — assigned to a Beam Section."@en .
+<https://w3id.org/sso#CrossSectionProfile> <http://www.w3.org/2000/01/rdf-schema#label> "Cross-Section Profile"@en .
+# 
+# https://w3id.org/sso#DistributedLoad
+<https://w3id.org/sso#DistributedLoad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#DistributedLoad> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#Load> .
+<https://w3id.org/sso#DistributedLoad> <http://www.w3.org/2000/01/rdf-schema#comment> "A load distributed linearly along an element edge/line, defined by its direction and end values."@en .
+<https://w3id.org/sso#DistributedLoad> <http://www.w3.org/2000/01/rdf-schema#label> "Distributed Load"@en .
+# 
+# https://w3id.org/sso#ElasticBehaviour
+<https://w3id.org/sso#ElasticBehaviour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#ElasticBehaviour> <http://www.w3.org/2000/01/rdf-schema#comment> "The linear-elastic constitutive response of a material, defined by its behaviour type (isotropic, anisotropic, or orthotropic) and elastic parameters (Young's modulus, Poisson's ratio)."@en .
+<https://w3id.org/sso#ElasticBehaviour> <http://www.w3.org/2000/01/rdf-schema#label> "Elastic Behaviour"@en .
+# 
+# https://w3id.org/sso#Element
+<https://w3id.org/sso#Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#Element> <http://www.w3.org/2000/01/rdf-schema#comment> "A discretized finite element in a structural mesh, the basic unit solved by the analysis (e.g. a solid, shell, or beam element)."@en .
+<https://w3id.org/sso#Element> <http://www.w3.org/2000/01/rdf-schema#label> "Finite Element"@en .
+# 
+# https://w3id.org/sso#Elset
+<https://w3id.org/sso#Elset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#Elset> <http://www.w3.org/2000/01/rdf-schema#comment> "A named group of elements, defined on an assembled Instance, used to scope distributed and surface loads to a specific part of the model."@en .
+<https://w3id.org/sso#Elset> <http://www.w3.org/2000/01/rdf-schema#label> "Element Set"@en .
+# 
+# https://w3id.org/sso#GeneralProfile
+<https://w3id.org/sso#GeneralProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#GeneralProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#CrossSectionProfile> .
+<https://w3id.org/sso#GeneralProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "A cross-section defined directly by its section properties (area, moments of inertia, torsional constant) rather than by shape."@en .
+<https://w3id.org/sso#GeneralProfile> <http://www.w3.org/2000/01/rdf-schema#label> "General Profile"@en .
+# 
+# https://w3id.org/sso#HexProfile
+<https://w3id.org/sso#HexProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#HexProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#CrossSectionProfile> .
+<https://w3id.org/sso#HexProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "A hexagonal hollow cross-section, defined by its circumscribed radius and wall thickness."@en .
+<https://w3id.org/sso#HexProfile> <http://www.w3.org/2000/01/rdf-schema#label> "Hexagonal Profile"@en .
+# 
+# https://w3id.org/sso#IProfile
+<https://w3id.org/sso#IProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#IProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#CrossSectionProfile> .
+<https://w3id.org/sso#IProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "An I-shaped (wide-flange) cross-section, defined by its overall depth, flange widths and thicknesses, and web thickness."@en .
+<https://w3id.org/sso#IProfile> <http://www.w3.org/2000/01/rdf-schema#label> "I-Profile"@en .
+# 
+# https://w3id.org/sso#Instance
+<https://w3id.org/sso#Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#Instance> <http://www.w3.org/2000/01/rdf-schema#comment> "A placement of a structural Object within the Assembly: references the Object and applies the spatial transformation between the Object's local coordinate system and the model's global coordinate system. Multiple Instances may reference the same Object to replicate an identical mesh without duplicating its data, and carry their own Node/Element Sets for scoping loads and boundary conditions."@en .
+<https://w3id.org/sso#Instance> <http://www.w3.org/2000/01/rdf-schema#label> "Instance"@en .
+# 
+# https://w3id.org/sso#LProfile
+<https://w3id.org/sso#LProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#LProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#CrossSectionProfile> .
+<https://w3id.org/sso#LProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "An L-shaped (angle) cross-section, defined by its two leg widths and thicknesses."@en .
+<https://w3id.org/sso#LProfile> <http://www.w3.org/2000/01/rdf-schema#label> "L-Profile"@en .
+# 
+# https://w3id.org/sso#Load
+<https://w3id.org/sso#Load> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#Load> <http://www.w3.org/2000/01/rdf-schema#comment> "An action applied to the structure within a Load Case — a point, distributed, or surface load."@en .
+<https://w3id.org/sso#Load> <http://www.w3.org/2000/01/rdf-schema#label> "Load"@en .
+# 
+# https://w3id.org/sso#LoadCase
+<https://w3id.org/sso#LoadCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#LoadCase> <http://www.w3.org/2000/01/rdf-schema#comment> "A named grouping of loads applied together in one analysis case, optionally including a self-weight contribution."@en .
+<https://w3id.org/sso#LoadCase> <http://www.w3.org/2000/01/rdf-schema#label> "Load Case"@en .
+# 
+# https://w3id.org/sso#Material
+<https://w3id.org/sso#Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#Material> <http://www.w3.org/2000/01/rdf-schema#comment> "A structural material, assigned to elements via a Section, whose constitutive behaviour is decomposed into a required Elastic Behaviour and an optional Plastic Behaviour, alongside its density."@en .
+<https://w3id.org/sso#Material> <http://www.w3.org/2000/01/rdf-schema#label> "Material"@en .
+# 
+# https://w3id.org/sso#Mesh
+<https://w3id.org/sso#Mesh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#Mesh> <http://www.w3.org/2000/01/rdf-schema#comment> "The finite element discretization of an Object: its nodes and elements."@en .
+<https://w3id.org/sso#Mesh> <http://www.w3.org/2000/01/rdf-schema#label> "Mesh"@en .
+# 
+# https://w3id.org/sso#Node
+<https://w3id.org/sso#Node> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#Node> <http://www.w3.org/2000/01/rdf-schema#comment> "A meshed point in space, identified by its coordinates, that finite elements connect to."@en .
+<https://w3id.org/sso#Node> <http://www.w3.org/2000/01/rdf-schema#label> "Node"@en .
+# 
+# https://w3id.org/sso#Nset
+<https://w3id.org/sso#Nset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#Nset> <http://www.w3.org/2000/01/rdf-schema#comment> "A named group of nodes, defined on an assembled Instance, used to scope loads and boundary conditions to a specific part of the model."@en .
+<https://w3id.org/sso#Nset> <http://www.w3.org/2000/01/rdf-schema#label> "Node Set"@en .
+# 
+# https://w3id.org/sso#Object
+<https://w3id.org/sso#Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#Object> <http://www.w3.org/2000/01/rdf-schema#comment> "A structural component (e.g. a beam, shell, or solid assembly) defined in its own local coordinate system: its Mesh of Nodes and Elements, referencing Sections and Materials. An Object is defined once and positioned in the model via one or more Instances."@en .
+<https://w3id.org/sso#Object> <http://www.w3.org/2000/01/rdf-schema#label> "Structural Object"@en .
+# 
+# https://w3id.org/sso#PipeProfile
+<https://w3id.org/sso#PipeProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#PipeProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#CrossSectionProfile> .
+<https://w3id.org/sso#PipeProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "A circular hollow cross-section, defined by its outer radius and wall thickness."@en .
+<https://w3id.org/sso#PipeProfile> <http://www.w3.org/2000/01/rdf-schema#label> "Pipe Profile"@en .
+# 
+# https://w3id.org/sso#PlasticBehaviour
+<https://w3id.org/sso#PlasticBehaviour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#PlasticBehaviour> <http://www.w3.org/2000/01/rdf-schema#comment> "The plastic (post-yield) constitutive response of a material, defined by its yield stress and plastic strain."@en .
+<https://w3id.org/sso#PlasticBehaviour> <http://www.w3.org/2000/01/rdf-schema#label> "Plastic Behaviour"@en .
+# 
+# https://w3id.org/sso#PointLoad
+<https://w3id.org/sso#PointLoad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#PointLoad> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#Load> .
+<https://w3id.org/sso#PointLoad> <http://www.w3.org/2000/01/rdf-schema#comment> "A concentrated load applied to a single degree of freedom of a node set."@en .
+<https://w3id.org/sso#PointLoad> <http://www.w3.org/2000/01/rdf-schema#label> "Point Load"@en .
+# 
+# https://w3id.org/sso#RectProfile
+<https://w3id.org/sso#RectProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#RectProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#CrossSectionProfile> .
+<https://w3id.org/sso#RectProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "A solid rectangular cross-section, defined by its width and height."@en .
+<https://w3id.org/sso#RectProfile> <http://www.w3.org/2000/01/rdf-schema#label> "Rectangular Profile"@en .
+# 
+# https://w3id.org/sso#Section
+<https://w3id.org/sso#Section> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#Section> <http://www.w3.org/2000/01/rdf-schema#comment> "A structural section that assigns geometric and material properties to the elements referencing it; an abstract type with three concrete kinds — Beam, Shell, and Solid Section."@en .
+<https://w3id.org/sso#Section> <http://www.w3.org/2000/01/rdf-schema#label> "Section"@en .
+# 
+# https://w3id.org/sso#ShellElement
+<https://w3id.org/sso#ShellElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#ShellElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#Element> .
+<https://w3id.org/sso#ShellElement> <http://www.w3.org/2000/01/rdf-schema#comment> "A finite element idealizing a thin plate/shell structural member, such as a slab or wall."@en .
+<https://w3id.org/sso#ShellElement> <http://www.w3.org/2000/01/rdf-schema#label> "Shell Element"@en .
+# 
+# https://w3id.org/sso#ShellSection
+<https://w3id.org/sso#ShellSection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#ShellSection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#Section> .
+<https://w3id.org/sso#ShellSection> <http://www.w3.org/2000/01/rdf-schema#comment> "A section assigning a single thickness to shell elements, used for plate/shell structural members like slabs and walls."@en .
+<https://w3id.org/sso#ShellSection> <http://www.w3.org/2000/01/rdf-schema#label> "Shell Section"@en .
+# 
+# https://w3id.org/sso#SolidElement
+<https://w3id.org/sso#SolidElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#SolidElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#Element> .
+<https://w3id.org/sso#SolidElement> <http://www.w3.org/2000/01/rdf-schema#comment> "A finite element with a full 3D solid formulation (e.g. a continuum brick/tetrahedron element)."@en .
+<https://w3id.org/sso#SolidElement> <http://www.w3.org/2000/01/rdf-schema#label> "Solid Element"@en .
+# 
+# https://w3id.org/sso#SolidSection
+<https://w3id.org/sso#SolidSection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#SolidSection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#Section> .
+<https://w3id.org/sso#SolidSection> <http://www.w3.org/2000/01/rdf-schema#comment> "A section for solid elements, whose geometry comes entirely from the mesh rather than parametric properties."@en .
+<https://w3id.org/sso#SolidSection> <http://www.w3.org/2000/01/rdf-schema#label> "Solid Section"@en .
+# 
+# https://w3id.org/sso#StructuralAnalysisModel
+<https://w3id.org/sso#StructuralAnalysisModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#StructuralAnalysisModel> <http://www.w3.org/2000/01/rdf-schema#comment> "A complete structural analysis (simulation) model: it composes a unit system, one or more structural Objects, an Assembly of their Instances, and collections of Materials, Sections, Load Cases, Loads, and Boundary Conditions."@en .
+<https://w3id.org/sso#StructuralAnalysisModel> <http://www.w3.org/2000/01/rdf-schema#label> "Structural Analysis Model"@en .
+# 
+# https://w3id.org/sso#SurfaceLoad
+<https://w3id.org/sso#SurfaceLoad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#SurfaceLoad> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#Load> .
+<https://w3id.org/sso#SurfaceLoad> <http://www.w3.org/2000/01/rdf-schema#comment> "A pressure load applied over an element face, defined by its magnitude and direction."@en .
+<https://w3id.org/sso#SurfaceLoad> <http://www.w3.org/2000/01/rdf-schema#label> "Surface Load"@en .
+# 
+# https://w3id.org/sso#TrapezoidProfile
+<https://w3id.org/sso#TrapezoidProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#TrapezoidProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/sso#CrossSectionProfile> .
+<https://w3id.org/sso#TrapezoidProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "A trapezoidal cross-section, defined by its bottom and top widths, height, and top-edge offset."@en .
+<https://w3id.org/sso#TrapezoidProfile> <http://www.w3.org/2000/01/rdf-schema#label> "Trapezoid Profile"@en .
+# 
+# https://w3id.org/sso#Units
+<https://w3id.org/sso#Units> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#Units> <http://www.w3.org/2000/01/rdf-schema#comment> "The unit system (force, length, temperature, time, mass) in which a Structural Analysis Model's values are expressed."@en .
+<https://w3id.org/sso#Units> <http://www.w3.org/2000/01/rdf-schema#label> "Units"@en .
+# 
+# https://w3id.org/sso#Vector3D
+<https://w3id.org/sso#Vector3D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/sso#Vector3D> <http://www.w3.org/2000/01/rdf-schema#comment> "A three-component (X, Y, Z) vector, used for coordinate axes, beam orientation, and self-weight direction."@en .
+<https://w3id.org/sso#Vector3D> <http://www.w3.org/2000/01/rdf-schema#label> "3D Vector"@en .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
