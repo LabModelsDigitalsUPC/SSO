@@ -1,0 +1,3759 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/ns/prov", "https://w3id.org/sso", "http://www.w3.org/2001/XMLSchema" ],
+    "title" : {
+      "undefined" : "SSO"
+    },
+    "iri" : "https://w3id.org/sso#",
+    "version" : "0.1.0",
+    "author" : [ "Héctor Posada Cárcamo (hector.posada@upc.edu)", "Carlos Ramonell Cazador (carlos.ramonell@upc.edu)", "Rolando Chacón Flores (rolando.chacon@upc.edu)" ],
+    "description" : {
+      "en" : "SSO describes structural analysis models, their materials and constitutive behaviours, and the calibration events that update those behaviours against measured data.",
+      "undefined" : "Ontology containing the description of structural simulation models (OSAM)"
+    },
+    "labels" : {
+      "en" : "SSO — Structural Simulation Ontology"
+    },
+    "comments" : {
+      "en" : "An ontology for representing structural analysis (simulation) models and linking their finite elements to the built elements they idealize, within the O-SAM ecosystem."
+    },
+    "other" : {
+      "date" : [ {
+        "identifier" : "date",
+        "language" : "undefined",
+        "value" : "2026/04/04",
+        "type" : "label"
+      } ],
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://creativecommons.org/licenses/by/3.0/",
+        "type" : "label"
+      } ],
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "SSO",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Héctor Posada Cárcamo (hector.posada@upc.edu)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Carlos Ramonell Cazador (carlos.ramonell@upc.edu)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Rolando Chacón Flores (rolando.chacon@upc.edu)",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "sso",
+        "type" : "label"
+      } ],
+      "format" : [ {
+        "identifier" : "format",
+        "language" : "undefined",
+        "value" : "ttl",
+        "type" : "label"
+      } ],
+      "publisher" : [ {
+        "identifier" : "publisher",
+        "language" : "undefined",
+        "value" : "Universitat Politècnica de Catalunya",
+        "type" : "label"
+      } ],
+      "language" : [ {
+        "identifier" : "language",
+        "language" : "undefined",
+        "value" : "en",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/sso#",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.1.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "SSO",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "233",
+    "type" : "owl:Class"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "210",
+    "type" : "owl:Class"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "256",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "192",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "72",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "102",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "93",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "159",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "154",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Datatype"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/sso#LoadCase",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LoadCase",
+      "en" : "Load Case"
+    },
+    "comment" : {
+      "en" : "A named grouping of loads applied together in one analysis case, optionally including a self-weight contribution."
+    },
+    "id" : "0"
+  }, {
+    "iri" : "https://w3id.org/sso#RectProfile",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RectProfile",
+      "en" : "Rectangular Profile"
+    },
+    "comment" : {
+      "en" : "A solid rectangular cross-section, defined by its width and height."
+    },
+    "id" : "10",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://w3id.org/sso#Material",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Material",
+      "en" : "Material"
+    },
+    "comment" : {
+      "en" : "A structural material, assigned to elements via a Section, whose constitutive behaviour is decomposed into a required Elastic Behaviour and an optional Plastic Behaviour, alongside its density."
+    },
+    "id" : "45"
+  }, {
+    "iri" : "https://w3id.org/sso#Calibration",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Calibration",
+      "en" : "Calibration"
+    },
+    "comment" : {
+      "en" : "A provenance-bearing event (a prov:Activity) that produces a calibrated snapshot of a model parameter from a baseline, using measured test data."
+    },
+    "id" : "23",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "https://w3id.org/sso#Instance",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Instance",
+      "en" : "Instance"
+    },
+    "comment" : {
+      "en" : "A placement of a structural Object within the Assembly: references the Object and applies the spatial transformation between the Object's local coordinate system and the model's global coordinate system. Multiple Instances may reference the same Object to replicate an identical mesh without duplicating its data, and carry their own Node/Element Sets for scoping loads and boundary conditions."
+    },
+    "id" : "60"
+  }, {
+    "iri" : "https://w3id.org/sso#SurfaceLoad",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SurfaceLoad",
+      "en" : "Surface Load"
+    },
+    "comment" : {
+      "en" : "A pressure load applied over an element face, defined by its magnitude and direction."
+    },
+    "id" : "20",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "https://w3id.org/sso#CrossSectionProfile",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CrossSectionProfile",
+      "en" : "Cross-Section Profile"
+    },
+    "subClasses" : [ "66", "67", "68", "10", "69", "70", "49", "47", "51", "53" ],
+    "comment" : {
+      "en" : "The parametric geometric shape of a beam's cross-section — an abstract type with concrete parametric profiles such as Rectangular, Box, and I-Profile — assigned to a Beam Section."
+    },
+    "id" : "11"
+  }, {
+    "iri" : "https://w3id.org/sso#StructuralAnalysisModel",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StructuralAnalysisModel",
+      "en" : "Structural Analysis Model"
+    },
+    "comment" : {
+      "en" : "A complete structural analysis (simulation) model: it composes a unit system, one or more structural Objects, an Assembly of their Instances, and collections of Materials, Sections, Load Cases, Loads, and Boundary Conditions."
+    },
+    "id" : "17"
+  }, {
+    "iri" : "https://w3id.org/sso#CircProfile",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CircProfile",
+      "en" : "Circular Profile"
+    },
+    "comment" : {
+      "en" : "A solid circular cross-section, defined by its radius."
+    },
+    "id" : "67",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://w3id.org/sso#ShellSection",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ShellSection",
+      "en" : "Shell Section"
+    },
+    "comment" : {
+      "en" : "A section assigning a single thickness to shell elements, used for plate/shell structural members like slabs and walls."
+    },
+    "id" : "5",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "https://w3id.org/sso#BoundaryCondition",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BoundaryCondition",
+      "en" : "Boundary Condition"
+    },
+    "comment" : {
+      "en" : "A restraint or prescribed displacement applied to a node set, specified per degree of freedom (ux, uy, uz, rx, ry, rz)."
+    },
+    "id" : "2"
+  }, {
+    "iri" : "https://w3id.org/sso#CoordinateSystem",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CoordinateSystem",
+      "en" : "Coordinate System"
+    },
+    "comment" : {
+      "en" : "A local coordinate system defined by its X, Y, and Z axis vectors."
+    },
+    "id" : "8"
+  }, {
+    "iri" : "https://w3id.org/sso#Vector3D",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vector3D",
+      "en" : "3D Vector"
+    },
+    "comment" : {
+      "en" : "A three-component (X, Y, Z) vector, used for coordinate axes, beam orientation, and self-weight direction."
+    },
+    "id" : "9"
+  }, {
+    "iri" : "https://w3id.org/sso#SolidElement",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SolidElement",
+      "en" : "Solid Element"
+    },
+    "comment" : {
+      "en" : "A finite element with a full 3D solid formulation (e.g. a continuum brick/tetrahedron element)."
+    },
+    "id" : "32",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "https://w3id.org/sso#LProfile",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LProfile",
+      "en" : "L-Profile"
+    },
+    "comment" : {
+      "en" : "An L-shaped (angle) cross-section, defined by its two leg widths and thicknesses."
+    },
+    "id" : "51",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://w3id.org/sso#Nset",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Nset",
+      "en" : "Node Set"
+    },
+    "comment" : {
+      "en" : "A named group of nodes, defined on an assembled Instance, used to scope loads and boundary conditions to a specific part of the model."
+    },
+    "id" : "94"
+  }, {
+    "iri" : "https://w3id.org/sso#TrapezoidProfile",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TrapezoidProfile",
+      "en" : "Trapezoid Profile"
+    },
+    "comment" : {
+      "en" : "A trapezoidal cross-section, defined by its bottom and top widths, height, and top-edge offset."
+    },
+    "id" : "70",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://w3id.org/sso#Section",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Section",
+      "en" : "Section"
+    },
+    "subClasses" : [ "26", "5", "30" ],
+    "comment" : {
+      "en" : "A structural section that assigns geometric and material properties to the elements referencing it; an abstract type with three concrete kinds — Beam, Shell, and Solid Section."
+    },
+    "id" : "27"
+  }, {
+    "iri" : "https://w3id.org/sso#PointLoad",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PointLoad",
+      "en" : "Point Load"
+    },
+    "comment" : {
+      "en" : "A concentrated load applied to a single degree of freedom of a node set."
+    },
+    "id" : "39",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "https://w3id.org/sso#Element",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Element",
+      "en" : "Finite Element"
+    },
+    "subClasses" : [ "32", "35", "37" ],
+    "comment" : {
+      "en" : "A discretized finite element in a structural mesh, the basic unit solved by the analysis (e.g. a solid, shell, or beam element)."
+    },
+    "id" : "33"
+  }, {
+    "iri" : "https://w3id.org/sso#BeamElement",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BeamElement",
+      "en" : "Beam Element"
+    },
+    "comment" : {
+      "en" : "A finite element idealizing a slender linear structural member, such as a beam or column, via its cross-section."
+    },
+    "id" : "35",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "https://w3id.org/sso#Load",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Load",
+      "en" : "Load"
+    },
+    "subClasses" : [ "39", "42", "20" ],
+    "comment" : {
+      "en" : "An action applied to the structure within a Load Case — a point, distributed, or surface load."
+    },
+    "id" : "40"
+  }, {
+    "iri" : "https://w3id.org/sso#IProfile",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IProfile",
+      "en" : "I-Profile"
+    },
+    "comment" : {
+      "en" : "An I-shaped (wide-flange) cross-section, defined by its overall depth, flange widths and thicknesses, and web thickness."
+    },
+    "id" : "68",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://w3id.org/sso#ShellElement",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ShellElement",
+      "en" : "Shell Element"
+    },
+    "comment" : {
+      "en" : "A finite element idealizing a thin plate/shell structural member, such as a slab or wall."
+    },
+    "id" : "37",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "125",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#Activity",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Activity"
+    },
+    "subClasses" : [ "23" ],
+    "attributes" : [ "external" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "136",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "116",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "https://w3id.org/sso#SolidSection",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SolidSection",
+      "en" : "Solid Section"
+    },
+    "comment" : {
+      "en" : "A section for solid elements, whose geometry comes entirely from the mesh rather than parametric properties."
+    },
+    "id" : "30",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "137",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "138",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "139",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "140",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "141",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "105",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "144",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "145",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://w3id.org/sso#BeamSection",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BeamSection",
+      "en" : "Beam Section"
+    },
+    "comment" : {
+      "en" : "A section assigning a named beam profile and orientation to beam elements, carrying exactly one typed Cross-Section Profile for its geometry."
+    },
+    "id" : "26",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "174",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "175",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "110",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "176",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "177",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "147",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "180",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "181",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "https://w3id.org/sso#BoxProfile",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BoxProfile",
+      "en" : "Box Profile"
+    },
+    "comment" : {
+      "en" : "A rectangular hollow cross-section, defined by its outer width/height and wall thicknesses."
+    },
+    "id" : "49",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://w3id.org/sso#GeneralProfile",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GeneralProfile",
+      "en" : "General Profile"
+    },
+    "comment" : {
+      "en" : "A cross-section defined directly by its section properties (area, moments of inertia, torsional constant) rather than by shape."
+    },
+    "id" : "47",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "182",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "183",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "13",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "3",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "74",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "194",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "78",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "65",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "197",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "107",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "201",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "127",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "114",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/sso#Assembly",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Assembly",
+      "en" : "Assembly"
+    },
+    "comment" : {
+      "en" : "The collection of Instances that, together, position the model's Objects in the global coordinate system — the assembled structural model on which Sets, Loads, and Boundary Conditions are defined."
+    },
+    "id" : "96"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "133",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/sso#ArbitraryProfile",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ArbitraryProfile",
+      "en" : "Arbitrary Profile"
+    },
+    "comment" : {
+      "en" : "An arbitrary polygonal cross-section, optionally with holes; its point geometry isn't structurally modeled in this ontology."
+    },
+    "id" : "69",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "204",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "157",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "112",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "179",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "200",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "206",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "80",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "131",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "173",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "188",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "129",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "166",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/sso#Node",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Node",
+      "en" : "Node"
+    },
+    "comment" : {
+      "en" : "A meshed point in space, identified by its coordinates, that finite elements connect to."
+    },
+    "id" : "103"
+  }, {
+    "iri" : "https://w3id.org/sso#Object",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Object",
+      "en" : "Structural Object"
+    },
+    "comment" : {
+      "en" : "A structural component (e.g. a beam, shell, or solid assembly) defined in its own local coordinate system: its Mesh of Nodes and Elements, referencing Sections and Materials. An Object is defined once and positioned in the model via one or more Instances."
+    },
+    "id" : "98"
+  }, {
+    "iri" : "https://w3id.org/sso#DistributedLoad",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DistributedLoad",
+      "en" : "Distributed Load"
+    },
+    "comment" : {
+      "en" : "A load distributed linearly along an element edge/line, defined by its direction and end values."
+    },
+    "id" : "42",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "164",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "6",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "214",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "215",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "190",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "218",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "219",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "220",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "170",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "222",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "226",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "135",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "168",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "82",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "137", "138" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "233"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "238",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "239",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://w3id.org/sso#Elset",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Elset",
+      "en" : "Element Set"
+    },
+    "comment" : {
+      "en" : "A named group of elements, defined on an assembled Instance, used to scope distributed and surface loads to a specific part of the model."
+    },
+    "id" : "210"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "241",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "244",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "246",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "162",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "160",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "149",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "229",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "235",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "181", "183" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "256",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "177", "182" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "121"
+  }, {
+    "instances" : 0,
+    "union" : [ "176", "180" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "192"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "91",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "72",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "102",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "93",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://w3id.org/sso#PlasticBehaviour",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PlasticBehaviour",
+      "en" : "Plastic Behaviour"
+    },
+    "comment" : {
+      "en" : "The plastic (post-yield) constitutive response of a material, defined by its yield stress and plastic strain."
+    },
+    "id" : "62"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "159",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "154",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://w3id.org/sso#PipeProfile",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PipeProfile",
+      "en" : "Pipe Profile"
+    },
+    "comment" : {
+      "en" : "A circular hollow cross-section, defined by its outer radius and wall thickness."
+    },
+    "id" : "53",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://w3id.org/sso#HexProfile",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HexProfile",
+      "en" : "Hexagonal Profile"
+    },
+    "comment" : {
+      "en" : "A hexagonal hollow cross-section, defined by its circumscribed radius and wall thickness."
+    },
+    "id" : "66",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://w3id.org/sso#ElasticBehaviour",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ElasticBehaviour",
+      "en" : "Elastic Behaviour"
+    },
+    "comment" : {
+      "en" : "The linear-elastic constitutive response of a material, defined by its behaviour type (isotropic, anisotropic, or orthotropic) and elastic parameters (Young's modulus, Poisson's ratio)."
+    },
+    "id" : "55"
+  }, {
+    "iri" : "https://w3id.org/sso#Mesh",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mesh",
+      "en" : "Mesh"
+    },
+    "comment" : {
+      "en" : "The finite element discretization of an Object: its nodes and elements."
+    },
+    "id" : "99"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "21",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://w3id.org/sso#Units",
+    "baseIri" : "https://w3id.org/sso",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Units",
+      "en" : "Units"
+    },
+    "comment" : {
+      "en" : "The unit system (force, length, temperature, time, mass) in which a Structural Analysis Model's values are expressed."
+    },
+    "id" : "59"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "119",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "186",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  } ],
+  "property" : [ {
+    "id" : "1",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "73",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "101",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "146",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "150",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "152",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "153",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "156",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "158",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "161",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "163",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "167",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "169",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "171",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "172",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "178",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "184",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "185",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "187",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "189",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "191",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "193",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "195",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "196",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "198",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "199",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "202",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "203",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "205",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "207",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "208",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "209",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "211",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "212",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "213",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "216",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "217",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "221",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "223",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "224",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "225",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "228",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "231",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "240",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "242",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "243",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "245",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "247",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "248",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "249",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "250",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "251",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "252",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "253",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "254",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "255",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "257",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "258",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "259",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "260",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "261",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "262",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "263",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "264",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://w3id.org/sso#prescribed_uz",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "prescribed_uz",
+      "en" : "prescribed displacement (uz)"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "The prescribed translation value along Z, when the boundary condition imposes a displacement rather than a simple restraint."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://w3id.org/sso#thickness",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "thickness",
+      "en" : "thickness"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "The shell section's thickness."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://w3id.org/sso#xAxis",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "xAxis",
+      "en" : "X axis"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "The Coordinate System's X axis vector."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "https://w3id.org/sso#prescribed_ux",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "prescribed_ux",
+      "en" : "prescribed displacement (ux)"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "The prescribed translation value along X, when the boundary condition imposes a displacement rather than a simple restraint."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "12"
+  }, {
+    "iri" : "https://w3id.org/sso#prescribed_uy",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "prescribed_uy",
+      "en" : "prescribed displacement (uy)"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "The prescribed translation value along Y, when the boundary condition imposes a displacement rather than a simple restraint."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://w3id.org/sso#format",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "format",
+      "en" : "format"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "The serialization format of the model file (e.g. 'ttl')."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://w3id.org/sso#zdir",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "zdir",
+      "en" : "Z direction component"
+    },
+    "domain" : "20",
+    "comment" : {
+      "en" : "The Z component of a Surface Load's direction vector."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "19"
+  }, {
+    "range" : "24",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "27",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "25"
+  }, {
+    "range" : "27",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "28"
+  }, {
+    "range" : "27",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "29"
+  }, {
+    "range" : "33",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "31"
+  }, {
+    "range" : "33",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "34"
+  }, {
+    "range" : "33",
+    "domain" : "37",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "36"
+  }, {
+    "range" : "40",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "38"
+  }, {
+    "range" : "40",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "41"
+  }, {
+    "range" : "40",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "43"
+  }, {
+    "iri" : "https://w3id.org/sso#orientation",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "orientation",
+      "en" : "orientation"
+    },
+    "domain" : "26",
+    "comment" : {
+      "en" : "Links a Beam Section to the vector defining the local orientation of its cross-section along the beam axis."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "44"
+  }, {
+    "range" : "11",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "46"
+  }, {
+    "range" : "11",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "48"
+  }, {
+    "range" : "11",
+    "domain" : "51",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "50"
+  }, {
+    "range" : "11",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "52"
+  }, {
+    "iri" : "https://w3id.org/sso#has_elastic_behaviour",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "has_elastic_behaviour",
+      "en" : "has elastic behaviour"
+    },
+    "domain" : "45",
+    "comment" : {
+      "en" : "Links a Material to its Elastic Behaviour."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "54"
+  }, {
+    "iri" : "https://w3id.org/sso#as_OSAM-json",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "as_OSAM-json",
+      "en" : "as OSAM JSON"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "A link to this model serialized as an O-SAM JSON file."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "56"
+  }, {
+    "iri" : "https://w3id.org/sso#has_units",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "has_units",
+      "en" : "has units"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Links a Structural Analysis Model to the Units it is expressed in."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "58"
+  }, {
+    "iri" : "https://w3id.org/sso#yield_stress",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "yield_stress",
+      "en" : "yield stress"
+    },
+    "domain" : "62",
+    "comment" : {
+      "en" : "The stress at which the material begins to deform plastically."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "61"
+  }, {
+    "iri" : "https://w3id.org/sso#material_type",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "material_type",
+      "en" : "material type"
+    },
+    "domain" : "45",
+    "comment" : {
+      "en" : "The material's constitutive type (e.g. 'ISOTROPIC')."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "64"
+  }, {
+    "iri" : "https://w3id.org/sso#applied_to",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "applied_to",
+      "en" : "applied to"
+    },
+    "domain" : "72",
+    "comment" : {
+      "en" : "Links a Load or Boundary Condition to the Instance(s) it is scoped to. Domain is intentionally open."
+    },
+    "attributes" : [ "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://w3id.org/sso#prescribed_rx",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "prescribed_rx",
+      "en" : "prescribed rotation (rx)"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "The prescribed rotation value about X, when the boundary condition imposes a rotation rather than a simple restraint."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "73"
+  }, {
+    "iri" : "https://w3id.org/sso#prescribed_ry",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "prescribed_ry",
+      "en" : "prescribed rotation (ry)"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "The prescribed rotation value about Y, when the boundary condition imposes a rotation rather than a simple restraint."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://w3id.org/sso#prescribed_rz",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "78",
+    "label" : {
+      "IRI-based" : "prescribed_rz",
+      "en" : "prescribed rotation (rz)"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "The prescribed rotation value about Z, when the boundary condition imposes a rotation rather than a simple restraint."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "77"
+  }, {
+    "iri" : "https://w3id.org/sso#force",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "80",
+    "label" : {
+      "IRI-based" : "force",
+      "en" : "force unit"
+    },
+    "domain" : "59",
+    "comment" : {
+      "en" : "The unit of force used by the model (e.g. 'KILONEWTON')."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "79"
+  }, {
+    "iri" : "https://w3id.org/sso#restrained_rx",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "82",
+    "label" : {
+      "IRI-based" : "restrained_rx",
+      "en" : "restrained (rx)"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Whether the boundary condition constrains rotation about X."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "81"
+  }, {
+    "iri" : "https://w3id.org/sso#restrained_rz",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "84",
+    "label" : {
+      "IRI-based" : "restrained_rz",
+      "en" : "restrained (rz)"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Whether the boundary condition constrains rotation about Z."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "83"
+  }, {
+    "iri" : "https://w3id.org/sso#restrained_ry",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "restrained_ry",
+      "en" : "restrained (ry)"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Whether the boundary condition constrains rotation about Y."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "85"
+  }, {
+    "iri" : "https://w3id.org/sso#ydir",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "ydir",
+      "en" : "Y direction component"
+    },
+    "domain" : "20",
+    "comment" : {
+      "en" : "The Y component of a Surface Load's direction vector."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "87"
+  }, {
+    "iri" : "https://w3id.org/sso#has_plastic_behaviour",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "has_plastic_behaviour",
+      "en" : "has plastic behaviour"
+    },
+    "domain" : "45",
+    "comment" : {
+      "en" : "Links a Material to its Plastic Behaviour, when the material has one."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "89"
+  }, {
+    "iri" : "https://w3id.org/sso#idealized_by",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "33",
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Element",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://w3id.org/beo#BuiltElement",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "idealized_by",
+      "en" : "idealized by"
+    },
+    "domain" : "91",
+    "comment" : {
+      "en" : "Links an external built element (e.g. beo:Slab, bot:Element) to the SSO finite elements that idealize it in a structural analysis model (e.g. a set of Shell Elements). Domain is intentionally open."
+    },
+    "attributes" : [ "object" ],
+    "id" : "90"
+  }, {
+    "iri" : "https://w3id.org/sso#nset",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "nset",
+      "en" : "node set"
+    },
+    "domain" : "93",
+    "comment" : {
+      "en" : "Links a Point Load or Boundary Condition to the Node Set it acts on. Domain is intentionally open."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "92"
+  }, {
+    "iri" : "https://w3id.org/sso#has_assembly",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "has_assembly",
+      "en" : "has assembly"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Links a Structural Analysis Model to its Assembly."
+    },
+    "attributes" : [ "object" ],
+    "id" : "95"
+  }, {
+    "iri" : "https://w3id.org/sso#has_mesh",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "has_mesh",
+      "en" : "has mesh"
+    },
+    "domain" : "98",
+    "comment" : {
+      "en" : "Links an Object to its Mesh."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "97"
+  }, {
+    "iri" : "https://w3id.org/sso#referenced_object",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "referenced_object",
+      "en" : "references object"
+    },
+    "domain" : "60",
+    "comment" : {
+      "en" : "Links an Instance to the Object it places within the Assembly."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "100"
+  }, {
+    "iri" : "https://w3id.org/sso#has_node",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "has_node",
+      "en" : "has node"
+    },
+    "domain" : "102",
+    "comment" : {
+      "en" : "Links a Mesh, Node Set, or Element to a Node it contains or connects to. Domain is intentionally open; node ordering is not preserved."
+    },
+    "attributes" : [ "object" ],
+    "id" : "101"
+  }, {
+    "iri" : "https://w3id.org/sso#beam_section",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "beam_section",
+      "en" : "beam section name"
+    },
+    "domain" : "26",
+    "comment" : {
+      "en" : "The name of the named beam profile (e.g. a catalog section like 'IPE200') assigned to a Beam Section."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "104"
+  }, {
+    "iri" : "https://w3id.org/sso#plastic_strain",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "107",
+    "label" : {
+      "IRI-based" : "plastic_strain",
+      "en" : "plastic strain"
+    },
+    "domain" : "62",
+    "comment" : {
+      "en" : "The plastic (permanent) strain corresponding to the yield stress in the material's plastic behaviour."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "106"
+  }, {
+    "iri" : "https://w3id.org/sso#has_object",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "has_object",
+      "en" : "has object"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Links a Structural Analysis Model to one of its constituent Objects."
+    },
+    "attributes" : [ "object" ],
+    "id" : "108"
+  }, {
+    "iri" : "https://w3id.org/sso#bc_type",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "110",
+    "label" : {
+      "IRI-based" : "bc_type",
+      "en" : "boundary condition type"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "The type of a Boundary Condition (e.g. 'DISPLACEMENT')."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "109"
+  }, {
+    "iri" : "https://w3id.org/sso#length",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "length",
+      "en" : "length unit"
+    },
+    "domain" : "59",
+    "comment" : {
+      "en" : "The unit of length used by the model (e.g. 'METRE')."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "111"
+  }, {
+    "iri" : "https://w3id.org/sso#mass",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "114",
+    "label" : {
+      "IRI-based" : "mass",
+      "en" : "mass unit"
+    },
+    "domain" : "59",
+    "comment" : {
+      "en" : "The unit of mass used by the model (e.g. 'KILOGRAM')."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "113"
+  }, {
+    "iri" : "https://w3id.org/sso#dof",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "116",
+    "label" : {
+      "IRI-based" : "dof",
+      "en" : "degree of freedom"
+    },
+    "domain" : "39",
+    "comment" : {
+      "en" : "The local degree of freedom index a Point Load is applied to."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "115"
+  }, {
+    "iri" : "https://w3id.org/sso#section_material",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "section_material",
+      "en" : "section material"
+    },
+    "domain" : "27",
+    "comment" : {
+      "en" : "Links a Section to the default Material it uses."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "117"
+  }, {
+    "iri" : "https://w3id.org/sso#xdir",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "119",
+    "label" : {
+      "IRI-based" : "xdir",
+      "en" : "X direction component"
+    },
+    "domain" : "20",
+    "comment" : {
+      "en" : "The X component of a Surface Load's direction vector."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "118"
+  }, {
+    "iri" : "https://w3id.org/sso#as_abaqus-inp",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "as_abaqus-inp",
+      "en" : "as Abaqus INP"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "A link to this model serialized as an Abaqus .inp input file."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "120"
+  }, {
+    "iri" : "https://w3id.org/sso#rotation",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "123",
+    "label" : {
+      "IRI-based" : "rotation",
+      "en" : "rotation"
+    },
+    "domain" : "60",
+    "comment" : {
+      "en" : "The rotation applied to an Instance when placing its Object in the Assembly."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "122"
+  }, {
+    "iri" : "https://w3id.org/sso#has_element",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "has_element",
+      "en" : "has element"
+    },
+    "domain" : "91",
+    "comment" : {
+      "en" : "Links a Mesh or Element Set to an Element it contains. Domain is intentionally open."
+    },
+    "attributes" : [ "object" ],
+    "id" : "124"
+  }, {
+    "iri" : "https://w3id.org/sso#mass_density",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "127",
+    "label" : {
+      "IRI-based" : "mass_density",
+      "en" : "mass density"
+    },
+    "domain" : "45",
+    "comment" : {
+      "en" : "The material's mass per unit volume, used e.g. to compute self-weight loads."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "126"
+  }, {
+    "iri" : "https://w3id.org/sso#v2",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "129",
+    "label" : {
+      "IRI-based" : "v2",
+      "en" : "end value v2"
+    },
+    "domain" : "42",
+    "comment" : {
+      "en" : "The Distributed Load's value at its end point."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "128"
+  }, {
+    "iri" : "https://w3id.org/sso#v1",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "131",
+    "label" : {
+      "IRI-based" : "v1",
+      "en" : "start value v1"
+    },
+    "domain" : "42",
+    "comment" : {
+      "en" : "The Distributed Load's value at its start point."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "130"
+  }, {
+    "iri" : "https://w3id.org/sso#loadCase_type",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "133",
+    "label" : {
+      "IRI-based" : "loadCase_type",
+      "en" : "load case type"
+    },
+    "domain" : "0",
+    "comment" : {
+      "en" : "The type of a Load Case (e.g. static, dynamic)."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "132"
+  }, {
+    "iri" : "https://w3id.org/sso#radius",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "135",
+    "label" : {
+      "IRI-based" : "radius",
+      "en" : "radius"
+    },
+    "domain" : "67",
+    "comment" : {
+      "en" : "The radius of a solid circular profile."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "134"
+  }, {
+    "iri" : "https://w3id.org/sso#zAxis",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "zAxis",
+      "en" : "Z axis"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "The Coordinate System's Z axis vector."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "142"
+  }, {
+    "iri" : "https://w3id.org/sso#dir",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "139",
+    "label" : {
+      "IRI-based" : "dir",
+      "en" : "distribution direction"
+    },
+    "domain" : "42",
+    "comment" : {
+      "en" : "The direction along which a Distributed Load varies."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "143"
+  }, {
+    "iri" : "https://w3id.org/sso#b",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "147",
+    "label" : {
+      "IRI-based" : "b",
+      "en" : "dimension b"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "A cross-section's secondary planar dimension (e.g. height for a rectangular or box profile, the other leg length for an angle, the top width for a trapezoid) — its exact geometric role depends on the profile shape."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "146"
+  }, {
+    "iri" : "https://w3id.org/sso#a",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "149",
+    "label" : {
+      "IRI-based" : "a",
+      "en" : "dimension a"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "A cross-section's primary planar dimension (e.g. width for a rectangular or box profile, a leg length for an angle, the bottom width for a trapezoid) — its exact geometric role depends on the profile shape."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "148"
+  }, {
+    "iri" : "https://w3id.org/sso#d",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "140",
+    "label" : {
+      "IRI-based" : "d",
+      "en" : "top-edge offset d"
+    },
+    "domain" : "70",
+    "comment" : {
+      "en" : "The horizontal offset of the top edge of a trapezoidal profile."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "150"
+  }, {
+    "iri" : "https://w3id.org/sso#element_section",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "element_section",
+      "en" : "element section"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "Links an Element to the Section assigned to it."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "151"
+  }, {
+    "iri" : "https://w3id.org/sso#c",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "145",
+    "label" : {
+      "IRI-based" : "c",
+      "en" : "height c"
+    },
+    "domain" : "70",
+    "comment" : {
+      "en" : "The height of a trapezoidal profile."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "152"
+  }, {
+    "iri" : "https://w3id.org/sso#calibrated_by",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "calibrated_by",
+      "en" : "calibrated by"
+    },
+    "superproperty" : [ "155" ],
+    "domain" : "154",
+    "comment" : {
+      "en" : "Links a calibrated entity (e.g. a Material's Elastic Behaviour, a Boundary Condition) to the Calibration event that produced this snapshot of it. Domain is intentionally open."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "153"
+  }, {
+    "iri" : "https://w3id.org/sso#h",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "157",
+    "label" : {
+      "IRI-based" : "h",
+      "en" : "depth"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "The overall depth of an I-shaped profile."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "156"
+  }, {
+    "iri" : "https://w3id.org/sso#Z",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "160",
+    "label" : {
+      "IRI-based" : "Z",
+      "en" : "Z coordinate"
+    },
+    "domain" : "159",
+    "comment" : {
+      "en" : "The Z component of a Node's position or a 3D Vector."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "158"
+  }, {
+    "iri" : "https://w3id.org/sso#Y",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "162",
+    "label" : {
+      "IRI-based" : "Y",
+      "en" : "Y coordinate"
+    },
+    "domain" : "159",
+    "comment" : {
+      "en" : "The Y component of a Node's position or a 3D Vector."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "161"
+  }, {
+    "iri" : "https://w3id.org/sso#time",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "164",
+    "label" : {
+      "IRI-based" : "time",
+      "en" : "time unit"
+    },
+    "domain" : "59",
+    "comment" : {
+      "en" : "The unit of time used by the model (e.g. 'SECOND')."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "163"
+  }, {
+    "iri" : "https://w3id.org/sso#translation",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "166",
+    "label" : {
+      "IRI-based" : "translation",
+      "en" : "translation"
+    },
+    "domain" : "60",
+    "comment" : {
+      "en" : "The translation applied to an Instance when placing its Object in the Assembly."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "165"
+  }, {
+    "iri" : "https://w3id.org/sso#r",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "168",
+    "label" : {
+      "IRI-based" : "r",
+      "en" : "outer radius"
+    },
+    "domain" : "53",
+    "comment" : {
+      "en" : "The outer radius of a pipe (circular hollow) profile."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "167"
+  }, {
+    "iri" : "https://w3id.org/sso#t",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "170",
+    "label" : {
+      "IRI-based" : "t",
+      "en" : "wall thickness"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "The wall thickness of a pipe or hexagonal hollow profile."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "169"
+  }, {
+    "iri" : "https://w3id.org/sso#has_instance",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "has_instance",
+      "en" : "has instance"
+    },
+    "domain" : "96",
+    "comment" : {
+      "en" : "Links an Assembly to one of its Instances."
+    },
+    "attributes" : [ "object" ],
+    "id" : "171"
+  }, {
+    "iri" : "https://w3id.org/sso#v",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "173",
+    "label" : {
+      "IRI-based" : "v",
+      "en" : "load magnitude"
+    },
+    "domain" : "40",
+    "comment" : {
+      "en" : "The magnitude of a Point Load or Surface Load."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "172"
+  }, {
+    "iri" : "https://w3id.org/sso#l",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "179",
+    "label" : {
+      "IRI-based" : "l",
+      "en" : "flange offset"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "The optional Abaqus flange-offset parameter of an I-shaped profile."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "178"
+  }, {
+    "iri" : "https://w3id.org/sso#has_section",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "has_section",
+      "en" : "has section"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Links a Structural Analysis Model to one of its Sections."
+    },
+    "attributes" : [ "object" ],
+    "id" : "184"
+  }, {
+    "iri" : "https://w3id.org/sso#x2",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "186",
+    "label" : {
+      "IRI-based" : "x2",
+      "en" : "end position x2"
+    },
+    "domain" : "42",
+    "comment" : {
+      "en" : "The position along the element where a Distributed Load's end value applies."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "185"
+  }, {
+    "iri" : "https://w3id.org/sso#x1",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "188",
+    "label" : {
+      "IRI-based" : "x1",
+      "en" : "start position x1"
+    },
+    "domain" : "42",
+    "comment" : {
+      "en" : "The position along the element where a Distributed Load's start value applies."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "187"
+  }, {
+    "iri" : "https://w3id.org/sso#temperature",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "190",
+    "label" : {
+      "IRI-based" : "temperature",
+      "en" : "temperature unit"
+    },
+    "domain" : "59",
+    "comment" : {
+      "en" : "The unit of temperature used by the model (e.g. 'CELSIUS')."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "189"
+  }, {
+    "iri" : "https://w3id.org/sso#as_ifc-sa",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "192",
+    "label" : {
+      "IRI-based" : "as_ifc-sa",
+      "en" : "as IFC Structural Analysis"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "A link to this model serialized as an IFC structural-analysis-domain file."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "191"
+  }, {
+    "iri" : "https://w3id.org/sso#poisson_ratio",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "194",
+    "label" : {
+      "IRI-based" : "poisson_ratio",
+      "en" : "Poisson's ratio"
+    },
+    "domain" : "55",
+    "comment" : {
+      "en" : "The material's Poisson's ratio, the ratio of transverse to axial strain in the elastic range."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "193"
+  }, {
+    "iri" : "https://w3id.org/sso#has_cross_section",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "has_cross_section",
+      "en" : "has cross-section"
+    },
+    "domain" : "26",
+    "comment" : {
+      "en" : "Links a Beam Section to its Cross-Section Profile; always expected to be present."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "195"
+  }, {
+    "iri" : "https://w3id.org/sso#material_category",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "197",
+    "label" : {
+      "IRI-based" : "material_category",
+      "en" : "material category"
+    },
+    "domain" : "45",
+    "comment" : {
+      "en" : "A broad classification of the material (e.g. concrete, steel, timber)."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "196"
+  }, {
+    "iri" : "https://w3id.org/sso#in_loadCase",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "in_loadCase",
+      "en" : "in load case"
+    },
+    "domain" : "40",
+    "comment" : {
+      "en" : "Links a Load to the Load Case it belongs to."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "198"
+  }, {
+    "iri" : "https://w3id.org/sso#face_count",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "200",
+    "label" : {
+      "IRI-based" : "face_count",
+      "en" : "face count"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "The number of faces of an element, relevant to solid and shell elements."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "199"
+  }, {
+    "iri" : "https://w3id.org/sso#dofs",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "136",
+    "label" : {
+      "IRI-based" : "dofs",
+      "en" : "degrees of freedom"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "The local degrees of freedom active at an element's nodes."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "202"
+  }, {
+    "iri" : "https://w3id.org/sso#integration",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "204",
+    "label" : {
+      "IRI-based" : "integration",
+      "en" : "integration scheme"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "The numerical integration scheme used for an element (e.g. 'REDUCED', 'FULL')."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "203"
+  }, {
+    "iri" : "https://w3id.org/sso#behaviour_type",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "behaviour_type",
+      "en" : "elastic behaviour type"
+    },
+    "domain" : "55",
+    "comment" : {
+      "en" : "The constitutive symmetry class of the elastic behaviour — ISOTROPIC, ANISOTROPIC, or ORTHOTROPIC."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "205"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#used",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "159",
+    "label" : {
+      "IRI-based" : "used"
+    },
+    "domain" : "159",
+    "attributes" : [ "external", "object" ],
+    "id" : "207"
+  }, {
+    "iri" : "https://w3id.org/sso#has_boundary_condition",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "has_boundary_condition",
+      "en" : "has boundary condition"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Links a Structural Analysis Model to one of its Boundary Conditions."
+    },
+    "attributes" : [ "object" ],
+    "id" : "208"
+  }, {
+    "iri" : "https://w3id.org/sso#has_elset",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "210",
+    "label" : {
+      "IRI-based" : "has_elset",
+      "en" : "has element set"
+    },
+    "domain" : "60",
+    "comment" : {
+      "en" : "Links an Instance to one of its Element Sets."
+    },
+    "attributes" : [ "object" ],
+    "id" : "209"
+  }, {
+    "iri" : "https://w3id.org/sso#yAxis",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "yAxis",
+      "en" : "Y axis"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "The Coordinate System's Y axis vector."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "211"
+  }, {
+    "iri" : "https://w3id.org/sso#has_load",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "has_load",
+      "en" : "has load"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Links a Structural Analysis Model to one of its Loads."
+    },
+    "attributes" : [ "object" ],
+    "id" : "212"
+  }, {
+    "iri" : "https://w3id.org/sso#selfWeight",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "selfWeight",
+      "en" : "self-weight"
+    },
+    "domain" : "0",
+    "comment" : {
+      "en" : "Links a Load Case to the vector defining the direction and magnitude of the self-weight it applies."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "213"
+  }, {
+    "iri" : "https://w3id.org/sso#b2",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "174",
+    "label" : {
+      "IRI-based" : "b2",
+      "en" : "flange width b2"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "The width of the second flange of an I-shaped profile."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "216"
+  }, {
+    "iri" : "https://w3id.org/sso#b1",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "175",
+    "label" : {
+      "IRI-based" : "b1",
+      "en" : "flange width b1"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "The width of the first flange of an I-shaped profile."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "217"
+  }, {
+    "iri" : "https://w3id.org/sso#has_coordinate_system",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "has_coordinate_system",
+      "en" : "has coordinate system"
+    },
+    "domain" : "98",
+    "comment" : {
+      "en" : "Links an Object to its local Coordinate System."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "221"
+  }, {
+    "iri" : "https://w3id.org/sso#has_calibration",
+    "inverse" : "207",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "has_calibration",
+      "en" : "has calibration"
+    },
+    "domain" : "159",
+    "comment" : {
+      "en" : "Links an entity to the Calibration event(s) it has undergone; an entity may accumulate several calibrations over time. Domain is intentionally open, and it is the inverse of prov:used."
+    },
+    "attributes" : [ "object" ],
+    "id" : "223"
+  }, {
+    "iri" : "https://w3id.org/sso#has_loadCase",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "has_loadCase",
+      "en" : "has load case"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Links a Structural Analysis Model to one of its Load Cases."
+    },
+    "attributes" : [ "object" ],
+    "id" : "224"
+  }, {
+    "iri" : "https://w3id.org/sso#element_type",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "206",
+    "label" : {
+      "IRI-based" : "element_type",
+      "en" : "element type code"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "The raw finite element type code (e.g. 'C3D8', 'S4', 'B31') identifying the element's formulation."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "225"
+  }, {
+    "range" : "11",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "227"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasGeneratedBy",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "159",
+    "label" : {
+      "IRI-based" : "wasGeneratedBy"
+    },
+    "domain" : "159",
+    "subproperty" : [ "153" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "155"
+  }, {
+    "iri" : "https://w3id.org/sso#A",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "229",
+    "label" : {
+      "IRI-based" : "A",
+      "en" : "cross-sectional area"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "The cross-sectional area of a General Profile, given directly rather than derived from shape."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "228"
+  }, {
+    "range" : "11",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "230"
+  }, {
+    "range" : "11",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "231"
+  }, {
+    "range" : "11",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "232"
+  }, {
+    "iri" : "https://w3id.org/sso#E",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "235",
+    "label" : {
+      "IRI-based" : "E",
+      "en" : "Young's modulus"
+    },
+    "domain" : "55",
+    "comment" : {
+      "en" : "The material's Young's modulus (modulus of elasticity), relating stress to strain in the elastic range."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "234"
+  }, {
+    "range" : "11",
+    "domain" : "67",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "236"
+  }, {
+    "range" : "11",
+    "domain" : "66",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "237"
+  }, {
+    "iri" : "https://w3id.org/sso#restrained_uy",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "226",
+    "label" : {
+      "IRI-based" : "restrained_uy",
+      "en" : "restrained (uy)"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Whether the boundary condition constrains translation along Y."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "240"
+  }, {
+    "iri" : "https://w3id.org/sso#node_count",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "201",
+    "label" : {
+      "IRI-based" : "node_count",
+      "en" : "node count"
+    },
+    "domain" : "159",
+    "comment" : {
+      "en" : "The number of nodes in a Mesh, or referenced by an Element."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "242"
+  }, {
+    "iri" : "https://w3id.org/sso#restrained_ux",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "222",
+    "label" : {
+      "IRI-based" : "restrained_ux",
+      "en" : "restrained (ux)"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Whether the boundary condition constrains translation along X."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "243"
+  }, {
+    "iri" : "https://w3id.org/sso#t2",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "215",
+    "label" : {
+      "IRI-based" : "t2",
+      "en" : "wall/flange thickness t2"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "A second wall or flange thickness of a cross-section profile (box, I, or L) — its exact location depends on the profile shape."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "245"
+  }, {
+    "iri" : "https://w3id.org/sso#t1",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "220",
+    "label" : {
+      "IRI-based" : "t1",
+      "en" : "wall/flange thickness t1"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "A wall or flange thickness of a cross-section profile (box, I, or L) — its exact location depends on the profile shape."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "247"
+  }, {
+    "iri" : "https://w3id.org/sso#restrained_uz",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "219",
+    "label" : {
+      "IRI-based" : "restrained_uz",
+      "en" : "restrained (uz)"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Whether the boundary condition constrains translation along Z."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "248"
+  }, {
+    "iri" : "https://w3id.org/sso#t4",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "218",
+    "label" : {
+      "IRI-based" : "t4",
+      "en" : "wall thickness t4"
+    },
+    "domain" : "49",
+    "comment" : {
+      "en" : "The fourth wall thickness of a box profile."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "249"
+  }, {
+    "iri" : "https://w3id.org/sso#t3",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "214",
+    "label" : {
+      "IRI-based" : "t3",
+      "en" : "wall/web thickness t3"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "A third wall thickness (box profile) or web thickness (I profile), depending on the profile shape."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "250"
+  }, {
+    "iri" : "https://w3id.org/sso#X",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "246",
+    "label" : {
+      "IRI-based" : "X",
+      "en" : "X coordinate"
+    },
+    "domain" : "159",
+    "comment" : {
+      "en" : "The X component of a Node's position or a 3D Vector."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "251"
+  }, {
+    "iri" : "https://w3id.org/sso#J",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "244",
+    "label" : {
+      "IRI-based" : "J",
+      "en" : "torsional constant"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "The torsional constant of a General Profile's cross-section."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "252"
+  }, {
+    "iri" : "https://w3id.org/sso#element_material",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "element_material",
+      "en" : "element material"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "Links an Element to the Material assigned to it."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "253"
+  }, {
+    "iri" : "https://w3id.org/sso#I22",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "241",
+    "label" : {
+      "IRI-based" : "I22",
+      "en" : "moment of inertia I22"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "The moment of inertia about the section's second principal axis, for a General Profile."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "254"
+  }, {
+    "iri" : "https://w3id.org/sso#referenced_in_sam",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "17",
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://w3id.org/beo#BuiltElement",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Element",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Zone",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://w3id.org/brot/0.21Bridge",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "referenced_in_sam",
+      "en" : "referenced in SAM"
+    },
+    "domain" : "256",
+    "comment" : {
+      "en" : "Links any resource (e.g. a building, bridge, space, or building element from an external ontology) to the Structural Analysis Model that simulates it. Domain is intentionally open."
+    },
+    "attributes" : [ "object" ],
+    "id" : "255"
+  }, {
+    "iri" : "https://w3id.org/sso#has_material",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "has_material",
+      "en" : "has material"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Links a Structural Analysis Model to one of its Materials."
+    },
+    "attributes" : [ "object" ],
+    "id" : "257"
+  }, {
+    "iri" : "https://w3id.org/sso#circ_r",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "144",
+    "label" : {
+      "IRI-based" : "circ_r",
+      "en" : "circumscribed radius"
+    },
+    "domain" : "66",
+    "comment" : {
+      "en" : "The circumscribed radius of a hexagonal hollow profile."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "258"
+  }, {
+    "iri" : "https://w3id.org/sso#elset",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "210",
+    "label" : {
+      "IRI-based" : "elset",
+      "en" : "element set"
+    },
+    "domain" : "40",
+    "comment" : {
+      "en" : "Links a Distributed Load or Surface Load to the Element Set it acts on."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "259"
+  }, {
+    "iri" : "https://w3id.org/sso#has_nset",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "has_nset",
+      "en" : "has node set"
+    },
+    "domain" : "60",
+    "comment" : {
+      "en" : "Links an Instance to one of its Node Sets."
+    },
+    "attributes" : [ "object" ],
+    "id" : "260"
+  }, {
+    "iri" : "https://w3id.org/sso#I11",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "238",
+    "label" : {
+      "IRI-based" : "I11",
+      "en" : "moment of inertia I11"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "The moment of inertia about the section's first principal axis, for a General Profile."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "261"
+  }, {
+    "iri" : "https://w3id.org/sso#el_count",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "125",
+    "label" : {
+      "IRI-based" : "el_count",
+      "en" : "element count"
+    },
+    "domain" : "99",
+    "comment" : {
+      "en" : "The number of elements in a Mesh."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "262"
+  }, {
+    "iri" : "https://w3id.org/sso#creation_date",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "233",
+    "label" : {
+      "IRI-based" : "creation_date",
+      "en" : "creation date"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "The date and time the Structural Analysis Model was created."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "263"
+  }, {
+    "iri" : "https://w3id.org/sso#I12",
+    "baseIri" : "https://w3id.org/sso",
+    "range" : "239",
+    "label" : {
+      "IRI-based" : "I12",
+      "en" : "product of inertia I12"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "The product of inertia of a General Profile's cross-section."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "264"
+  } ]
+}

@@ -1,0 +1,6814 @@
+{
+  "id": "d1e1670d-b814-51d9-b093-c79b05d83cab",
+  "name": "Mokana_V2.sdb",
+  "units": {
+    "force": "KILONEWTON",
+    "length": "METRE",
+    "temperature": "CELSIUS",
+    "time": "SECOND",
+    "mass": "KILOGRAM"
+  },
+  "objects": [
+    {
+      "id": "e4dfa603-523b-42a8-ba4d-b94899bd52d8",
+      "name": "Mokana_V2.sdb",
+      "mesh": {
+        "node_count": 99,
+        "el_count": 173,
+        "nodes": [
+          {
+            "X": -9.8007,
+            "Y": 3.15819,
+            "Z": 3.5,
+            "id": 1
+          },
+          {
+            "X": -9.8007,
+            "Y": 3.15819,
+            "Z": 0.3,
+            "id": 2
+          },
+          {
+            "X": -5.5457,
+            "Y": 3.15997,
+            "Z": 3.5,
+            "id": 3
+          },
+          {
+            "X": -5.5457,
+            "Y": 3.15997,
+            "Z": 0.3,
+            "id": 4
+          },
+          {
+            "X": -5.5457,
+            "Y": -2.79977,
+            "Z": 3.5,
+            "id": 5
+          },
+          {
+            "X": -5.5457,
+            "Y": -2.79977,
+            "Z": 0.3,
+            "id": 6
+          },
+          {
+            "X": -9.8007,
+            "Y": -2.80003,
+            "Z": 3.5,
+            "id": 7
+          },
+          {
+            "X": -9.8007,
+            "Y": -2.80003,
+            "Z": 0.3,
+            "id": 8
+          },
+          {
+            "X": -9.8007,
+            "Y": -6.98737,
+            "Z": 3.5,
+            "id": 9
+          },
+          {
+            "X": -9.8007,
+            "Y": -9.24026,
+            "Z": 3.5,
+            "id": 11
+          },
+          {
+            "X": -9.8007,
+            "Y": -9.24026,
+            "Z": 0.3,
+            "id": 12
+          },
+          {
+            "X": -5.5467,
+            "Y": -9.24026,
+            "Z": 3.5,
+            "id": 13
+          },
+          {
+            "X": -5.5457,
+            "Y": -9.24026,
+            "Z": 0.3,
+            "id": 14
+          },
+          {
+            "X": -5.5457,
+            "Y": -6.98692,
+            "Z": 3.5,
+            "id": 15
+          },
+          {
+            "X": 1.5583,
+            "Y": -9.63021,
+            "Z": 3.5,
+            "id": 17
+          },
+          {
+            "X": 1.5583012,
+            "Y": -9.630207,
+            "Z": 0.3,
+            "id": 18
+          },
+          {
+            "X": 5.39834,
+            "Y": -9.63021,
+            "Z": 3.5,
+            "id": 19
+          },
+          {
+            "X": 5.3983385,
+            "Y": -9.630207,
+            "Z": 0.3,
+            "id": 20
+          },
+          {
+            "X": -0.9417,
+            "Y": -9.63021,
+            "Z": 3.5,
+            "id": 21
+          },
+          {
+            "X": -0.9417,
+            "Y": -9.63021,
+            "Z": 0.3,
+            "id": 22
+          },
+          {
+            "X": 5.39834,
+            "Y": -2.80003,
+            "Z": 3.5,
+            "id": 23
+          },
+          {
+            "X": 5.3983385,
+            "Y": -2.8000347,
+            "Z": 0.3,
+            "id": 24
+          },
+          {
+            "X": 5.39834,
+            "Y": 2.36979,
+            "Z": 3.5,
+            "id": 25
+          },
+          {
+            "X": 5.3983385,
+            "Y": 2.369793,
+            "Z": 0.3,
+            "id": 26
+          },
+          {
+            "X": 1.5583,
+            "Y": 2.36983,
+            "Z": 3.5,
+            "id": 27
+          },
+          {
+            "X": 1.5583029,
+            "Y": 2.3698287,
+            "Z": 0.3,
+            "id": 28
+          },
+          {
+            "X": 1.5583,
+            "Y": -2.80003,
+            "Z": 3.5,
+            "id": 29
+          },
+          {
+            "X": 1.5583012,
+            "Y": -2.8000347,
+            "Z": 0.3,
+            "id": 30
+          },
+          {
+            "X": -0.9417,
+            "Y": -2.80003,
+            "Z": 3.5,
+            "id": 31
+          },
+          {
+            "X": -0.9417,
+            "Y": -2.80003,
+            "Z": 0.3,
+            "id": 32
+          },
+          {
+            "X": -9.8007,
+            "Y": 3.15819,
+            "Z": 6.7,
+            "id": 33
+          },
+          {
+            "X": -5.5457,
+            "Y": 3.15997,
+            "Z": 6.7,
+            "id": 34
+          },
+          {
+            "X": -5.5457,
+            "Y": -2.79977,
+            "Z": 6.7,
+            "id": 35
+          },
+          {
+            "X": -9.8007,
+            "Y": -2.80003,
+            "Z": 6.7,
+            "id": 36
+          },
+          {
+            "X": -9.8007,
+            "Y": -6.98737,
+            "Z": 6.7,
+            "id": 37
+          },
+          {
+            "X": -9.8007,
+            "Y": -9.24026,
+            "Z": 6.7,
+            "id": 38
+          },
+          {
+            "X": -5.5467,
+            "Y": -9.24026,
+            "Z": 6.7,
+            "id": 39
+          },
+          {
+            "X": -5.5457,
+            "Y": -6.98692,
+            "Z": 6.7,
+            "id": 40
+          },
+          {
+            "X": 1.5583012,
+            "Y": -9.630207,
+            "Z": 6.7,
+            "id": 41
+          },
+          {
+            "X": 5.39834,
+            "Y": -9.63021,
+            "Z": 6.7,
+            "id": 42
+          },
+          {
+            "X": -0.9417,
+            "Y": -9.63021,
+            "Z": 6.7,
+            "id": 43
+          },
+          {
+            "X": 5.39834,
+            "Y": -2.80003,
+            "Z": 6.7,
+            "id": 44
+          },
+          {
+            "X": 5.39834,
+            "Y": 2.36979,
+            "Z": 6.7,
+            "id": 45
+          },
+          {
+            "X": 1.5583029,
+            "Y": 2.3698287,
+            "Z": 6.7,
+            "id": 46
+          },
+          {
+            "X": 1.5583012,
+            "Y": -2.8000347,
+            "Z": 6.7,
+            "id": 47
+          },
+          {
+            "X": -0.9417,
+            "Y": -2.80003,
+            "Z": 6.7,
+            "id": 48
+          },
+          {
+            "X": 5.39834,
+            "Y": -6.98692,
+            "Z": 3.5,
+            "id": 50
+          },
+          {
+            "X": 1.5583,
+            "Y": -6.98692,
+            "Z": 3.5,
+            "id": 51
+          },
+          {
+            "X": -9.8007,
+            "Y": 4.03819,
+            "Z": 3.5,
+            "id": 52
+          },
+          {
+            "X": -5.5457,
+            "Y": 4.03997,
+            "Z": 3.5,
+            "id": 53
+          },
+          {
+            "X": 1.5583,
+            "Y": 3.05983,
+            "Z": 3.5,
+            "id": 54
+          },
+          {
+            "X": 5.39834,
+            "Y": 3.05979,
+            "Z": 3.5,
+            "id": 55
+          },
+          {
+            "X": -0.9417,
+            "Y": -2.17003,
+            "Z": 3.5,
+            "id": 56
+          },
+          {
+            "X": -5.5457,
+            "Y": -2.16977,
+            "Z": 3.5,
+            "id": 57
+          },
+          {
+            "X": -2.0817,
+            "Y": -2.17003,
+            "Z": 3.5,
+            "id": 58
+          },
+          {
+            "X": -2.0817,
+            "Y": -2.80003,
+            "Z": 3.5,
+            "id": 59
+          },
+          {
+            "X": -2.0817,
+            "Y": -9.63021,
+            "Z": 3.5,
+            "id": 60
+          },
+          {
+            "X": -2.0817,
+            "Y": -10.09021,
+            "Z": 3.5,
+            "id": 61
+          },
+          {
+            "X": -0.9417,
+            "Y": -10.09021,
+            "Z": 3.5,
+            "id": 62
+          },
+          {
+            "X": 1.5583,
+            "Y": -10.09021,
+            "Z": 3.5,
+            "id": 63
+          },
+          {
+            "X": 5.39834,
+            "Y": -10.09021,
+            "Z": 3.5,
+            "id": 64
+          },
+          {
+            "X": -0.9417,
+            "Y": -3.73003,
+            "Z": 3.5,
+            "id": 65
+          },
+          {
+            "X": 1.5583,
+            "Y": -3.73003,
+            "Z": 3.5,
+            "id": 66
+          },
+          {
+            "X": -2.0817,
+            "Y": -6.98692,
+            "Z": 3.5,
+            "id": 67
+          },
+          {
+            "X": -0.9417,
+            "Y": -6.98692,
+            "Z": 3.5,
+            "id": 68
+          },
+          {
+            "X": -9.8007,
+            "Y": 3.85819,
+            "Z": 6.7,
+            "id": 82
+          },
+          {
+            "X": -5.5457,
+            "Y": 3.85997,
+            "Z": 6.7,
+            "id": 83
+          },
+          {
+            "X": -0.9417,
+            "Y": -3.86003,
+            "Z": 6.7,
+            "id": 84
+          },
+          {
+            "X": 1.5583012,
+            "Y": -3.8600347,
+            "Z": 6.7,
+            "id": 85
+          },
+          {
+            "X": -9.8007,
+            "Y": -10.15026,
+            "Z": 6.7,
+            "id": 86
+          },
+          {
+            "X": -5.5467,
+            "Y": -10.15026,
+            "Z": 6.7,
+            "id": 87
+          },
+          {
+            "X": -0.9417,
+            "Y": -6.98692,
+            "Z": 6.7,
+            "id": 92
+          },
+          {
+            "X": 5.39834,
+            "Y": -10.15026,
+            "Z": 6.7,
+            "id": 94
+          },
+          {
+            "X": 5.39934,
+            "Y": -6.98692,
+            "Z": 6.7,
+            "id": 96
+          },
+          {
+            "X": -0.9417,
+            "Y": -10.15031,
+            "Z": 6.7,
+            "id": 97
+          },
+          {
+            "X": 1.5583012,
+            "Y": -10.150307,
+            "Z": 6.7,
+            "id": 98
+          },
+          {
+            "X": 1.5583012,
+            "Y": -6.987007,
+            "Z": 6.7,
+            "id": 100
+          },
+          {
+            "X": -0.9417,
+            "Y": -1.89003,
+            "Z": 6.7,
+            "id": 101
+          },
+          {
+            "X": -5.5457,
+            "Y": -1.88977,
+            "Z": 6.7,
+            "id": 102
+          },
+          {
+            "X": -5.5457,
+            "Y": -9.24026,
+            "Z": 3.5,
+            "id": 103
+          },
+          {
+            "X": -5.5457,
+            "Y": 3.15819,
+            "Z": 3.5,
+            "id": 105
+          },
+          {
+            "X": -9.8007,
+            "Y": 4.03997,
+            "Z": 3.5,
+            "id": 106
+          },
+          {
+            "X": -5.5457,
+            "Y": 3.15819,
+            "Z": 6.7,
+            "id": 107
+          },
+          {
+            "X": -9.8007,
+            "Y": 3.85997,
+            "Z": 6.7,
+            "id": 108
+          },
+          {
+            "X": -5.5457,
+            "Y": -9.24026,
+            "Z": 6.7,
+            "id": 110
+          },
+          {
+            "X": 5.39934,
+            "Y": -9.630207,
+            "Z": 6.7,
+            "id": 111
+          },
+          {
+            "X": 5.39834,
+            "Y": -6.987007,
+            "Z": 6.7,
+            "id": 112
+          },
+          {
+            "X": -9.8007,
+            "Y": 0.17908,
+            "Z": 3.5,
+            "id": 113
+          },
+          {
+            "X": -5.5457,
+            "Y": 0.17908,
+            "Z": 3.5,
+            "id": 117
+          },
+          {
+            "X": 1.5583029,
+            "Y": 3.1798287,
+            "Z": 6.7,
+            "id": 118
+          },
+          {
+            "X": 5.39834,
+            "Y": 3.17979,
+            "Z": 6.7,
+            "id": 119
+          },
+          {
+            "X": -9.8007,
+            "Y": 0.17908,
+            "Z": 6.7,
+            "id": 120
+          },
+          {
+            "X": -5.5457,
+            "Y": 0.17908,
+            "Z": 6.7,
+            "id": 124
+          },
+          {
+            "X": -9.8007,
+            "Y": 3.15997,
+            "Z": 3.5,
+            "id": 125
+          },
+          {
+            "X": -9.8007,
+            "Y": 3.15997,
+            "Z": 6.7,
+            "id": 126
+          },
+          {
+            "X": 5.39834,
+            "Y": 0.17908,
+            "Z": 3.5,
+            "id": 128
+          },
+          {
+            "X": 1.5583,
+            "Y": 0.17908,
+            "Z": 3.5,
+            "id": 129
+          },
+          {
+            "X": 5.39834,
+            "Y": 0.17908,
+            "Z": 6.7,
+            "id": 132
+          },
+          {
+            "X": 1.5583022,
+            "Y": 0.17908,
+            "Z": 6.7,
+            "id": 133
+          }
+        ],
+        "elements": [
+          {
+            "id": 1,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              1,
+              2
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 2,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              3,
+              4
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 3,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              5,
+              6
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 4,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              7,
+              8
+            ],
+            "faces": null,
+            "section": "d77b20ca-ca95-4265-bf60-59193c45253d",
+            "material": "3000psi"
+          },
+          {
+            "id": 6,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              11,
+              12
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 5,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              13,
+              14
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 9,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              17,
+              18
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 10,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              19,
+              20
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 7,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              21,
+              22
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 12,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              23,
+              24
+            ],
+            "faces": null,
+            "section": "d77b20ca-ca95-4265-bf60-59193c45253d",
+            "material": "3000psi"
+          },
+          {
+            "id": 13,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              25,
+              26
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 14,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              27,
+              28
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 11,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              29,
+              30
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 8,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              31,
+              32
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 15,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              33,
+              1
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 16,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              34,
+              3
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 18,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              35,
+              5
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 17,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              36,
+              7
+            ],
+            "faces": null,
+            "section": "d77b20ca-ca95-4265-bf60-59193c45253d",
+            "material": "3000psi"
+          },
+          {
+            "id": 19,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              38,
+              11
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 20,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              39,
+              13
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 24,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              42,
+              19
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 21,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              43,
+              21
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 25,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              44,
+              23
+            ],
+            "faces": null,
+            "section": "d77b20ca-ca95-4265-bf60-59193c45253d",
+            "material": "3000psi"
+          },
+          {
+            "id": 27,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              45,
+              25
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 26,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              46,
+              27
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 23,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              47,
+              29
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 22,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              48,
+              31
+            ],
+            "faces": null,
+            "section": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+            "material": "3000psi"
+          },
+          {
+            "id": 33,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              1,
+              3
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 35,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              5,
+              15
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 36,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              15,
+              13
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 37,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              13,
+              11
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 38,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              11,
+              9
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 39,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              9,
+              7
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 41,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              7,
+              5
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 42,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              9,
+              15
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 45,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              17,
+              19
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 46,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              27,
+              25
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 51,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              29,
+              23
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 53,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              23,
+              50
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 54,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              50,
+              19
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 56,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              51,
+              17
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 58,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              51,
+              50
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 62,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              17,
+              21
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 63,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              58,
+              59
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 65,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              60,
+              61
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 66,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              56,
+              31
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 67,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              65,
+              66
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 68,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              21,
+              60
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 69,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              21,
+              62
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 70,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              17,
+              63
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 71,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              19,
+              64
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 72,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              25,
+              55
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 73,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              27,
+              54
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 74,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              54,
+              55
+            ],
+            "faces": null,
+            "section": "d73b03ff-10c6-435b-9f37-6a1e14b410a7",
+            "material": "3000psi"
+          },
+          {
+            "id": 75,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              1,
+              52
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 76,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              3,
+              53
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 77,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              52,
+              53
+            ],
+            "faces": null,
+            "section": "d73b03ff-10c6-435b-9f37-6a1e14b410a7",
+            "material": "3000psi"
+          },
+          {
+            "id": 78,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              57,
+              58
+            ],
+            "faces": null,
+            "section": "d73b03ff-10c6-435b-9f37-6a1e14b410a7",
+            "material": "3000psi"
+          },
+          {
+            "id": 79,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              58,
+              56
+            ],
+            "faces": null,
+            "section": "d73b03ff-10c6-435b-9f37-6a1e14b410a7",
+            "material": "3000psi"
+          },
+          {
+            "id": 81,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              57,
+              5
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 82,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              29,
+              66
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 83,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              66,
+              51
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 84,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              15,
+              67
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 85,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              67,
+              68
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 86,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              68,
+              51
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 87,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              5,
+              59
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 88,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              59,
+              31
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 89,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              21,
+              68
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 90,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              68,
+              31
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 91,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              59,
+              67
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 92,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              67,
+              60
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 93,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              33,
+              34
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 95,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              35,
+              36
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 97,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              36,
+              37
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 98,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              37,
+              38
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 99,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              38,
+              39
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 100,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              39,
+              40
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 101,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              40,
+              35
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 104,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              45,
+              46
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 106,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              47,
+              44
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 107,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              48,
+              35
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 112,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              37,
+              40
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 113,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              86,
+              87
+            ],
+            "faces": null,
+            "section": "d73b03ff-10c6-435b-9f37-6a1e14b410a7",
+            "material": "3000psi"
+          },
+          {
+            "id": 115,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              38,
+              86
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 116,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              39,
+              87
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 120,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              33,
+              82
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 121,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              82,
+              83
+            ],
+            "faces": null,
+            "section": "d73b03ff-10c6-435b-9f37-6a1e14b410a7",
+            "material": "3000psi"
+          },
+          {
+            "id": 122,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              83,
+              34
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 124,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              92,
+              43
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 126,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              47,
+              85
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 128,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              40,
+              92
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 134,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              42,
+              94
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 137,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              44,
+              42
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 138,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              84,
+              85
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 141,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              87,
+              97
+            ],
+            "faces": null,
+            "section": "d73b03ff-10c6-435b-9f37-6a1e14b410a7",
+            "material": "3000psi"
+          },
+          {
+            "id": 142,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              97,
+              98
+            ],
+            "faces": null,
+            "section": "d73b03ff-10c6-435b-9f37-6a1e14b410a7",
+            "material": "3000psi"
+          },
+          {
+            "id": 143,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              98,
+              94
+            ],
+            "faces": null,
+            "section": "d73b03ff-10c6-435b-9f37-6a1e14b410a7",
+            "material": "3000psi"
+          },
+          {
+            "id": 144,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              41,
+              98
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 145,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              43,
+              97
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 146,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              41,
+              100
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 150,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              100,
+              85
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 151,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              92,
+              100
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 152,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              100,
+              96
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 153,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              92,
+              84
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 154,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              84,
+              48
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 156,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              102,
+              35
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 157,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              48,
+              101
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 158,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              101,
+              102
+            ],
+            "faces": null,
+            "section": "d73b03ff-10c6-435b-9f37-6a1e14b410a7",
+            "material": "3000psi"
+          },
+          {
+            "id": 159,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              39,
+              43
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 160,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              43,
+              41
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 161,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              41,
+              42
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 162,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              7,
+              113
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 163,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              113,
+              1
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 169,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              3,
+              117
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 170,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              117,
+              57
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 171,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              113,
+              117
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 174,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              46,
+              118
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 175,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              45,
+              119
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 176,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              118,
+              119
+            ],
+            "faces": null,
+            "section": "d73b03ff-10c6-435b-9f37-6a1e14b410a7",
+            "material": "3000psi"
+          },
+          {
+            "id": 177,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              33,
+              120
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 178,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              120,
+              36
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 185,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              34,
+              124
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 186,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              124,
+              102
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 187,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              120,
+              124
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 189,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              25,
+              128
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 190,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              128,
+              23
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 191,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              27,
+              129
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 192,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              129,
+              29
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 194,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              129,
+              128
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 197,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              44,
+              132
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 198,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              132,
+              45
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 199,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              46,
+              133
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 200,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              133,
+              47
+            ],
+            "faces": null,
+            "section": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+            "material": "3000psi"
+          },
+          {
+            "id": 202,
+            "type": "BEAM",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 2,
+            "face_count": 0,
+            "integration": "REDUCED",
+            "nodes": [
+              133,
+              132
+            ],
+            "faces": null,
+            "section": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+            "material": "3000psi"
+          },
+          {
+            "id": 203,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              11,
+              103,
+              15,
+              9
+            ],
+            "faces": [
+              [
+                11,
+                103,
+                15,
+                9
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 204,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              9,
+              15,
+              5,
+              7
+            ],
+            "faces": [
+              [
+                9,
+                15,
+                5,
+                7
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 205,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              1,
+              105,
+              53,
+              106
+            ],
+            "faces": [
+              [
+                1,
+                105,
+                53,
+                106
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 206,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              5,
+              59,
+              58,
+              57
+            ],
+            "faces": [
+              [
+                5,
+                59,
+                58,
+                57
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 207,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              59,
+              31,
+              56,
+              58
+            ],
+            "faces": [
+              [
+                59,
+                31,
+                56,
+                58
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 208,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              15,
+              67,
+              59,
+              5
+            ],
+            "faces": [
+              [
+                15,
+                67,
+                59,
+                5
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 209,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              67,
+              68,
+              31,
+              59
+            ],
+            "faces": [
+              [
+                67,
+                68,
+                31,
+                59
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 210,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              68,
+              51,
+              66,
+              65
+            ],
+            "faces": [
+              [
+                68,
+                51,
+                66,
+                65
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 211,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              60,
+              21,
+              68,
+              67
+            ],
+            "faces": [
+              [
+                60,
+                21,
+                68,
+                67
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 212,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              21,
+              17,
+              51,
+              68
+            ],
+            "faces": [
+              [
+                21,
+                17,
+                51,
+                68
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 213,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              61,
+              62,
+              21,
+              60
+            ],
+            "faces": [
+              [
+                61,
+                62,
+                21,
+                60
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 214,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              62,
+              63,
+              17,
+              21
+            ],
+            "faces": [
+              [
+                62,
+                63,
+                17,
+                21
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 215,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              17,
+              19,
+              50,
+              51
+            ],
+            "faces": [
+              [
+                17,
+                19,
+                50,
+                51
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 216,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              63,
+              64,
+              19,
+              17
+            ],
+            "faces": [
+              [
+                63,
+                64,
+                19,
+                17
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 217,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              51,
+              50,
+              23,
+              29
+            ],
+            "faces": [
+              [
+                51,
+                50,
+                23,
+                29
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 218,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              27,
+              25,
+              55,
+              54
+            ],
+            "faces": [
+              [
+                27,
+                25,
+                55,
+                54
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 219,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              33,
+              107,
+              83,
+              108
+            ],
+            "faces": [
+              [
+                33,
+                107,
+                83,
+                108
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 220,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              37,
+              40,
+              35,
+              36
+            ],
+            "faces": [
+              [
+                37,
+                40,
+                35,
+                36
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 221,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              38,
+              110,
+              40,
+              37
+            ],
+            "faces": [
+              [
+                38,
+                110,
+                40,
+                37
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 222,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              86,
+              87,
+              39,
+              38
+            ],
+            "faces": [
+              [
+                86,
+                87,
+                39,
+                38
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 223,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              35,
+              48,
+              101,
+              102
+            ],
+            "faces": [
+              [
+                35,
+                48,
+                101,
+                102
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 224,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              40,
+              92,
+              48,
+              35
+            ],
+            "faces": [
+              [
+                40,
+                92,
+                48,
+                35
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 29,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              43,
+              92,
+              40,
+              39
+            ],
+            "faces": [
+              [
+                43,
+                92,
+                40,
+                39
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 31,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              97,
+              43,
+              39,
+              87
+            ],
+            "faces": [
+              [
+                97,
+                43,
+                39,
+                87
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 32,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              43,
+              41,
+              100,
+              92
+            ],
+            "faces": [
+              [
+                43,
+                41,
+                100,
+                92
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 225,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              92,
+              100,
+              85,
+              84
+            ],
+            "faces": [
+              [
+                92,
+                100,
+                85,
+                84
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 34,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              97,
+              98,
+              41,
+              43
+            ],
+            "faces": [
+              [
+                97,
+                98,
+                41,
+                43
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 226,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              98,
+              94,
+              42,
+              41
+            ],
+            "faces": [
+              [
+                98,
+                94,
+                42,
+                41
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 227,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              41,
+              111,
+              96,
+              100
+            ],
+            "faces": [
+              [
+                41,
+                111,
+                96,
+                100
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 228,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              100,
+              112,
+              44,
+              47
+            ],
+            "faces": [
+              [
+                100,
+                112,
+                44,
+                47
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 229,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              46,
+              45,
+              119,
+              118
+            ],
+            "faces": [
+              [
+                46,
+                45,
+                119,
+                118
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 40,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              7,
+              5,
+              117,
+              113
+            ],
+            "faces": [
+              [
+                7,
+                5,
+                117,
+                113
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 230,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              113,
+              117,
+              3,
+              125
+            ],
+            "faces": [
+              [
+                113,
+                117,
+                3,
+                125
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 44,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              36,
+              35,
+              124,
+              120
+            ],
+            "faces": [
+              [
+                36,
+                35,
+                124,
+                120
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 231,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              120,
+              124,
+              34,
+              126
+            ],
+            "faces": [
+              [
+                120,
+                124,
+                34,
+                126
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 48,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              29,
+              23,
+              128,
+              129
+            ],
+            "faces": [
+              [
+                29,
+                23,
+                128,
+                129
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 49,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              129,
+              128,
+              25,
+              27
+            ],
+            "faces": [
+              [
+                129,
+                128,
+                25,
+                27
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 50,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              47,
+              44,
+              132,
+              133
+            ],
+            "faces": [
+              [
+                47,
+                44,
+                132,
+                133
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          },
+          {
+            "id": 232,
+            "type": "SHELL",
+            "dofs": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "node_count": 4,
+            "face_count": 1,
+            "integration": "REDUCED",
+            "nodes": [
+              133,
+              132,
+              45,
+              46
+            ],
+            "faces": [
+              [
+                133,
+                132,
+                45,
+                46
+              ]
+            ],
+            "section": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+            "material": "3000psi"
+          }
+        ]
+      },
+      "coordinateSystem": {
+        "xAxis": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "yAxis": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "zAxis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        }
+      }
+    }
+  ],
+  "assembly": {
+    "name": "Mokana_V2.sdb",
+    "instances": [
+      {
+        "id": "c2901cde-e10d-4679-98c7-56580db5a076",
+        "name": "Mokana_V2.sdb",
+        "referenced_object": "e4dfa603-523b-42a8-ba4d-b94899bd52d8",
+        "nsets": [
+          {
+            "name": "BCnode-2",
+            "nodeIDs": [
+              2
+            ]
+          },
+          {
+            "name": "BCnode-4",
+            "nodeIDs": [
+              4
+            ]
+          },
+          {
+            "name": "BCnode-6",
+            "nodeIDs": [
+              6
+            ]
+          },
+          {
+            "name": "BCnode-8",
+            "nodeIDs": [
+              8
+            ]
+          },
+          {
+            "name": "BCnode-12",
+            "nodeIDs": [
+              12
+            ]
+          },
+          {
+            "name": "BCnode-14",
+            "nodeIDs": [
+              14
+            ]
+          },
+          {
+            "name": "BCnode-18",
+            "nodeIDs": [
+              18
+            ]
+          },
+          {
+            "name": "BCnode-20",
+            "nodeIDs": [
+              20
+            ]
+          },
+          {
+            "name": "BCnode-22",
+            "nodeIDs": [
+              22
+            ]
+          },
+          {
+            "name": "BCnode-24",
+            "nodeIDs": [
+              24
+            ]
+          },
+          {
+            "name": "BCnode-26",
+            "nodeIDs": [
+              26
+            ]
+          },
+          {
+            "name": "BCnode-28",
+            "nodeIDs": [
+              28
+            ]
+          },
+          {
+            "name": "BCnode-30",
+            "nodeIDs": [
+              30
+            ]
+          },
+          {
+            "name": "BCnode-32",
+            "nodeIDs": [
+              32
+            ]
+          }
+        ],
+        "elsets": [
+          {
+            "name": "LoadShell-203",
+            "elementIDs": [
+              203
+            ]
+          },
+          {
+            "name": "LoadShell-204",
+            "elementIDs": [
+              204
+            ]
+          },
+          {
+            "name": "LoadShell-205",
+            "elementIDs": [
+              205
+            ]
+          },
+          {
+            "name": "LoadShell-206",
+            "elementIDs": [
+              206
+            ]
+          },
+          {
+            "name": "LoadShell-207",
+            "elementIDs": [
+              207
+            ]
+          },
+          {
+            "name": "LoadShell-208",
+            "elementIDs": [
+              208
+            ]
+          },
+          {
+            "name": "LoadShell-209",
+            "elementIDs": [
+              209
+            ]
+          },
+          {
+            "name": "LoadShell-210",
+            "elementIDs": [
+              210
+            ]
+          },
+          {
+            "name": "LoadShell-211",
+            "elementIDs": [
+              211
+            ]
+          },
+          {
+            "name": "LoadShell-212",
+            "elementIDs": [
+              212
+            ]
+          },
+          {
+            "name": "LoadShell-213",
+            "elementIDs": [
+              213
+            ]
+          },
+          {
+            "name": "LoadShell-214",
+            "elementIDs": [
+              214
+            ]
+          },
+          {
+            "name": "LoadShell-215",
+            "elementIDs": [
+              215
+            ]
+          },
+          {
+            "name": "LoadShell-216",
+            "elementIDs": [
+              216
+            ]
+          },
+          {
+            "name": "LoadShell-217",
+            "elementIDs": [
+              217
+            ]
+          },
+          {
+            "name": "LoadShell-218",
+            "elementIDs": [
+              218
+            ]
+          },
+          {
+            "name": "LoadShell-219",
+            "elementIDs": [
+              219
+            ]
+          },
+          {
+            "name": "LoadShell-220",
+            "elementIDs": [
+              220
+            ]
+          },
+          {
+            "name": "LoadShell-221",
+            "elementIDs": [
+              221
+            ]
+          },
+          {
+            "name": "LoadShell-222",
+            "elementIDs": [
+              222
+            ]
+          },
+          {
+            "name": "LoadShell-223",
+            "elementIDs": [
+              223
+            ]
+          },
+          {
+            "name": "LoadShell-224",
+            "elementIDs": [
+              224
+            ]
+          },
+          {
+            "name": "LoadShell-29",
+            "elementIDs": [
+              29
+            ]
+          },
+          {
+            "name": "LoadShell-31",
+            "elementIDs": [
+              31
+            ]
+          },
+          {
+            "name": "LoadShell-32",
+            "elementIDs": [
+              32
+            ]
+          },
+          {
+            "name": "LoadShell-225",
+            "elementIDs": [
+              225
+            ]
+          },
+          {
+            "name": "LoadShell-34",
+            "elementIDs": [
+              34
+            ]
+          },
+          {
+            "name": "LoadShell-226",
+            "elementIDs": [
+              226
+            ]
+          },
+          {
+            "name": "LoadShell-227",
+            "elementIDs": [
+              227
+            ]
+          },
+          {
+            "name": "LoadShell-228",
+            "elementIDs": [
+              228
+            ]
+          },
+          {
+            "name": "LoadShell-229",
+            "elementIDs": [
+              229
+            ]
+          },
+          {
+            "name": "LoadShell-40",
+            "elementIDs": [
+              40
+            ]
+          },
+          {
+            "name": "LoadShell-230",
+            "elementIDs": [
+              230
+            ]
+          },
+          {
+            "name": "LoadShell-44",
+            "elementIDs": [
+              44
+            ]
+          },
+          {
+            "name": "LoadShell-231",
+            "elementIDs": [
+              231
+            ]
+          },
+          {
+            "name": "LoadShell-48",
+            "elementIDs": [
+              48
+            ]
+          },
+          {
+            "name": "LoadShell-49",
+            "elementIDs": [
+              49
+            ]
+          },
+          {
+            "name": "LoadShell-50",
+            "elementIDs": [
+              50
+            ]
+          },
+          {
+            "name": "LoadShell-232",
+            "elementIDs": [
+              232
+            ]
+          }
+        ],
+        "translation": null,
+        "rotation": null
+      }
+    ]
+  },
+  "materials": [
+    {
+      "name": "3000psi",
+      "category": "unknown",
+      "type": "ISOTROPIC",
+      "mass_density": 24.0,
+      "elastic": {
+        "behaviour_type": "ISOTROPIC",
+        "parameters": {
+          "E": 17872.04,
+          "v": 0.2
+        }
+      },
+      "plastic": null
+    }
+  ],
+  "sections": [
+    {
+      "id": "d8e453f4-7b5d-4f64-bc48-f8eb3500b848",
+      "name": "C 30X40",
+      "section_type": "BEAM SECTION",
+      "section": {
+        "beam_section": "RECT",
+        "orientation": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "cross_section": {
+          "a": 0.4,
+          "b": 0.3
+        }
+      },
+      "material": null
+    },
+    {
+      "id": "d77b20ca-ca95-4265-bf60-59193c45253d",
+      "name": "C 40X30",
+      "section_type": "BEAM SECTION",
+      "section": {
+        "beam_section": "RECT",
+        "orientation": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "cross_section": {
+          "a": 0.3,
+          "b": 0.4
+        }
+      },
+      "material": null
+    },
+    {
+      "id": "fa9f4138-cde8-45c2-9c5a-9e2969947028",
+      "name": "V 30x45",
+      "section_type": "BEAM SECTION",
+      "section": {
+        "beam_section": "RECT",
+        "orientation": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "cross_section": {
+          "a": 0.3,
+          "b": 0.45
+        }
+      },
+      "material": null
+    },
+    {
+      "id": "6f581e11-e12b-4bf6-9a97-0df8d9322d24",
+      "name": "V 25x45",
+      "section_type": "BEAM SECTION",
+      "section": {
+        "beam_section": "RECT",
+        "orientation": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "cross_section": {
+          "a": 0.25,
+          "b": 0.45
+        }
+      },
+      "material": null
+    },
+    {
+      "id": "d73b03ff-10c6-435b-9f37-6a1e14b410a7",
+      "name": "V 15x45",
+      "section_type": "BEAM SECTION",
+      "section": {
+        "beam_section": "RECT",
+        "orientation": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "cross_section": {
+          "a": 0.15,
+          "b": 0.45
+        }
+      },
+      "material": null
+    },
+    {
+      "id": "42fb7525-5462-46c6-a4a6-56f9d1c31868",
+      "name": "Shell_0.1",
+      "section_type": "SHELL SECTION",
+      "section": {
+        "thickness": 0.1
+      },
+      "material": null
+    }
+  ],
+  "bc": [
+    {
+      "id": "e091ed3e-9da0-4693-b01d-09ca35dd7533",
+      "type": "DISPLACEMENT",
+      "nset": "BCnode-2",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "ux": [
+        true
+      ],
+      "uy": [
+        true
+      ],
+      "uz": [
+        true
+      ],
+      "rx": [
+        true
+      ],
+      "ry": [
+        true
+      ],
+      "rz": [
+        true
+      ]
+    },
+    {
+      "id": "f8eb52f1-19f8-43db-815c-19895547f0a2",
+      "type": "DISPLACEMENT",
+      "nset": "BCnode-4",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "ux": [
+        true
+      ],
+      "uy": [
+        true
+      ],
+      "uz": [
+        true
+      ],
+      "rx": [
+        true
+      ],
+      "ry": [
+        true
+      ],
+      "rz": [
+        true
+      ]
+    },
+    {
+      "id": "e5004cd5-a66f-4dc8-a5f6-6d9880afdc25",
+      "type": "DISPLACEMENT",
+      "nset": "BCnode-6",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "ux": [
+        true
+      ],
+      "uy": [
+        true
+      ],
+      "uz": [
+        true
+      ],
+      "rx": [
+        true
+      ],
+      "ry": [
+        true
+      ],
+      "rz": [
+        true
+      ]
+    },
+    {
+      "id": "dfe14773-3fbb-411b-b61e-d00fc621e7f3",
+      "type": "DISPLACEMENT",
+      "nset": "BCnode-8",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "ux": [
+        true
+      ],
+      "uy": [
+        true
+      ],
+      "uz": [
+        true
+      ],
+      "rx": [
+        true
+      ],
+      "ry": [
+        true
+      ],
+      "rz": [
+        true
+      ]
+    },
+    {
+      "id": "0abd6776-6791-41ae-a0e7-68088d5c27af",
+      "type": "DISPLACEMENT",
+      "nset": "BCnode-12",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "ux": [
+        true
+      ],
+      "uy": [
+        true
+      ],
+      "uz": [
+        true
+      ],
+      "rx": [
+        true
+      ],
+      "ry": [
+        true
+      ],
+      "rz": [
+        true
+      ]
+    },
+    {
+      "id": "0193479c-e133-42db-8f96-f7fa0b9136ed",
+      "type": "DISPLACEMENT",
+      "nset": "BCnode-14",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "ux": [
+        true
+      ],
+      "uy": [
+        true
+      ],
+      "uz": [
+        true
+      ],
+      "rx": [
+        true
+      ],
+      "ry": [
+        true
+      ],
+      "rz": [
+        true
+      ]
+    },
+    {
+      "id": "92d3b84a-5186-48fe-a68f-707742a7c506",
+      "type": "DISPLACEMENT",
+      "nset": "BCnode-18",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "ux": [
+        true
+      ],
+      "uy": [
+        true
+      ],
+      "uz": [
+        true
+      ],
+      "rx": [
+        true
+      ],
+      "ry": [
+        true
+      ],
+      "rz": [
+        true
+      ]
+    },
+    {
+      "id": "72611f27-9c89-406b-8e0f-6cfd13d7d778",
+      "type": "DISPLACEMENT",
+      "nset": "BCnode-20",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "ux": [
+        true
+      ],
+      "uy": [
+        true
+      ],
+      "uz": [
+        true
+      ],
+      "rx": [
+        true
+      ],
+      "ry": [
+        true
+      ],
+      "rz": [
+        true
+      ]
+    },
+    {
+      "id": "5602acc6-b9de-4957-9af1-0d3ff412e52d",
+      "type": "DISPLACEMENT",
+      "nset": "BCnode-22",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "ux": [
+        true
+      ],
+      "uy": [
+        true
+      ],
+      "uz": [
+        true
+      ],
+      "rx": [
+        true
+      ],
+      "ry": [
+        true
+      ],
+      "rz": [
+        true
+      ]
+    },
+    {
+      "id": "66729d8d-131c-4372-afaf-b86dc67a8fbf",
+      "type": "DISPLACEMENT",
+      "nset": "BCnode-24",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "ux": [
+        true
+      ],
+      "uy": [
+        true
+      ],
+      "uz": [
+        true
+      ],
+      "rx": [
+        true
+      ],
+      "ry": [
+        true
+      ],
+      "rz": [
+        true
+      ]
+    },
+    {
+      "id": "e4d126c1-aab4-44d4-bed4-59f821eb244a",
+      "type": "DISPLACEMENT",
+      "nset": "BCnode-26",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "ux": [
+        true
+      ],
+      "uy": [
+        true
+      ],
+      "uz": [
+        true
+      ],
+      "rx": [
+        true
+      ],
+      "ry": [
+        true
+      ],
+      "rz": [
+        true
+      ]
+    },
+    {
+      "id": "382c103e-c306-4970-9de2-efdd52ef529c",
+      "type": "DISPLACEMENT",
+      "nset": "BCnode-28",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "ux": [
+        true
+      ],
+      "uy": [
+        true
+      ],
+      "uz": [
+        true
+      ],
+      "rx": [
+        true
+      ],
+      "ry": [
+        true
+      ],
+      "rz": [
+        true
+      ]
+    },
+    {
+      "id": "01188a9e-d300-4c87-8332-168e87624e9c",
+      "type": "DISPLACEMENT",
+      "nset": "BCnode-30",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "ux": [
+        true
+      ],
+      "uy": [
+        true
+      ],
+      "uz": [
+        true
+      ],
+      "rx": [
+        true
+      ],
+      "ry": [
+        true
+      ],
+      "rz": [
+        true
+      ]
+    },
+    {
+      "id": "1da20490-ccc3-4745-a0f1-9ac361dc4d96",
+      "type": "DISPLACEMENT",
+      "nset": "BCnode-32",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "ux": [
+        true
+      ],
+      "uy": [
+        true
+      ],
+      "uz": [
+        true
+      ],
+      "rx": [
+        true
+      ],
+      "ry": [
+        true
+      ],
+      "rz": [
+        true
+      ]
+    }
+  ],
+  "loadCases": [
+    {
+      "id": "78f61c4a-0727-5e42-9e5f-dc55be22f85f",
+      "name": "DEAD",
+      "type": "DEAD",
+      "selfWeight": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "id": "7c2282de-faf0-5e1a-8b4a-0bb112575dcf",
+      "name": "LIVE",
+      "type": "LIVE",
+      "selfWeight": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ae5f25b1-f2f2-55fb-9257-99b97b632a37",
+      "name": "LIVEr",
+      "type": "USERDEFINED",
+      "selfWeight": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "loads": [
+    {
+      "id": "76319c61-f635-5321-be3f-da1998203c74",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-203",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "e37ac3a9-dbd9-5b94-a77d-78c5df6faa44",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-203",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "43ef4f0d-24ba-5ca0-828e-ea06ceb4f2ec",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-204",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "3ffcf4fa-1353-5d26-82cd-fca98bcb9c0d",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-204",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "4d0e246d-0804-5530-9bf2-165fa6190b75",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-205",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "a3fdff27-371a-59fe-a4de-fd9f83cb1c53",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-205",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "a383000c-0b42-5e80-b455-1462f0f9de30",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-206",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "77079726-178d-5f82-982a-4eef58792bae",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-206",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "b9bbc93b-c037-5a78-b4f9-6da7ea00b920",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-207",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "9a9b0ccb-b962-53db-b405-46e2aa95d464",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-207",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "4df5cd71-80b2-5df2-9fe3-81ffeebc9e8f",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-208",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "0bc4057a-e933-5ce8-bb82-4fce4d57220c",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-208",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "d318078b-b43a-5f2a-8bef-d54f2596af29",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-209",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "a8aad8e2-77d0-5bc7-8ddc-e36ebb3352a1",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-209",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "9fb60d57-22d6-5d0d-8c0a-508d4774c4aa",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-210",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "cfc71e21-bacc-5875-b665-9b062c1a9749",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-210",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "95ac16ea-2020-5009-b47b-62d6f9d84aab",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-211",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "077ec568-719e-5a43-96d9-cb697e91ec77",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-211",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "2f9bbb52-c3f9-50e8-bfe0-87b68167f693",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-212",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "bc6cb705-0eee-511d-9e2a-362d24c89117",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-212",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "74671a9e-0a5b-596b-b0bf-3242f29f4fbf",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-213",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "beba2a0d-4c84-56f4-8cb8-fe828dd8bfc9",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-213",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "cf5ef7e0-02f3-50da-92ef-6c67c7b3147f",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-214",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "dfd518ab-19ec-5dc7-9e69-97aa638e3255",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-214",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "ad91bcef-4dc1-532f-b99b-7b49b0d4dde1",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-215",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "30e7e1c1-a7d8-5b44-a9c0-9c8b583f9aca",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-215",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "ec3331a9-cefe-5bb5-8292-a74dee50c3c2",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-216",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "4b573825-51e4-577a-b2d1-af07cc3d0443",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-216",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "d1366a71-6602-5cd1-880d-40187b24e047",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-217",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "1d8c08f2-f2c4-5425-ad82-be7ef0eb443b",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-217",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "7ba4afbe-b646-5ece-83c8-0f64444e619d",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-218",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "cdaa84f7-d067-501a-b642-23e0776b8c7d",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-218",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "c8c8ea93-c472-5177-b935-523992e537e6",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-219",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "6a384ddd-316b-57b9-9b44-4459d765fa6a",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-219",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "9dd13cef-bdac-5270-b993-bdd789f6423e",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-220",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "02fed692-8cb2-58ef-938d-8ad9bccf1346",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-220",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "0f93816b-0c7f-5840-a956-4d62dcff17b7",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-221",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "caa4ea40-0c1c-5762-9d36-b30b91203447",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-221",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "e7692947-7153-53b3-960a-7ea0947b90ce",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-222",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "76bc1d8d-d0e9-5630-be2f-05dfedc7f662",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-222",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "92cbf62c-fc9f-574b-9a18-18ba44ebec8c",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-223",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "65255fe2-0a32-571e-82bb-27da4820e3f2",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-223",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "cd94854d-caa9-5e12-8a05-0d1f85f805c1",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-224",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "f31601e5-1291-50e4-a4ef-ef847c642931",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-224",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "ac3b5eb1-e998-53ed-b2f5-0f912f0d39b6",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-29",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "28cea868-80b8-5931-b47c-2b117741b99d",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-29",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "fa19ef69-aaf3-50a8-8202-f98d56742937",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-31",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "888729af-4779-55fd-8982-c2940c552f0f",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-31",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "0bf91d99-3012-5f04-bf05-372faa3cf0e5",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-32",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "f3a3d420-fd4c-5b80-a284-db4b4e0ced25",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-32",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "ea433f98-0782-5062-8307-67fcf91f25f7",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-225",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "8b32788c-a817-5858-b340-88ed8087bc1f",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-225",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "c73c782c-4620-5669-9b03-df3386286727",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-34",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "220a66f1-dd02-5992-ac52-84b477ba8f1e",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-34",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "701a6c53-cb6f-5aa3-afba-364d98f3ee8d",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-226",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "ded68279-643f-5370-a21a-35751e897c62",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-226",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "23bdc9ea-2c0f-51f7-9262-28bd417d9f66",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-227",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "716d1c57-e3a7-53b6-ac69-b755eb9b0e56",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-227",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "22f271b9-2149-5f51-8e11-847b74628855",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-228",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "3eede8c3-aec0-527a-aa39-e4cb51063a1d",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-228",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "ddc4ce92-5618-54c8-8649-c25a8ee67221",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-229",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "a2537495-1291-5771-bc61-2047a2190e0a",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-229",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "9b1f851c-43ff-564f-b12b-afa9eaf80d98",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-40",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "5ff21f5b-bccd-5580-a928-0fb2d83ba22c",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-40",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "00d3f66f-e5b1-5b01-a30c-80da358f7297",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-230",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "2b7f5948-308a-5130-8e3c-f9679a5cc696",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-230",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "6ca41b92-fc06-5a7b-af72-53a25e60e954",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-44",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "3df1a030-c838-518d-8cfc-1e0c80d97468",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-44",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "2e9aff8d-c894-5e7b-8691-2d4972302d32",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-231",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "f195e694-8030-5ce5-85ea-6ed5da0a8b75",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-231",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "460ddf61-9317-5dc4-8efd-896a2d29193c",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-48",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "849c9232-d958-5a6d-b972-d2a39d03087a",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-48",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "7c439a26-7a02-580c-9f3d-a6b388c2798f",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVE",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-49",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "364b49b7-3129-5d67-971a-79029a857f5c",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-49",
+        "v": -4.6,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "85d1221e-27ac-5681-b4a2-c93b4dbf4b24",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-50",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "e1bebe6d-6ca5-59f9-96b5-3866920d00f4",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-50",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "1b2199e7-ecb5-5cc2-bc30-f2aef5652d93",
+      "type": "SURFACE_LOAD",
+      "caseName": "DEAD",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-232",
+        "v": -2.4,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    },
+    {
+      "id": "c6323616-f4d0-5957-b637-d7e5ad624546",
+      "type": "SURFACE_LOAD",
+      "caseName": "LIVEr",
+      "instances": [
+        "c2901cde-e10d-4679-98c7-56580db5a076"
+      ],
+      "load": {
+        "elset": "LoadShell-232",
+        "v": -1.8,
+        "xdir": 0.0,
+        "ydir": 0.0,
+        "zdir": 1.0
+      }
+    }
+  ]
+}

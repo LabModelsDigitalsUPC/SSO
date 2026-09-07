@@ -1,0 +1,12 @@
+<h2 id="desc" class="list">SSO — Structural Simulation Ontology: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+
+<span class="markdown">
+Fig. 1 illustrates the semantic structure of SSO through a structural analysis model and its relationships with built-environment ontologies and provenance information. At the centre, `sso:StructuralAnalysisModel` is linked to a `brot:SpatialZone` through `sso:referenced_in_sam`, connecting a bridge space, such as a span or pier, with its structural simulation. The structural model is further described through interconnected SSO classes, including `sso:Object`, `sso:Assembly`, `sso:Instance`, `sso:Mesh`, `sso:Element`, `sso:Section`, `sso:Material`, `sso:ElasticBehaviour`, `sso:BoundaryCondition`, `sso:LoadCase`, and `sso:Load`, with their relationships defining the main components and properties of the model. Structural elements can be linked to physical `beo:BuiltElement` entities, or equivalent classes from other ontologies, through `idealized_by`, identifying the finite elements that idealize each physical element and enabling structural assessments or values to be associated with them. To support model calibration, information on calibration activities is represented through `sso:Calibration`, which can be associated with calibratable entities such as elastic behaviour, boundary conditions, and loads. These calibration activities can further be linked to provenance entities to record the corresponding tests (`prov:Entity`) and responsible agents (`prov:Agent`).
+</span>
+
+<div align="center">
+<figure>
+<img src="SSOontology.svg" alt="Semantic structure of SSO: a structural analysis model and its relationships with built-environment ontologies and provenance information" style="max-width: 100%; height: auto;" />
+<figcaption>Fig. 1: Semantic structure of SSO.</figcaption>
+</figure>
+</div>
